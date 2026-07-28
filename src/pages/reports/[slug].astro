@@ -15,7 +15,11 @@ const { entry } = Astro.props;
 const { Content } = await render(entry);
 const meta = reportMeta[entry.id];
 ---
-<Base title={meta?.title ?? entry.id} activeSlug={entry.id}>
+<Base
+  title={meta?.title ?? entry.id}
+  description={meta?.description}
+  activeSlug={entry.id}
+>
   <article class="markdown">
     <Content />
   </article>
