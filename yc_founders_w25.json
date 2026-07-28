@@ -1,0 +1,3902 @@
+{
+  "companies": [
+    {
+      "company_name": "a0.dev",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "We make mobile apps using AI.",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Seth Setse",
+          "title": "Co-Founder",
+          "bio": "Co-Founder @ a0.dev | CMU ‘23 | Serial App Developer",
+          "linkedin": "https://linkedin.com/in/seth-setse-0641b6175",
+          "twitter": "https://twitter.com/SethSetse"
+        },
+        {
+          "name": "Ayomide Omolewa",
+          "title": "Co-Founder",
+          "bio": "a0.dev, Nvidia, Paramount, Google, Lockheed Martin",
+          "linkedin": "https://linkedin.com/in/omolewa",
+          "twitter": "https://www.twitter.com/TheDonAyo"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "A1Base",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Twilio for AI Agents",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Pasha Rayan",
+          "title": "Founder",
+          "bio": "CoFounder of A1Base (YCW25). CoFounder of Forage (YCW19 - Acquired). ",
+          "linkedin": "https://www.linkedin.com/in/pasharayan",
+          "twitter": "https://twitter.com/Pashpops"
+        },
+        {
+          "name": "Pennie Huang",
+          "title": "Founder",
+          "bio": "Co-Founder of A1Base.\\nPreviously early hire eng/product @ Forage (W19)",
+          "linkedin": "https://linkedin.com/in/pennieli",
+          "twitter": "https://x.com/pennepastaa"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Adam",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Powered CAD",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Zach Dive",
+          "title": "Founder",
+          "bio": "You can just make things. Previously AI Research & Engineering @Adept and Design @Berkeley. \\n\\n",
+          "linkedin": "https://linkedin.com/in/zacharydive",
+          "twitter": "https://x.com/zachdive"
+        },
+        {
+          "name": "Aaron Li",
+          "title": "Founder",
+          "bio": "CPO & Co-Founder @Adam. Shipped designs to millions of people @VIVO | Previously @BMW, NIO, and Design @Berkeley. \\n\\nBuilding the future of CAD and manufacturing.",
+          "linkedin": "https://www.linkedin.com/in/aaronlico/",
+          "twitter": "https://x.com/aaronhetengli"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Admyral",
+      "batch": "Winter 2025",
+      "industry": "Real Estate and Construction",
+      "one_liner": "AI-Native Commercial Real Estate Brokerage",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Christopher Grittner",
+          "title": "Founder",
+          "bio": "Co-founder and CEO at HeyTelo. \\n\\nPrev led Philippines expansion at Finantier (YC W21), built Tacto's product from scratch as employee #4 (backed by Sequoia and Index), and led product initiatives at Celonis (valued at $13bn). Former Investment Team member at Earlybird Venture Capital. Researched LLMs in Data Analytics at University of Cambridge. BS in Computer Science & Business from Technical University of Munich and studied at National University of Singapore.",
+          "linkedin": "https://linkedin.com/in/christopher-grittner",
+          "twitter": "https://x.com/chrisgrittner"
+        },
+        {
+          "name": "Daniel Grittner",
+          "title": "Founder",
+          "bio": "Co-Founder and CTO at Hey Telo. Previously SDE at Amazon, published first-author computer vision research at ECCV 2022 while at TUM, and built database infrastructure at Celonis. Completed research project in Bioinformatics at ETH Zurich. BS in Computer Science from Technical University of Munich. Dropped out of MS in Computer Science at Technical University of Munich to build Hey Telo.",
+          "linkedin": "https://linkedin.com/in/daniel-m-grittner",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "AfterQuery",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Research lab investigating the boundaries of AI capabilities.",
+      "team_size": 30,
+      "founders": [
+        {
+          "name": "Carlos Georgescu",
+          "title": "Co-Founder",
+          "bio": "Building AfterQuery. Previously interned at Citadel Securities (2x), Meta & Google as a software engineer. Past acquired ed-tech founder. \\n\\nStudied for a B.S. in Computer Science from the University of British Columbia. ",
+          "linkedin": "https://www.linkedin.com/in/carlossgg/",
+          "twitter": "https://x.com/CarlosGeorgescu"
+        },
+        {
+          "name": "Spencer Mateega",
+          "title": "Co-Founder",
+          "bio": "Building AfterQuery. Previously interned in technology private equity at Silver Lake, technology investment banking at Morgan Stanley, and software engineering at Meta and Google.\\n\\nB.S. in Finance and Statistics at Wharton and a M.S. Computer Science at Penn.",
+          "linkedin": "https://www.linkedin.com/in/spencermateega",
+          "twitter": "https://x.com/spencermateega"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Agentin AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Agents that automate enterprise software processes",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Sankeerth Rao Karingula",
+          "title": "Founder",
+          "bio": "ex-Google Research Scientist with a PhD in Machine Learning from UC San Diego and undergrad in EE from IIT Bombay. \\n\\nAt Agentin AI, we build Agents that move data and take actions across enterprise systems, like Salesforce and SAP. These agents are difficult to build because each enterprise heavily customizes their systems but we solved that by training our Agents to learn and adapt from failures, applying Reinforcement Learning techniques we developed.\\n",
+          "linkedin": "https://linkedin.com/in/sankeerthrao",
+          "twitter": "https://x.com/sankeerth1729"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Alice.tech",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "AI-driven exam prep",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Kim Rants",
+          "title": "CEO and co-founder",
+          "bio": "Kim is the CEO and Co-founder of Alice. \\n\\nBefore Alice, Kim worked as an Associate Partner at McKinsey, where he specialized in AI. He was the fastest in Europe to make Engagement Manager. He also worked in LEGO as Head of Global Business Development. \\n\\nKim has taught university students for 11+ years. \\n\\nMSc in Computer Science from Imperial College London & MSc in Finance from LSE.\\n",
+          "linkedin": "https://www.linkedin.com/in/kimrants/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Amby Health",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI Copilot for Ambulance Agencies (EMS)",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Yos Wagenmans",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Amby Health. Dropped out of MIT CS to build next-gen EMS software. Previously led ML research at MIT CSAIL, worked on AI at Meta, and developed pre-hospital software at ALLM. ",
+          "linkedin": "https://www.linkedin.com/in/yosw/",
+          "twitter": "https://x.com/yos_w/"
+        },
+        {
+          "name": "Timmy Dang",
+          "title": "Founder",
+          "bio": "Co-founder & CTO @ Amby Health. Dropped out of MIT to revolutionize EMS. Software @ Amazon & Bloomberg. AI + Data Science @ OM1 (healthcare analytics).",
+          "linkedin": "https://www.linkedin.com/in/timmydang27/",
+          "twitter": "https://x.com/timdangg"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Archon",
+      "batch": "Winter 2025",
+      "industry": "Government",
+      "one_liner": "We help software companies sell to government.",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "George Parks",
+          "title": "Founder and CEO",
+          "bio": "CEO of Archon. Previously a tech policy analyst at the U.S. Department of State, informing diplomats on trends in AI, Quantum, and VR/XR. Originally a software engineering consultant. Studied CS at Georgia Tech.\\n",
+          "linkedin": "https://www.linkedin.com/in/george-parks/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Artifact",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "An Collaborative, AI-native IDE for Hardware Engineers",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Ross Chanin",
+          "title": "Founder",
+          "bio": "I like to build things that help people. I'm a proud husband, father, and professed soccer nut. I hail from the Great State of New Jersey, but have called the Bay Area home since 2006. At heart, I am a Rawlsian.",
+          "linkedin": "https://www.linkedin.com/in/rosschanin/",
+          "twitter": "https://twitter.com/rosschanin"
+        },
+        {
+          "name": "Moncef Biaz",
+          "title": "Founder",
+          "bio": "I was born and raised in Morocco, studied in France, then moved to the US. I've always been a startup fan — first employee at Knowhere News, and third employee at Charlie Finance. I love prototyping and building things from scratch.",
+          "linkedin": "https://linkedin.com/in/moncefbiaz",
+          "twitter": "https://twitter.com/IAmMoncef"
+        },
+        {
+          "name": "Martin Gouy",
+          "title": "Founder",
+          "bio": "Originally from France. I love building all sorts of things: drones, microphones, ceramics. The only thing I love more is building them with cool people and bringing tremendous value to people. Little do I know my luck, this is exactly what we are doing at Artifact!",
+          "linkedin": "https://www.linkedin.com/in/martingouy/",
+          "twitter": "https://www.twitter.com/quraishi"
+        },
+        {
+          "name": "George Quraishi",
+          "title": "Co-founder / COO",
+          "bio": "I'm a former writer and editor, and I taught myself to make podcasts while working on Howler, the small but mighty soccer mag I founded and ran for seven years. This is what led me to helping to form Artifact. I'm an eighth-gen Floridian on my mom's side and a first-gen American on my dad's, and I live in Tampa with my wife, two kids, and two poodles.",
+          "linkedin": "https://www.linkedin.com/in/george-quraishi",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 4
+    },
+    {
+      "company_name": "Artificial Societies",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "We use AI to simulate entire human societies",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "James He",
+          "title": "Founder",
+          "bio": "CEO at Artificial Societies. Ex-Cambridge computational social science. Ex Yonder.\\n\\nAt 16, James was offered $600k to fund his ed-tech startup but chose to attend Cambridge instead. After graduating, James turned down a PhD offer to join Yonder - a credit card startup - and built the entirety of their lending ML systems. He then started his own scholarship at age 21, and led the largest-scale study of an LLM society in his spare time. He co-founded Artificial Societies in Oct 2024.",
+          "linkedin": "https://www.linkedin.com/in/james-k-he/",
+          "twitter": ""
+        },
+        {
+          "name": "Patrick Sharpe",
+          "title": "Founder",
+          "bio": "Leading Product at Artificial Societies. Background in applied behavioural science.\\n\\nPatrick completed an MSc in behavioural econ, and left academia to lead behavioural science and CX projects at iptiQ - an insurtech startup owned by Swiss Re, the largest Reinsurer in the world. He joined Unconventional Wisdom, a specialised behavioural science consultancy, and scaled the client-base 3x within a year, before co-founding Artificial Societies in 2024.",
+          "linkedin": "https://www.linkedin.com/in/patrick-sharpe-684250110/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "assistant-ui",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Open Source React.js Library for AI Chat",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Simon Farshid",
+          "title": "Founder",
+          "bio": "Simon is the Founder and CEO of assistant-ui. He previously co-founded READO, a book recommendation engine, and grew it to 140k MAUs. Simon started coding at age 12 and has won 8 hackathons in 5 countries.",
+          "linkedin": "https://linkedin.com/in/simon-farshid",
+          "twitter": "https://twitter.com/simonfarshid"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Asteroid",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Browser agents for regulated industries",
+      "team_size": 8,
+      "founders": [
+        {
+          "name": "David Mlcoch",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Asteroid, a platform to deploy safe and reliable browser AI agents.\\n\\nI have a background in AI (Edinburgh University), autonomous agents (Co-founder and CTO of Trident AI), robotics (CTU, NTU, TAU) and space (EUSPA, SpaceKnow).\\n\\n",
+          "linkedin": "https://www.linkedin.com/in/davidmlcoch/",
+          "twitter": "https://x.com/MlcochDavid"
+        },
+        {
+          "name": "Joe Hewett",
+          "title": "Founder",
+          "bio": "Co-founder and CTO of Asteroid. \\n\\nYou can talk to me about agents for automating browser and computer use work at scale, overlanding and trad climbing",
+          "linkedin": "https://www.linkedin.com/in/joehewett/",
+          "twitter": "https://x.com/simulated_land"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Astro",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "The world’s first AI energy developer",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Alex Fuster",
+          "title": "Founder",
+          "bio": "Founder and CEO at Astro. Previously energy trader at Citadel. Stanford BS in physics and MS in computer science.",
+          "linkedin": "https://www.linkedin.com/in/alex-f-573560101/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "AthenaHQ",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Get Your Brand Discovered on ChatGPT.",
+      "team_size": 12,
+      "founders": [
+        {
+          "name": "Andrew Yan",
+          "title": "Co-Founder, CEO",
+          "bio": "Co-founder AthenaHQ--helping brands get discovered on ChatGPT. Formerly @googlesearch @deepmind @usarmylab @columbia\\n\\nIn previous life, played in the band that inspired the Oscar-winning movie Whiplash.",
+          "linkedin": "https://www.linkedin.com/in/andrew-yan-200",
+          "twitter": "https://twitter.com/andrewyan200"
+        },
+        {
+          "name": "Alan Yao",
+          "title": "Co-Founder",
+          "bio": "Co-founder & CTO at AthenaHQ, formerly a jazz trombonist",
+          "linkedin": "https://linkedin.com/in/alanya0",
+          "twitter": "https://x.com/sudosandvich"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Augento",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Improving Agents through Reinforcement Learning",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Linus Meierhöfer",
+          "title": "Founder",
+          "bio": "Co-founder & CEO @ Stillwind. Previously researched quantified complexity theory. Worked in Quantitative Engineering @ DRW. Studied CS @ ETH Zurich.\\n",
+          "linkedin": "https://linkedin.com/in/linus-meierhöfer-7a4596259",
+          "twitter": ""
+        },
+        {
+          "name": "Lukas Ego",
+          "title": "Founder",
+          "bio": "Co-founder & CPO @ Stillwind. Previously developed deep learning optimizers at ETH Zurich. Worked on Augento's RL, and databases at SMA.\\nStudied CS B.S. at ETH Zurich, and was enrolled in Data Science M.S. at ETH Zurich.",
+          "linkedin": "https://www.linkedin.com/in/ego-lukas/",
+          "twitter": ""
+        },
+        {
+          "name": "Hannes Furmans",
+          "title": "Founder",
+          "bio": "Co-founder & CTO @ Stillwind\\nDid CS at ETH Zürich. Did open source work on libp2p. ",
+          "linkedin": "https://www.linkedin.com/in/hannes-furmans-52923625a/",
+          "twitter": ""
+        },
+        {
+          "name": "Josef Zoller",
+          "title": "Founder",
+          "bio": "Co-founder & Chief Engineering Officer @ Stillwind. CS @ ETH Zürich. I’m a full-stack software engineer but specialize in networks, systems programming, and ML.",
+          "linkedin": "https://www.linkedin.com/in/zollerboy1",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 4
+    },
+    {
+      "company_name": "awen",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "We are rebuilding photoshop with an AI-voice interface.",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Thibault Henriet",
+          "title": "Founder",
+          "bio": "Founder at awen. Previously served as Head of Operations France at Moda Operandi, a fashion tech scale-up, overseeing creative operations. Prior, worked as an assistant for contemporary artists, supporting artwork production and managing commissions across advertising, cinema, design, fashion, music, and publishing industries. At 21, received the prestigious O1 visa in visual arts. Alumnus of Sciences Po Paris.",
+          "linkedin": "https://linkedin.com/in/thibault-henriet-595a5860",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Axal",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The AI Software Architect",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Samai Patel",
+          "title": "Founder",
+          "bio": "Studied CS and Cybersecurity. At age of 20 I worked at Amazon Leo. \\n\\nI founded the Engineering/App Development club in college which build prototype hardware and software projects for fortune 500 companies like Booz Allen, General Dynamics, Mitsubishi, and more.",
+          "linkedin": "https://www.linkedin.com/in/samaipatel",
+          "twitter": ""
+        },
+        {
+          "name": "Nand Vinchhi",
+          "title": "Co-Founder",
+          "bio": "Co-founder and CTO of Axal - https://axal.ai",
+          "linkedin": "https://www.linkedin.com/in/nandvinchhi",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Axiom",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Trade memecoins, perpetuals, and earn yield.",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Henry Zhang",
+          "title": "Founder",
+          "bio": "CEO @ Axiom. Graduated at 20 with 1 exit, excited by all things crypto!",
+          "linkedin": "https://www.linkedin.com/in/henryzhang03/",
+          "twitter": ""
+        },
+        {
+          "name": "Preston Ellis",
+          "title": "Founder",
+          "bio": "Building consumer applications in crypto!",
+          "linkedin": "https://www.linkedin.com/in/preellis/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Bastion",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Insider Threat for the AI era",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Adarsh Ambati",
+          "title": "CEO/Co-Founder",
+          "bio": "founder @ candor. we stop bad guys. Stanford c/o '25. ",
+          "linkedin": "https://www.linkedin.com/in/adarshambati/",
+          "twitter": "https://x.com/AmbatiAdarsh"
+        },
+        {
+          "name": "Ansh Gupta",
+          "title": "Co-Founder",
+          "bio": "Co-Founder/CTO @ Candor Security (https://candor.security/)",
+          "linkedin": "https://www.linkedin.com/in/gupta-ansh",
+          "twitter": ""
+        },
+        {
+          "name": "Aditya Iyengar",
+          "title": "Founder",
+          "bio": "Co-founder @ Candor. Prev SWE @ Flutterflow (W21), Uber, and NASA. ",
+          "linkedin": "https://www.linkedin.com/in/aditya-v-iyengar/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Bezel",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Digital AI humans that model clothes for e-commerce brands.",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Kashyap Achar",
+          "title": "Founder",
+          "bio": "Kashyap is the Founder and CEO of Bezel. He previously led engineering efforts at Bilt scaling a $30 billion rent rewards platform and built Americas first auto HSA payment platform ($XXM in volume in first 3 months). While at Clearco he built tech that funded $2.5 billion to e-commerce companies.\\n\\nHe's now working on shaking up the e-commerce marketing industry at Bezel.",
+          "linkedin": "https://www.linkedin.com/in/kashyapachar/",
+          "twitter": "https://x.com/_kashrocks"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Bild AI",
+      "batch": "Winter 2025",
+      "industry": "Real Estate and Construction",
+      "one_liner": "AI that understands construction blueprints",
+      "team_size": 9,
+      "founders": [
+        {
+          "name": "Roop Pal",
+          "title": "Co-Founder",
+          "bio": "Co-founder of Bild AI. Graduated Columbia University with BS in CS at 19. Software engineer at Google and Waymo focused on CV/ML modeling. Rated top 6% across all Google engineers. Bootstrapped logistics SaaS startup to acquisition.",
+          "linkedin": "https://www.linkedin.com/in/rooppal/",
+          "twitter": "https://x.com/roop_pal_"
+        },
+        {
+          "name": "Puneet Sukhija",
+          "title": "Co-Founder",
+          "bio": "Co-founder of Bild AI. Built first house at 16. Built hundreds of houses over 7 years before getting acquired at 23. Dropped out of CS at University of British Columbia.",
+          "linkedin": "https://www.linkedin.com/in/puneet-sukhija-bb58ba1a0/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Bindwell",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Discovering new pesticides with AI",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Tyler Rose",
+          "title": "Founder",
+          "bio": "CEO @ Bindwell. Former Wolfram Research, background in ML engineering and comp bio research. Interested in using AI to solve big problems.",
+          "linkedin": "https://www.linkedin.com/in/tyler-rose-213299222/",
+          "twitter": "https://x.com/tylerarose0"
+        },
+        {
+          "name": "Navvye Anand",
+          "title": "Founder",
+          "bio": "Founder @ Bindwell: AI Platform for Pesticide R&D. I'm passionate about bioinformatics and AI, exploring the intersection of biology & natural language processing: ex-Caltech student and World Science Scholar.",
+          "linkedin": "https://www.linkedin.com/in/navvye-anand/",
+          "twitter": "https://x.com/navvye"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "BlindPay",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Stablecoin API for global payments",
+      "team_size": 9,
+      "founders": [
+        {
+          "name": "Bernardo Simonassi",
+          "title": "Founder",
+          "bio": "Co-Founder & CEO @ BlindPay — Stablecoin API for global payments. Has been shaping the stablecoin payments industry for the past 3 years, during which he developed the first payroll platform powered by stablecoins. Previously at PicPay, he developed instant payment solutions serving 60M+ users.",
+          "linkedin": "https://linkedin.com/in/bernardosm",
+          "twitter": "https://x.com/bebedaselva"
+        },
+        {
+          "name": "Joao Borges",
+          "title": "Founder",
+          "bio": "Co-Founder @ BlindPay — Stablecoin API for global payments ",
+          "linkedin": "https://www.linkedin.com/in/joaoborgesjr/",
+          "twitter": "https://x.com/joaocsb"
+        },
+        {
+          "name": "Gustavo Marinho",
+          "title": "Founder",
+          "bio": "Co-Founder & CPO @ BlindPay — Stablecoin API for global payments. Specializing in consumer-facing financial products for Latin America, I bring over 8 years of experience building digital products. At PicPay (60M+ users), I led the design of a loans marketplace and instant payment initiatives, processing $1.2M in daily loans during MVP phase. As Co-founder of Dropull, I built and scaled a social gaming platform to 1M users.",
+          "linkedin": "https://www.linkedin.com/in/gustavomarinho/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Bluebook",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI for accounting",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Philip Andersson",
+          "title": "Co-Founder & CEO",
+          "bio": "Self-taught AI builder and seasoned founder. Developed my first webpage at age 8, founded my first company at 17, built a software consultancy generating millions in revenue, exited a product company, launched many failures. Last years spent as engineering leader at startups such as FirstVet, Mindler and Epidemic Sound.",
+          "linkedin": "https://linkedin.com/in/phiandersson",
+          "twitter": "https://x.com/phiandersson"
+        },
+        {
+          "name": "Filip Stål",
+          "title": "Founder",
+          "bio": "Happy guy that loves to build, exercise & cook food. ",
+          "linkedin": "https://www.linkedin.com/in/filip-st%C3%A5l-464849229/",
+          "twitter": "https://x.com/stal_filip"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Browser Use",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Leading open-source web agent project with 50k stars in 3 months",
+      "team_size": 7,
+      "founders": [
+        {
+          "name": "Magnus Müller",
+          "title": "Founder",
+          "bio": "CEO of browser-use.\\nRepeated founder. Scraping hobbyist + ML researcher.\\nI have published for Cambridge CARES, studied Data Science at ETH Zurich, and worked in R&D for process automation companies. \\nSince I learned to code, I have developed bots and web automations.\\n",
+          "linkedin": "https://www.linkedin.com/in/magnus-mueller  ",
+          "twitter": "https://x.com/mamagnus00"
+        },
+        {
+          "name": "Gregor Zunic",
+          "title": "Founder",
+          "bio": "I love solving hard problems. Data Science masters at ETH Zurich, bachelors in Physics.",
+          "linkedin": "https://linkedin.com/in/gregorzunic",
+          "twitter": "https://x.com/gregpr07"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Butter",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Behavioral Cache for Agents",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Erik Dunteman",
+          "title": "Founder",
+          "bio": "Founder and CEO at Butter.dev. Previously founded Banana.dev, a serverless GPU platform where we hosted production-critical inference jobs for more than 3,000 AI teams. Later joined our competitor Modal.com as a Growth Engineer. I also run ultras!",
+          "linkedin": "https://www.linkedin.com/in/edunteman/",
+          "twitter": "https://x.com/erikdunteman"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Bystreet",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Automate deal origination with AI agents.",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Charlie Maki",
+          "title": "Founder",
+          "bio": "Co-founder @ Bystreet. Harvard CS '23. Prev: Launched and scaled startup from $0 to $1M ARR and 10,000 paid users as founding engineer.",
+          "linkedin": "https://www.linkedin.com/in/charlie-maki-40543617a/",
+          "twitter": ""
+        },
+        {
+          "name": "Corey Anderson",
+          "title": "Founder",
+          "bio": "CEO & Co-founder of Bystreet. \\n",
+          "linkedin": "https://www.linkedin.com/in/corey-anderson-3875a11aa/",
+          "twitter": ""
+        },
+        {
+          "name": "Cameron Hake",
+          "title": "Founder",
+          "bio": "Founder of Bystreet. Studied CS and data science at UW-Madison. Previously worked on sonar systems for the Navy.",
+          "linkedin": "https://www.linkedin.com/in/cameron-hake-651062194/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Calltree AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Enterprise-grade AI support reps for call centers",
+      "team_size": 14,
+      "founders": [
+        {
+          "name": "Kun Qian",
+          "title": "Founder",
+          "bio": "Kun, co-founder and CEO of Calltree AI, previously a product leader at AWS where he focused on contact center solutions. During his tenure, he built and scaled multiple product lines that achieved tens of millions in ARR. Drawing from deep insights into contact center operations and analytics, Kun co-founded Calltree AI to empower contact centers with the data-driven insights they need to optimize operations and reduce costs.",
+          "linkedin": "https://www.linkedin.com/in/qian-kun/",
+          "twitter": ""
+        },
+        {
+          "name": "Robertson Taylor",
+          "title": "Founder",
+          "bio": "Worked on applied multimodal AI with large enterprises at Marqo. Worked on ML for high cardinality anomaly detection that was deployed into fortune 100 companies and banks while at AWS. Led platform teams at Hopper. Georgia Tech CS grad, worked on HPC research.",
+          "linkedin": "https://www.linkedin.com/in/robertsonotaylor/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Candor",
+      "batch": "Winter 2025",
+      "industry": "Government",
+      "one_liner": "We help companies win government funding with AI",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Marcus Zimmerman",
+          "title": "Founder",
+          "bio": "CEO of Candor. Prev & Stanford. Helped run Stanford's DEFCON Technology and National Security Network. Worked on a Defense incubator as a National Security Innovation Fellow. Product/Growth at an ex-YC Startup. Angel Investor in various startups, particularly Defense & GovTech",
+          "linkedin": "https://www.linkedin.com/in/marcus-zimmerman-4878ba245/",
+          "twitter": ""
+        },
+        {
+          "name": "Ethne Laude",
+          "title": "Founder",
+          "bio": "Co-founder and CTO at Candor. Previously interned as a quant trader at Morgan Stanley building low-latency trading systems and as a research scholar at the Space Force. Studied CS systems and Math at Stanford, researching compiling sparse tensor applications to domain-specific hardware. Worked on building a DoD PEO Directory as a National Security Innovation Scholar. ",
+          "linkedin": "https://www.linkedin.com/in/ethne-laude-289801224/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Cardamon",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI compliance co-pilot for regulated financial businesses",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Areg Nzsdejan",
+          "title": "Founder",
+          "bio": "Formerly Product Owner at Revolut leading Diversified Assets & Engagement teams, managing 14 engineers and launching ETFs, EU stocks and Bonds to millions of customers. Prior to that worked as a management consultant at Oliver Wyman and studied Mechanical Engineering at Imperial College London. ",
+          "linkedin": "https://www.linkedin.com/in/areg-nzsdejan-85b894a1/",
+          "twitter": ""
+        },
+        {
+          "name": "Dmytro Astakhov",
+          "title": "Founder",
+          "bio": "Formerly Senior Software Engineer at Revolut leading development of ETFs and EU stocks to millions of customers. ",
+          "linkedin": "https://www.linkedin.com/in/dmytro-astakhov",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "careCycle",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Voice AI teams for medicare agencies.",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Alex Doonanco",
+          "title": "Founder",
+          "bio": "Building careCycle, voice AI teams for medicare agencies. Previously grew horizontal voice AI company from $0-$1M ARR in 6 months.\\n\\nEvery great discovery starts with the search for a better explanation.",
+          "linkedin": "https://www.linkedin.com/in/alexdoonanco",
+          "twitter": "https://x.com/AlexDoonanco"
+        },
+        {
+          "name": "Evan Roubekas",
+          "title": "Founder",
+          "bio": "Software Engineering graduate from UVic, specializing in AI orchestration to optimize Medicare customer experiences through coordinated automated touchpoints.",
+          "linkedin": "https://www.linkedin.com/in/evanroubekas/",
+          "twitter": "https://twitter.com/0xevangelos"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Caseflood.ai",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "the AI inbound sales team for law firms",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Ethan Hilton",
+          "title": "Founder",
+          "bio": "How elite law firms do intake | Ex-CMU AI",
+          "linkedin": "https://www.linkedin.com/in/ethan-hilton/",
+          "twitter": ""
+        },
+        {
+          "name": "Tolen Schreid",
+          "title": "Founder",
+          "bio": "flooding cases",
+          "linkedin": "https://www.linkedin.com/in/tolen-schreid",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Casixty",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Reddit Marketing Agent for technical audiences",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Eylon Miz",
+          "title": "Co-Founder & CEO",
+          "bio": "Co-Founder & CEO @ Flowtel - AI Voice agents for hotels",
+          "linkedin": "https://linkedin.com/in/eylonmiz",
+          "twitter": "https://twitter.com/eylonmiz"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Cedar",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The open source copilot for any app",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Jesse Li",
+          "title": "Founder",
+          "bio": "Co-founder & CEO at Cedar. \\n\\nB.S. in Computer Science at Georgia Institute of Technology.",
+          "linkedin": "https://linkedin.com/in/jesseli751",
+          "twitter": "https://x.com/fish_in_a_pool"
+        },
+        {
+          "name": "Isabelle Ilyia",
+          "title": "Founder",
+          "bio": "CTO @ Cedar (YC W25). Previous software engineer @ Figma, Notion, and LinkedIn.\\n\\nStudied Computer Science @ Georgia Tech.",
+          "linkedin": "https://linkedin.com/in/isabelle-i ",
+          "twitter": "https://x.com/isabelleilyia"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Cenote",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "Automate back office tasks for medical clinics",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Kofi Ansong",
+          "title": "Founder",
+          "bio": "Ex Google, Promise (YC 2018). Yale University Computer Science 2021.",
+          "linkedin": "https://www.linkedin.com/in/kofi-ansong-89294016a/",
+          "twitter": ""
+        },
+        {
+          "name": "Kristy Gao",
+          "title": "Founder",
+          "bio": "Ex Google, PayPal, Watershed. University of Waterloo Computer Science 2022. ",
+          "linkedin": "https://www.linkedin.com/in/gaoxk/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Cifrato",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Accountant for Retail",
+      "team_size": 17,
+      "founders": [
+        {
+          "name": "Juan Pisco",
+          "title": "Founder",
+          "bio": "Building the AI Accounting Agent for Accounting Firms. Exit tripplanner.ai (3M+ users). Technical.",
+          "linkedin": "https://www.linkedin.com/in/juan-pisco/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Closure",
+      "batch": "Winter 2025",
+      "industry": "Government",
+      "one_liner": "We help law enforcement solve crime",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Aaron Zelinger",
+          "title": "Co-Founder",
+          "bio": "Helping law enforcement solve crime @Closure with @GiladLevy. \\n\\nTakes helping government seriously; takes himself not so seriously.\\n\\nPreviously: 2 yrs @Arena, 6 yrs @Palantir (#savetheshire), #GoCard\\n\\n",
+          "linkedin": "https://www.linkedin.com/in/aaron-zelinger/",
+          "twitter": ""
+        },
+        {
+          "name": "Gilad Levy",
+          "title": "Co-Founder and CTO",
+          "bio": "Building the platform for closing cases faster.\\n6 yrs Israeli Air Force (pilot & cyber security), 1 yr Spot.io (acquired by NetApp), 3 yrs Microsoft, 3 yrs Rivery (acquired by Boomi), MSc CS (Reichman), MBA (Tel Aviv)",
+          "linkedin": "https://www.linkedin.com/in/gilad-levy/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Confident AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Open-Source Unit Testing for LLM Applications",
+      "team_size": 7,
+      "founders": [
+        {
+          "name": "Jeffrey Ip",
+          "title": "CEO & Cofounder",
+          "bio": "Creator of DeepEval, the open-source LLM evaluation framework. and grew it to over 400k monthly downloads and counting. Previously SWE @ Google, Microsoft.",
+          "linkedin": "https://linkedin.com/in/jeffrey-ip-2295ab224",
+          "twitter": "https://x.com/jeffr_yyy"
+        },
+        {
+          "name": "Kritin Vongthongsri",
+          "title": "Co-Founder",
+          "bio": "Building the #1 LLM Evaluation Platform & empowering teams to red-team and safeguard LLM apps. AI Researcher and CHI-published author, previously built NLP pipelines for fintech startup and researched self-driving cars/HCI during @ Princeton (ORFE'24 + CS).",
+          "linkedin": "https://www.linkedin.com/in/kritin-vongthongsri",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Conntour",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI to monitor thousands of security cameras.",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Matan Goldner",
+          "title": "Co-Founder & CEO",
+          "bio": "I’m the co-founder and CEO of Conntour.\\n\\nI worked with security cameras for years, leading video surveillance in the Israeli military. I also led surveillance at a private security company - where I worked with most of the existing video analytics solutions.\\n\\nIn those roles, I used most of the existing solutions and experienced a major need that had no real solution. That experience also helped me build strong connections with global leaders in our industry.",
+          "linkedin": "https://linkedin.com/in/matan-goldner",
+          "twitter": ""
+        },
+        {
+          "name": "Tomer Kulla",
+          "title": "Co-Founder & CTO",
+          "bio": "Co-Founder and CTO at Conntour, with a BSc in Computer Science focused on computer vision. \\nPreviously, I founded and sold Nilus, where I worked on eCommerce ad-tech and recommendation engines (ML). \\nMy career spans both hands-on experience—particularly in web, MLOps, and big data—and leadership roles, including managing teams and as a Director of Engineering manging goup of 3 teams.",
+          "linkedin": "https://www.linkedin.com/in/tomer-kulla/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Contrario",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI-powered recruiting team for startups",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Arya Marwaha",
+          "title": "Founder & CEO",
+          "bio": "Founder & CEO at Contrario. Stanford BS (left MS early). Previously built an edtech startup to six-figure ARR, worked in product dev at BCG, and conducted research at Stanford HCI.",
+          "linkedin": "https://www.linkedin.com/in/arya-marwaha/",
+          "twitter": "https://x.com/arya_marwaha"
+        },
+        {
+          "name": "Aditya Sood",
+          "title": "Founder",
+          "bio": "Founder & CTO at Contrario. Stanford AI student turned dropout. Led NLP at NASA, published AI research in defense tech, researcher at Stanford Artificial Intelligence Laboratory (SAIL) x Anthropic lab.",
+          "linkedin": "https://www.linkedin.com/in/adibsood/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "CopyCat",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The AI RPA - Powered by Browser Agents",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Graham Sabin",
+          "title": "Founder",
+          "bio": "Co-Founder @ CopyCat. Previously I was building Platter, serving hundreds of restaurants, processing hundreds of thousands of dollars every month. I've worked at multiple Series A startups, building products used by millions.",
+          "linkedin": "https://www.linkedin.com/in/grahamsabin/",
+          "twitter": "https://x.com/GrahamSabin"
+        },
+        {
+          "name": "Abhi Balijepalli",
+          "title": "Founder",
+          "bio": "Co-founder @ CopyCat | Ex eng @ Zoom. Grew up in Seattle, love PNW.",
+          "linkedin": "https://www.linkedin.com/in/a8hi/",
+          "twitter": "https://x.com/a8hi_b"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Cuckoo Labs",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Real-time AI translator for global sales and marketing",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Yong Hee Lee",
+          "title": "Founder",
+          "bio": "Co-founder & CEO, GTM at Cuckoo, AI interpreter for global teams.\\n\\nBefore Cuckoo, I was the first GTM at two startups in Korea—one focused on online programming and the other on AI infrastructure—where I also led event marketing involving international speakers. I studied Electrical Engineering and Science & Technology Policy at KAIST.",
+          "linkedin": "https://www.linkedin.com/in/harryyongheelee/",
+          "twitter": "https://x.com/harryyongheelee"
+        },
+        {
+          "name": "Gunwoo Kim",
+          "title": "Founder",
+          "bio": "Co-founder & CTO at Cuckoo, real-time AI translator for global sales & marketing.\\n\\nBefore Cuckoo, I built South Korea's fastest-growing ride-hailing app at (1M users in 9 months), which was faster than Uber Korea. Studied CS at KAIST.",
+          "linkedin": "https://www.linkedin.com/in/gunwooterry/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Dalus",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI-Powered Hardware System Design Software",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Sebastian Völkl",
+          "title": "Founder",
+          "bio": "Co-Founder/CEO @ Dalus\\nSoftware to model/validate complex systems for industries like aerospace/defense\\n\\nI co-founded two companies in the past (one software startup -&gt; sold it, and one hardware startup, building Brain-Computer-Interface electronics)\\n\\nBefore starting Dalus, I was involved in a project with the European Space Agency, modeling a Greenhouse module for the Moon, where I learned firsthand how inefficient existing software for building hardware is. ",
+          "linkedin": "https://www.linkedin.com/in/sebastian-voelkl/",
+          "twitter": "https://twitter.com/basti_vkl"
+        },
+        {
+          "name": "Eliot Khachi",
+          "title": "Founder",
+          "bio": "Co-Founder & CTO at Dalus\\nBuilding the next generation of software for hardware engineers designing complex systems.\\n\\nPreviously worked as a systems integration / test engineer at Aerojet Rocketdyne where I planned tests for a propulsion system undergoing Proof Of Design for the navy. This is where I witnessed the inefficiencies of large, siloed engineering teams firsthand.\\n\\nB.S. Aerospace Engineering. Software enthusiast. Autodidact.",
+          "linkedin": "https://www.linkedin.com/in/eliot-khachi-426424159/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Dartboard Energy",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "AI Analyst for Electricity Markets",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Rohun Ati",
+          "title": "Founder/CEO",
+          "bio": "CEO at Dartboard Energy. 10th employee and data scientist at Second Measure (YC S15), stayed through its acquisition by Bloomberg. Built the data pipelines for a first-to-market credit card transaction dataset, now powering the Bloomberg Terminal. Later, spent 9 months at AutoGrid in a contract role to see the challenges in clean energy firsthand.",
+          "linkedin": "https://www.linkedin.com/in/rohunati",
+          "twitter": "https://twitter.com/rohunati"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Delineate",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Agents for Accelerated Clinical Trial Design",
+      "team_size": 20,
+      "founders": [
+        {
+          "name": "Emily Nieves",
+          "title": "Founder",
+          "bio": "Co-founder at Delineate. Previously she was an MIT PhD Candidate in Biological Engineering and worked at Pfizer and AstraZeneca where she focused on applying AI to modeling and simulation for drug development optimization. ",
+          "linkedin": "https://www.linkedin.com/in/emily-nieves-a67b90144/",
+          "twitter": ""
+        },
+        {
+          "name": "Jawad Iqbal",
+          "title": "Founder",
+          "bio": "Co-Founder and CTO of Delineate. Masters thesis in Robotics/AI with 2 research publications. Former technical project manager for high impact digital transformation projects within Skunkworks (Advanced Development) division at Lockheed Martin. ",
+          "linkedin": "https://www.linkedin.com/in/jawad-iqbal/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Demeter",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Value Creation Team for Private Equity",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Dev Jain",
+          "title": "Founder",
+          "bio": "CEO of Corsair. We're building the TypeScript integration framework. \\n\\nBefore launching Corsair, I was a software engineer at Curri (S19). I went to UT Austin and studied mechanical engineering & economics 🤘",
+          "linkedin": "https://www.linkedin.com/in/devrjain/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Dollyglot",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "Character.AI with real time video avatars",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Thomas Minassian",
+          "title": "Founder",
+          "bio": "CEO Dollyglot. Dollyglot is like Character.Ai but with real-time avatars. Turn a photo and a voice into a real friend. With Dollyglot, you could speak with Harry Potter about Hogwarts or brainstorm ideas with Elon Musk! Our team Built Parler-TTS Mini Multilingual, the world's first fully multilingual open-source text-to-speech model. ",
+          "linkedin": "https://linkedin.com/in/thomas-minassian-b25626102",
+          "twitter": "https://x.com/thminassian"
+        },
+        {
+          "name": "Paul-Henri Biojout",
+          "title": "Founder",
+          "bio": "CTO Dollyglot. Dollyglot is like Character.Ai but with real-time avatars. Turn a photo and a voice into a real friend. With Dollyglot, you could speak with Harry Potter about Hogwarts or brainstorm ideas with Elon Musk! Our team Built Parler-TTS Mini Multilingual, the world's first fully multilingual open-source text-to-speech model. ",
+          "linkedin": "https://linkedin.com/in/phbiojout",
+          "twitter": "https://x.com/PH_BJT"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Edexia",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "AI Teacher Assistant for Grading Essays",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Daniel Gibbon",
+          "title": "Founder",
+          "bio": "CEO of Edexia. Second-time technical founder. Previously built an EdTech to 200k ARR at 18 in 1 year while achieving a perfect GPA. TEDx Speaker on AI in education. Ranked in the top 30 in my state out of high school. ",
+          "linkedin": "https://www.linkedin.com/in/daniel-gibbon-/",
+          "twitter": ""
+        },
+        {
+          "name": "Nathan Wang",
+          "title": "Founder",
+          "bio": "CTO of Edexia. Second-time technical founder. Previously built an EdTech to 200k ARR at 17 in 1 year while achieving a perfect GPA. Ranked in the top 200 in my state out of high school.",
+          "linkedin": "https://www.linkedin.com/in/nathan-wang-b73966235/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Egress Health",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "Automated revenue cycle management, starting with dentists",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Alex Pedersen",
+          "title": "Founder",
+          "bio": "Co-founder of Egress. Prev Microsoft, Harvard CS",
+          "linkedin": "https://linkedin.com/in/alex-pedersen-30340915a",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "emojis.com",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "AI Copilot for Graphic Design",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Alexandru Turcanu",
+          "title": "Founder",
+          "bio": "Co-founder and CEO at emojis.com. Previously, led posts initiative at Campsite (acq by Notion).",
+          "linkedin": "https://linkedin.com/in/pondorasti",
+          "twitter": "https://x.com/pondorasti"
+        },
+        {
+          "name": "Dylan Player",
+          "title": "Founder",
+          "bio": "Co-Founder & CTO at emojis.com",
+          "linkedin": "https://linkedin.com/in/dylan-player",
+          "twitter": "https://x.com/dylanplayer"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Enhanced Radar",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "AI for air traffic control",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Eric Button",
+          "title": "Founder",
+          "bio": "Building AI for air traffic control. Former professional pilot (2,200 hours, G280 type rating with Part 135 experience). Prev. cofounder, Contrast (fintech, acq'd by PublicSq). ",
+          "linkedin": "https://www.linkedin.com/in/ericjacobbutton/",
+          "twitter": "https://x.com/ericjacobbutton"
+        },
+        {
+          "name": "Kristian Gaylord",
+          "title": "Founder",
+          "bio": "Building AI for air traffic control. FAA Private Pilot. Prev embedded computer vision for satellites @ Pilot AI (acq'd). Prev high frequency trading in Rust. Statistics & Computer Science @ Columbia",
+          "linkedin": "https://www.linkedin.com/in/kaylord/",
+          "twitter": "https://x.com/kayolord"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Ergo",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Agents for Sales Operations",
+      "team_size": 0,
+      "founders": [
+        {
+          "name": "Yash Dulla",
+          "title": "Founder & CEO",
+          "bio": "Co-founder and CEO at Ergo, Yash is a previous founder of Breezy Medical, AI for healthcare documentation and reimbursements. He studied engineering at Georgia Tech, where he also lead research in biomedical devices, and won Stanford's Hackathon in 2024. If Yash wasn't working on Ergo, you would likely find on the golf course every day.",
+          "linkedin": "https://www.linkedin.com/in/yash-dulla/",
+          "twitter": "https://x.com/yashdulla"
+        },
+        {
+          "name": "Ishan Sheth",
+          "title": "Founder & CTO",
+          "bio": "Co-founder & CTO of Ergo. Studied Computer Science and Economics at Georgia Tech. Previously founded Breezy Medical, which provided AI nurses for medical documentation and reimbursements. Also did software/ML for a handful of tech startups and a bank.",
+          "linkedin": "https://www.linkedin.com/in/isheth/",
+          "twitter": "https://x.com/ishansheth_"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Excellence Learning",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "AI tutor starting with maths and science",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Sovann Linden",
+          "title": "Founder",
+          "bio": "Sovann has deep expertise in maths education, having tutored over 10+ years and emerged from an unconventional school path, leading him to Oxford at 15. He holds a Mathematics Masters from Oxford and a Masters of Engineering from Stanford, where he conducted medical research. Sovann also spent 3 years working in finance, for a hedge fund and then for Softbank.",
+          "linkedin": "https://www.linkedin.com/in/sovann-linden/",
+          "twitter": ""
+        },
+        {
+          "name": "Alexis Bonnafont",
+          "title": "Founder",
+          "bio": "After earning a degree in Physics and Computer Science from École Polytechnique, I moved to the Bay Area to pursue a Research Master’s in Energy Science Engineering at Stanford University. I am now excited to join Y Combinator’s Winter 2025 batch and embark on this exciting entrepreneurial journey!",
+          "linkedin": "https://www.linkedin.com/in/alexis-bonnafont",
+          "twitter": ""
+        },
+        {
+          "name": "Mattia Mauro",
+          "title": "Founder",
+          "bio": "Ex-quant, physics champion and VC, I want to share my passion for science. I grew up between Italy, Switzerland, South Korea and France. I started coding and tinkering with physics very early and won the International Physicists' Tournament in 2022. I've also briefly headed the nascent early-stage investing at Squarepoint Capital, a leading quantitative hedge fund.",
+          "linkedin": "https://www.linkedin.com/in/mattia-mauro-437a35197/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Exin Therapeutics",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI drug discovery platform for neurotherapeutics",
+      "team_size": 9,
+      "founders": [
+        {
+          "name": "Gabriel Ocana Santero",
+          "title": "Founder",
+          "bio": "Neuroscientist with a background in biochemistry and research on gene therapy, pancreatic cancer, and muscle physiology at institutions in Boston, Vienna, and Stockholm. Earned MSc in Neuroscience and PhD in Pharmacology at Oxford Uni, focusing on neurodevelopment and the effects of SSRI anti-depressants on early patterns of neural activity. Used neuroAI models at the Gatsby Unit (UCL) to study serotonin’s role in cognition. Currently developing gene therapies for neurological conditions. ",
+          "linkedin": "https://www.linkedin.com/in/gabriel-ocana-santero-85b41819a",
+          "twitter": "https://x.com/OcanaSantero"
+        },
+        {
+          "name": "Marko Tvrdic",
+          "title": "Founder",
+          "bio": "Cofounder & COO @ Exin Therapeutics. Worked across analysis levels in bio – from molecules to complex behavior. Previously, I worked on retinal and circadian rhythm disorders, neurodevelopment, and systems and comp neuro, with a small stint in venture. Oxford MSc + PhD (on leave to build Exin).\\n\\n",
+          "linkedin": "https://www.linkedin.com/in/marko-tvrdic/",
+          "twitter": "https://twitter.com/markotvrdic"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Exla",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "An SDK to run transformer models anywhere",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Pranav Nair",
+          "title": "Co-Founder",
+          "bio": "CTO at Exla. Previously an OS engineer at Apple leading sleep/hibernation for all Apple devices. B.S. Computer Science from Purdue.",
+          "linkedin": "https://www.linkedin.com/in/pranavnair311/",
+          "twitter": "https://x.com/therealviraat"
+        },
+        {
+          "name": "Viraat Das",
+          "title": "Founder",
+          "bio": "CEO @ Exla. Previously machine learning engineer @ Amazon.",
+          "linkedin": "https://linkedin.com/in/viraatdas",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "finbar",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "The AI investment analyst",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Edward Huang",
+          "title": "Founder",
+          "bio": "Founder and CEO at finbar. I wrote most of the MVP but now focus product and sales.\\nPreviously I was a hedge fund analyst, and before that at Goldman Sachs. CFA charterholder. ",
+          "linkedin": "https://www.linkedin.com/in/edward-huang-cfa-8807b4149/",
+          "twitter": ""
+        },
+        {
+          "name": "Robin Gan",
+          "title": "Founder",
+          "bio": "Co-founder and CTO at finbar.com.\\n\\nPrevious to this I worked on a globally deployed cloud-native banking platform at Thought Machine.",
+          "linkedin": "https://www.linkedin.com/in/robin-gan-180060126",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Fira",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Agentic AI platform for investment firms",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Alex Tkachenko",
+          "title": "Founder",
+          "bio": "CEO at Fira. Previously founded Hashscan, blockchain analytics startup. Created Hodler, crypto portfolio tracker app (sold in 2022).",
+          "linkedin": "https://linkedin.com/in/alextcn",
+          "twitter": "https://twitter.com/jackqack"
+        },
+        {
+          "name": "Alexey Taktarov",
+          "title": "Founder",
+          "bio": "CTO at Fira. Prev. co-founder and CTO at resume.io (acquired in 2021). Scaled from 0 to 45M+ users. \\nTech conference speaker and author of wouter, open-source React library with 800k monthly downloads.",
+          "linkedin": "https://www.linkedin.com/in/molefrog/",
+          "twitter": "https://twitter.com/mlfrg"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Forge Automation",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Software Enabled CNC Parts Supplier",
+      "team_size": 21,
+      "founders": [
+        {
+          "name": "Timothy Seto",
+          "title": "Founder",
+          "bio": "Co-founder + CEO @ Forge Automation | I make metal parts. Send me CAD, I will make it in the real world.\\n\\nI went to the University of Waterloo Engineering, and interned at Apple, Formlabs and iRobot. I have been machining for over 10 years and I love building robots and machines. I graduated in the summer of 2022 and co-founded Forge Automation right after.",
+          "linkedin": "https://linkedin.com/in/timmy-seto",
+          "twitter": "https://x.com/TimmySeto"
+        },
+        {
+          "name": "Walter Raftus",
+          "title": "Founder",
+          "bio": "Co-Founder + CTO @ Forge Automation |  I love computers, math, and big specialized machines controlled with software!\\n\\nI went to the University of Waterloo for AI + Mechatronics Engineering, and interned at Nvidia, Trexo Robotics (W19), and Intel PSG working on a bunch of different software ranging from system software, deep learning, and embedded control. I graduated in the summer of 2022 and co-founded Forge Automation right after!",
+          "linkedin": "https://linkedin.com/in/walterraftus",
+          "twitter": "https://x.com/walter_raftus"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "FuseAI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The only sales software you will ever need.",
+      "team_size": 12,
+      "founders": [
+        {
+          "name": "Saurav Bubber",
+          "title": "Founder",
+          "bio": "Co-founder and CEO at FuseAI, based out of San Francisco. Saurav is a seasoned operator, most recently supporting Deel's hyper-growth from $50M &gt; $600M+ ARR on the GTM Strategy & Operations team. He graduated from the Richard Ivey School of Business with a B.A. in Honors Business Administration. In his spare time, he enjoys playing golf, piano, and is an avid F1 fan. ",
+          "linkedin": "https://linkedin.com/in/sauravbubber",
+          "twitter": ""
+        },
+        {
+          "name": "Imogen Low",
+          "title": "Founder",
+          "bio": "At 17, Imogen joined SAP’s Innovation team as a MLE after teaching herself to code and earning international recognition for her indoor navigation app. She later led NLP and ML initiatives across Asia Pacific at SAP before co-founding NWO.ai in New York at 21. As CTO, she helped build a pioneering platform that analyzes unstructured data to forecast global consumer trends, securing enterprise clients like LVMH, L'Oréal, P&G, and Colgate. Later, NWO.ai was acquired by Growth Protocol.",
+          "linkedin": "https://linkedin.com/in/imogen-low",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "G LNK",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Simplifying Collaboration for Healthcare Organizations & Professionals",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Rayan Ghandour",
+          "title": "Founder",
+          "bio": "Co-Founder & CEO @ G LNK (W25)\\n\\nRayan graduated from UChicago with degrees in Chemistry and Economics and built his expertise in the healthcare sector at PwC's pharma and life sciences consulting practice. There, he specialized in healthcare collaboration and compliance solutions. Rayan was recognized as the top consulting analyst in the US for leading automation technologies in pharmaceutical compliance.",
+          "linkedin": "https://www.linkedin.com/in/rayan-ghandour-75191618a/",
+          "twitter": ""
+        },
+        {
+          "name": "Raouf Abujaber",
+          "title": "Founder",
+          "bio": "Co-Founder & CTO @ G LNK (W25)\\n\\nRaouf brings three years of advanced research experience from AxLab, where he specialized in developing neural network architectures for multimodal human-computer interaction systems with adaptive reinforcement learning algorithms. His multidisciplinary background includes degrees in Computer Science, Economics, and Astrophysics.",
+          "linkedin": "https://www.linkedin.com/in/raouf-abujaber-169330256/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Gale",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Powered Immigration Platform",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Rahul Gudise",
+          "title": "CEO & Co-Founder",
+          "bio": "Automating business visas for American employers, starting with the H-1B. Previously built Canada's first instant immigration PDF filler and automation suite. Ex NVIDIA and Tesla. CS @ Waterloo.",
+          "linkedin": "https://linkedin.com/in/rahulgudise",
+          "twitter": "https://x.com/rishabh_sambare"
+        },
+        {
+          "name": "Haokun Qin",
+          "title": "Founder",
+          "bio": "Immigrated twice in the last 20 years, now building the data-driven platform for immigration. Math @ Waterloo, ex-MLE @ Viavi.",
+          "linkedin": "https://linkedin.com/in/haokun-qin",
+          "twitter": ""
+        },
+        {
+          "name": "Rishabh Sambare",
+          "title": "Founder",
+          "bio": "Currently working on simplifying the H-1B process for startups at Gale. Studied Math & CS at the University of Waterloo. Previously built automations for Canadian immigration forms, worked on energy trading at Tesla, and improved matching algorithms for the Waterloo co-op program. ",
+          "linkedin": "https://linkedin.com/in/rishabhsamb",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "General Agency",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI coworkers that can learn and act just like a human",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Mo Nasir",
+          "title": "Founder & CEO",
+          "bio": "Co-founder and CEO of Altrina, an automation platform for solving communications and process bottlenecks in human organizations. Previously worked on self-driving cars at NVIDIA.\\n\\nTea connoisseur 🍵",
+          "linkedin": "https://linkedin.com/in/mohammednasir",
+          "twitter": "https://x.com/harveyhucal"
+        },
+        {
+          "name": "Harvey Hu",
+          "title": "Founder",
+          "bio": "Co-founder and CTO of Altrina. Previously machine learning engineer at Google & TikTok, designing recommendation algorithms for billions of users. I love models, probabilities, and solving complex impactful problems",
+          "linkedin": "https://www.linkedin.com/in/yubin-hu-berkeley/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "General Trajectory",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Reasoning models for robotics",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Joshua Belofsky",
+          "title": "Founder",
+          "bio": "Recent graduate focusing on AI for the physical world. Background is in academic ML research.",
+          "linkedin": "https://linkedin.com/in/joshua-belofsky-25328523b",
+          "twitter": "https://x.com/joshuabelofsky"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "GradeWiz",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "AI Grading for Teachers",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Max Bohun",
+          "title": "Founder",
+          "bio": "Co-founder @ 10x - AI Recall Agents that make dental practices a LOT more money",
+          "linkedin": "https://www.linkedin.com/in/maxbohun/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Gulp",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Real-Time Self-Improvement for AI Agents",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Kasey Zhang",
+          "title": "Founder",
+          "bio": "Currently: osmosis.ai \\n\\nPreviously: gaming founder, VC",
+          "linkedin": "https://linkedin.com/in/kasey-zhang",
+          "twitter": "https://x.com/_WEEXIAO"
+        },
+        {
+          "name": "Andy Lyu",
+          "title": "Founder",
+          "bio": "Defining how real time systems should be built. Previously worked on data architecture and ecosystem at TikTok recommendations as the 5th and youngest US hire",
+          "linkedin": "https://linkedin.com/in/baiqingl",
+          "twitter": "https://x.com/viewerisland"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Harbera",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI Healthcare Provider Credentialing Software",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Sophia Clark",
+          "title": "Founder",
+          "bio": "Building Harbera. Previously engineer at House Rx (specialty pharmacy tech startup). Engineering intern at Facebook and Bridgewater; investment analyst at Inkef Capital (European health + tech VC). Studied Computer Science at Harvard with Veronica. ",
+          "linkedin": "https://www.linkedin.com/in/sophia-c-07a508b8/",
+          "twitter": ""
+        },
+        {
+          "name": "Veronica Nutting",
+          "title": "Founder",
+          "bio": "Building Harbera. Previously backend engineer at Stripe. Investment engineering intern at Bridgewater; ML intern at Alife Health (fertility AI startup). Studied Computer Science at Harvard with Sophia.",
+          "linkedin": "https://www.linkedin.com/in/veronicanutting/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Harper",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "AI-native commercial insurance brokerage",
+      "team_size": 25,
+      "founders": [
+        {
+          "name": "Dakotah Rice",
+          "title": "Founder",
+          "bio": "CEO @ Harper (W25) Building an AI-native commercial insurance brokerage. prev: Goldman, Carlyle, Coatue, Poolit. Brown '12, HBS dropout '21",
+          "linkedin": "https://www.linkedin.com/in/dakotahrice/",
+          "twitter": ""
+        },
+        {
+          "name": "Tushar Nair",
+          "title": "Founder",
+          "bio": "CTO @ Harper (W25) prev: Goldman, Poolit. Building an AI native commercial insurance brokerage.",
+          "linkedin": "https://linkedin.com/in/tushar-nair-100787144",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "HealthKey",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI-powered Patient Identification for Clinical Trials",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Josh Sabol",
+          "title": "Founder/CEO",
+          "bio": "Founder/CEO of HealthKey. Previously a Product Manager at AWS, helping automate the ~$20B supply chain at AWS. I was the 1st PM at Plate IQ (S15), a B2B accounting & payments tool, which 10x'ed during my tenure and recently raised a $160M Series B from FTV Capital. 🌐 https://sabol.io/",
+          "linkedin": "https://linkedin.com/in/joshsabol",
+          "twitter": "https://x.com/JoshSabol"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "hud",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "hud is building evals for the drop-in worker",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Jay Ram",
+          "title": "Founder",
+          "bio": "CEO @ HUD\\n\\nprev: consumer apps, ml research, quant research",
+          "linkedin": "https://www.linkedin.com/in/jay-ram-29003b198/",
+          "twitter": "https://x.com/jayendra_ram"
+        },
+        {
+          "name": "Lorenss Martinsons",
+          "title": "Founder",
+          "bio": "CPO @ hud\\ninterested in natural intelligence, flowers, and the human condition",
+          "linkedin": "https://linkedin.com/in/lorenss",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Infinite",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Global B2B Stablecoin Processor",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Nikhil Srinivasan",
+          "title": "Cofounder & CEO",
+          "bio": "Cofounder and CEO of Infinite with Raj Lad. Previously platform product lead at Sardine and Coinbase (S12) via acq. Distributed Systems (F1).",
+          "linkedin": "https://linkedin.com/in/nikhilsrinivasan",
+          "twitter": "https://twitter.com/nvs"
+        },
+        {
+          "name": "Raj Lad",
+          "title": "Cofounder & CTO",
+          "bio": "Cofounder and CTO at Infinite. Previously payments tech lead at Sardine where I launched the global stablecoin payments and credit risk workflow products.",
+          "linkedin": "https://www.linkedin.com/in/rajlad/",
+          "twitter": "https://x.com/rajlad_"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Instinct",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Building the lunar future.",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Alex Pinel Neparidze",
+          "title": "Founder",
+          "bio": "Building lunar landers. Co-CEO of Instinct.\\n\\nGraduate in Space Engineering at UCL and Aerospace engineering at QMUL. At Open Cosmos, he worked in project management on the PHISAT-2 and HAMMER Earth observation satellites, both launched in 2024 and now in orbit. Published research on the usage of machine learning for detecting Coronal Mass Ejections (CMEs) at the Mullard Space Science Laboratory. \\n\\n",
+          "linkedin": "https://www.linkedin.com/in/alex-pinel/",
+          "twitter": "https://x.com/Alex__Pinel"
+        },
+        {
+          "name": "Joaquim Dickson",
+          "title": "Founder",
+          "bio": "Building lunar landers. CTO at Instinct.\\n\\nStudied Physics at Imperial College London and Space Technology at UCL. Worked on the magnetometer (MAG) for NASA's IMAP spacecraft with Imperial's Fluxgate Magnetometer Laboratory. Also worked on the Solar Wind Analyser (SWA) instrument suite aboard ESA's Solar Orbiter spacecraft with UCL's Mullard Space Science Laboratory.",
+          "linkedin": "https://www.linkedin.com/in/joaquim-ropd/",
+          "twitter": ""
+        },
+        {
+          "name": "Ashwin Iyer",
+          "title": "Founder",
+          "bio": "Building rideshare compatible lunar landers. Ashwin is the co-founder and co-CEO of Instinct.\\n\\nHe studied mechanical engineering at QMUL in London and holds a Master in Industrial Systems, Manufacturing and Management from the University of Cambridge. Ashwin has also worked at Imperial College London, researching Rolls Royce jet engines as well as undertaken consulting projects as part of a team at Cambridge across a variety of industries including Venture capital, Metalworking and Electronics.",
+          "linkedin": "https://www.linkedin.com/in/ashwin-iyer-626263245/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Inversion Semiconductor",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Manufacturing the most powerful chips, 15x faster",
+      "team_size": 9,
+      "founders": [
+        {
+          "name": "Rohan Karthik",
+          "title": "Founder",
+          "bio": "Co-founder & CEO of Inversion Semiconductor (W25), developing next-gen semiconductor lithography machines. \\nMasters in Mechanical Engineering from Imperial College London & Royal Academy of Engineering awardee. \\nPreviously automated chip design at Arm and led the Karman Space Programme to build record-breaking high power rockets. ",
+          "linkedin": "https://www.linkedin.com/in/rohan-karthik-60a0b61b7/",
+          "twitter": "https://x.com/rohankarthik_?s=11&t=VBdqSXL_9iUGm2d8V2oKBg"
+        },
+        {
+          "name": "Daniel Vega",
+          "title": "Founder",
+          "bio": "Co-founder & CTO of Inversion Semiconductor (W25), developing next-gen lithography machines. \\nMasters in Applied Physics from University College London, with a focus on applications of particle physics. \\nPreviously created novel ML models for stability optimization of tabletop particle accelerators at CERN, and developed particle accelerators for cancer treatment at Lumitron Technologies\\n",
+          "linkedin": "https://www.linkedin.com/in/daniel-r-vega/",
+          "twitter": "https://twitter.com/daniel_r_vega"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Invo",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "AI-Powered Collections Platform for Food Distributors",
+      "team_size": 1,
+      "founders": [],
+      "founder_count": 0
+    },
+    {
+      "company_name": "Karoo",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Canadian neobank focused on lending",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Hugo Markland",
+          "title": "Founder",
+          "bio": "Chief Capital Officer of Karoo\\nEarly stage employee at Lendable and led UK capital markets - raised bns of funding ",
+          "linkedin": "https://www.linkedin.com/in/hugo-markland-cfa-712409125/",
+          "twitter": ""
+        },
+        {
+          "name": "Jeanot Dawson",
+          "title": "Founder",
+          "bio": "CEO of Karoo, previously Head of US Loans at Lendable",
+          "linkedin": "https://www.linkedin.com/in/jeanot-dawson-67191b17?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          "twitter": ""
+        },
+        {
+          "name": "Oliver Lambson",
+          "title": "Founder",
+          "bio": "CTO of Karoo. 0 lines of code to first loan in 45 days.",
+          "linkedin": "https://www.linkedin.com/in/oliverlambson/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Karsa",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Stablecoin neobank for emerging markets",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Shahryar Hasnani",
+          "title": "Founder",
+          "bio": "Enabling the 1B+ people in emerging markets to save in stablecoins and protect against currency instability. Previously head of BD at Ethereum infrastructure startup.  ",
+          "linkedin": "https://www.linkedin.com/in/shahryar-hasnani/",
+          "twitter": "https://x.com/0xLilShah"
+        },
+        {
+          "name": "Dale Wilson",
+          "title": "Founder",
+          "bio": "Enabling the 1B+ people in emerging markets to save in stablecoins and protect against currency instability. Previously protocol development lead at a layer 1 AI Blockchain.",
+          "linkedin": "https://www.linkedin.com/in/dalewilson21/",
+          "twitter": "https://x.com/0xdwil"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Leaping AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The only self-improving voice AI",
+      "team_size": 12,
+      "founders": [
+        {
+          "name": "Kevin Wu",
+          "title": "Founder",
+          "bio": "Founder at Leaping AI, which offers AI voice and texting agents for home remodeling, roofing, etc. Formerly was an Associate at BCG for 3 years. Studied Computer Science at TU Munich and at CDTM.",
+          "linkedin": "https://www.linkedin.com/in/kevin-wu-452a6393/",
+          "twitter": "https://x.com/kevinwu_hi"
+        },
+        {
+          "name": "Arkadiy Telegin",
+          "title": "Founder",
+          "bio": "Co-founder at Leaping AI (W25). We are building the only platform for self-improving voice AI agents. Previously worked in autonomous robotics (self-driving cars, space-tech, and consumer applications). Led Germany's largest space-tech student organization's software division.",
+          "linkedin": "https://www.linkedin.com/in/a-telegin",
+          "twitter": "https://x.com/akyshnik"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Lopus AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI-Native Enterprise Deal Execution Platform",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Aamish Ahmad Beg",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Lopus AI.\\n\\nCS @ Dartmouth. Full-stack/infra/ML dev building in public. Extensive experience with LLM-centered ML research. Previously worked on the DIGIHEALS project at DARPA. ",
+          "linkedin": "https://www.linkedin.com/in/aamish-ahmad-beg/",
+          "twitter": "https://x.com/danylo_dev"
+        },
+        {
+          "name": "Danylo Borodchuk",
+          "title": "Founder",
+          "bio": "Building Lopus - Analytics for the rest of us. \\n\\nEx. 2+ years of award-winning R&D for startups @ DALI Lab, Dartmouth, deep experience in AR/VR development, product & system design. Led multiple ivy league technical teams at research labs, tech consulting groups, & quant teams. ",
+          "linkedin": "https://www.linkedin.com/in/danylo-borodchuk/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Lucid",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "interactive video models",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Rami Seid",
+          "title": "Co-Founder",
+          "bio": "A high school dropout who got his first internship as an MLE at a robotics lab, I went on to become the CTO of a govtech contracting company. After that, I cofounded my own telecommunications company while doing ML work on the side. Now I'm building a universe simulator at Lucid.",
+          "linkedin": "https://www.linkedin.com/in/rami-mohammed-seid/",
+          "twitter": "https://x.com/rami_mmo"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Lucidic AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Weights & Biases for AI Agents",
+      "team_size": null,
+      "founders": [
+        {
+          "name": "Abhinav Sinha",
+          "title": "Founder",
+          "bio": "Hi, I’m Abhinav the founder and CEO for Lucidic AI! I’m from Stanford where I studied Computer Science with an AI specialization (both bachelor's and master's) and did research at Stanford's AI Lab.  I’ve worked at Apple as a software engineer and at Citadel Securities and Susquehanna International Group as a quant. \\n\\nIn my free time, I like to play basketball, pickleball, lift, and rewatch Christopher Nolan movies!\\n\\nFeel free to reach out, would love to chat -- abhinav@lucidic.ai ",
+          "linkedin": "https://www.linkedin.com/in/abhinavsinha15/",
+          "twitter": ""
+        },
+        {
+          "name": "Andy Liang",
+          "title": "Founder",
+          "bio": "Founder/CTO at Lucidic AI, working on an analytics, testing, and simulations framework for AI agent devs. Stanford BS/MS Computer Science (AI specialization). Ex Citadel, AppLovin.  \\n\\nPreviously built GrocerCheck, a COVID-19 web app helping shoppers social distance effectively, with over 200,000 users and endorsed by the Government of Canada. \\n\\nReach me at andy@lucidic.ai",
+          "linkedin": "https://www.linkedin.com/in/andyliang223/",
+          "twitter": ""
+        },
+        {
+          "name": "Jeremy Tian",
+          "title": "Founder",
+          "bio": "Hi! I'm Jeremy Tian, one of the founders and the Chief Scientist at Lucidic AI, working to explain your AI models' decisions. I have a BS/MS in Computer Science with an AI specialization from Stanford University. Ex. Quantitative Trader at DRW and software engineering/machine learning engineering at Steel Dynamics. Contact me at jeremy@lucidic.ai!",
+          "linkedin": "https://www.linkedin.com/in/jeremy-tian-a2076a239/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Macadamia",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Agents for Complex Engineering Projects",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Abel Van Steenweghen",
+          "title": "Founder, CEO",
+          "bio": "Building agents for complex engineering projects.",
+          "linkedin": "https://www.linkedin.com/in/abelvs/",
+          "twitter": "https://x.com/avansteenweghen"
+        },
+        {
+          "name": "Brecht Pierreux",
+          "title": "Founder",
+          "bio": "Building an AI Mechanical Engineer to fix technical projects. Previously SpaceX and NASA JPL. ",
+          "linkedin": "https://www.linkedin.com/in/brecht-pierreux-54b327181/",
+          "twitter": "https://x.com/bpierreux"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Maive",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Visual AI for factories",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "David Tondreau",
+          "title": "Founder",
+          "bio": "David is the co-founder and CEO of Maive.\\n\\nHe started his career as a manufacturing engineer at Rolls-Royce where he once uncovered quality issues due to missing paperwork that stopped production for a week. After obtaining a Masters in Engineering from UC Berkeley, David spent five years at Dexterity AI, a unicorn robotics startup. He began as a software engineer and ended as a senior manager leading product engineering.\\n\\nDavid holds 15 patents spanning robotics and aerospace engineering.",
+          "linkedin": "https://www.linkedin.com/in/david-tondreau/",
+          "twitter": "https://x.com/dtond_"
+        },
+        {
+          "name": "Will Cray",
+          "title": "Founder",
+          "bio": "Will is the co-founder and CTO of Maive.\\n\\nPreviously, Will was the Machine Learning and Computer Vision tech lead at Dexterity, a unicorn robotics company. Before Dexterity, Will founded his own computer vision and machine learning startup while pursuing a Master’s in Machine Learning at UT Austin. He started his career at Intel as a software engineer on their autonomous driving platform.\\n\\nAt 13, Will founded a business repairing broken Xbox 360’s and selling them on eBay.",
+          "linkedin": "https://www.linkedin.com/in/willcray/",
+          "twitter": "https://x.com/willcloudcray"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Maritime Fusion",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Fusion reactors for ships",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Justin Cohen",
+          "title": "Founder",
+          "bio": "Nuclear engineer and plasma physicist working on fusion reactors for defense and commercial shipping applications. Previously Tesla, SpaceX, Columbia University, Princeton Plasma Physics Laboratory, NC State.",
+          "linkedin": "https://www.linkedin.com/in/justin-cohen707",
+          "twitter": ""
+        },
+        {
+          "name": "Jason Kaufmann",
+          "title": "Founder",
+          "bio": "I'm a hardware engineer with a passion for building cool electronics and systems. With a background in physics and computer engineering from Penn, I've worked on everything from AI hardware at Tesla to power systems for rockets at SpaceX. Currently focused on making a fusion reactor for ships.",
+          "linkedin": "https://www.linkedin.com/in/jasonskaufmann/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Mastra",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The Javascript framework for building AI agents, from the Gatsby devs",
+      "team_size": 30,
+      "founders": [
+        {
+          "name": "Sam Bhagwat",
+          "title": "Founder",
+          "bio": "Founder/CEO of Mastra. Spent last ~8yrs as cofounder of Gatsby.js, an open-source React website framework, scaled to $5M ARR, sold to Netlify. Eng &lt;20 at Zenefits (W13) and Plangrid (W12). Spent two years knocking doors. Stanford '11.",
+          "linkedin": "https://linkedin.com/in/sambhagwat",
+          "twitter": "https://twitter.com/calcsam"
+        },
+        {
+          "name": "Abhi Aiyer",
+          "title": "Founder",
+          "bio": "Founder/CTO of Mastra. Principal eng & lead of &gt;100 person eng org at Netlify. Built Gatsby Cloud infra that ran 10s of thousands of build nodes, served billions of files, and 100s of TB of monthly bandwidth.",
+          "linkedin": "https://www.linkedin.com/in/abhi-aiyer-aa41bb42/",
+          "twitter": "https://x.com/abhiaiyer"
+        },
+        {
+          "name": "Shane Thomas",
+          "title": "Founder",
+          "bio": "Founder/CPO of Mastra. Prev: built Audiofeed (AI podcasting). Staff eng / head of product @ Gatsby. 15+ years in open source. State wrestling champion.",
+          "linkedin": "https://www.linkedin.com/in/smthomas3",
+          "twitter": "https://twitter.com/smthomas3"
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Mecha Health",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "Foundation models to automate x-ray analysis for radiologists",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Ahmed Abdulaal",
+          "title": "Founder",
+          "bio": "Medical doctor @Imperial, where I gained entry to the most competitive deanery in the country. Microsoft PhD scholar in machine learning @UCL - I have more than 20 peer reviewed publications in medicine, digital healthcare, and machine learning - including first author publications in top AI venues such as ICLR. 360+ citations on google scholar. Ex Research Scientist at the Center for Artificial Intelligence @AstraZeneca. Building the future of automated radiology @Mecha Health.",
+          "linkedin": "https://www.linkedin.com/in/ahmed-abdulaal-5b8b6a295/",
+          "twitter": "https://x.com/AAY1993"
+        },
+        {
+          "name": "Hugo Fry",
+          "title": "Founder",
+          "bio": "Mathematics (BA) and Physics (MSc) graduate from the University of Cambridge, ranking top 30 in the university. British Physics Olympiad participant, ranking in the top 11 in the UK. Former ML interpretability research scholar (MATS), where I was the first in the world to use Sparse Autoencoders on vision models. My research has been cited by Anthropic and Google DeepMind. Currently working on building state of the art radiology report generation AI in a way that is interpretable and safe.",
+          "linkedin": "https://www.linkedin.com/in/hugo-fry-825828271/",
+          "twitter": "https://x.com/AIjishakin"
+        },
+        {
+          "name": "Ayodeji Ijishakin",
+          "title": "Founder",
+          "bio": "I am a Machine Learning & Medical Imaging PhD candidate from University College London (UCL). During my PhD I published work at tier-one Machine Learning venues (NeurIPS, ICML & ICLR), and was invited to present my work at international medical imaging conferences, Digitas, & Harvard Medical School. Before this startup I was poached by my Professors from UCL including the Head of Computer Science to be CEO for their spin-out. Currently building Radiology 3.0 by Automating reporting. ",
+          "linkedin": "https://www.linkedin.com/in/ayodeji-ijishakin-b6208b1a9/",
+          "twitter": ""
+        },
+        {
+          "name": "Nina Montaña Brown",
+          "title": "Founder",
+          "bio": "Solving the interpretive moment in radiology.\\n\\nex-ML Engineer across multiple medical device startups, with experience in FDA and CE marked medical devices, as well as LLM safety in healthcare. My PhD in Medical Imaging (UCL) focussed on surgical vision; my work has been patented, cited 100+ times, and published across the world's highest impact scientific venues (Nature, NeurIPS, ICLR).",
+          "linkedin": "https://www.linkedin.com/in/nina-monta%C3%B1a-brown-6aa24b133/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 4
+    },
+    {
+      "company_name": "Mentra",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "Building the open source smart glasses operating system.",
+      "team_size": 12,
+      "founders": [
+        {
+          "name": "Cayden Pierce",
+          "title": "Founder",
+          "bio": "Worked with the inventor of smart glasses. Built the OpenSourceSmartGlasses hardware and demoed at CES. Joined MIT Media Lab to make proactive AI smart glasses. Dropped out of MIT to start Mentra.",
+          "linkedin": "https://www.linkedin.com/in/cayden-pierce/",
+          "twitter": "https://x.com/caydengineer"
+        },
+        {
+          "name": "Alexander Israelov",
+          "title": "Founder",
+          "bio": "I started building smart glasses during my CS degree. Built the OpenSourceSmartGlasses hardware and proactive AI system. Worked at a spatial computing company in HK+Shenzhen to start Mentra.\\n",
+          "linkedin": "https://linkedin.com/in/alexanderisraelov",
+          "twitter": "https://x.com/a_israelov"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Mercura",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Quote and Order Automation for Distributors & Manufacturers",
+      "team_size": 20,
+      "founders": [
+        {
+          "name": "Lukas Bock",
+          "title": "Founder",
+          "bio": "CEO at Mercura. Previously, AI Engineer at Google X, implementing end to end ML pipelines impacting millions of users. Former Data Scientist at Allianz, driving AI integration across ~60 global entities. PhD dropout, University of Cambridge. Lifelong exposure to the construction industry, growing up in an HVAC and plumbing family and learning about the industry firsthand on job sites.",
+          "linkedin": "https://www.linkedin.com/in/lukas-bock-7636a0131",
+          "twitter": ""
+        },
+        {
+          "name": "Stefan Zheng",
+          "title": "Founder",
+          "bio": "CPO at Mercura. Former Bain consultant, improving operations efficiency across 15+ manufacturing plants. Product Manager at startups and early-stage investor at Cherry Ventures. Researcher at MIT, developing GPT solutions before everyone else did. Graduated within the top 2% from TU Munich and Harvard Business School. Mastered operations by working in his Chinese parent’s restaurant from age 10.",
+          "linkedin": "https://www.linkedin.com/in/stefan-zheng/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Merit",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Coming soon!",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Rami Ghanem",
+          "title": "Founder",
+          "bio": "Building. Former product at Rippling, Compound, and DoorDash. ",
+          "linkedin": "https://linkedin.com/in/ramighanem",
+          "twitter": "https://www.twitter.com/ramigh"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Mesh",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Building your AI finance co-worker",
+      "team_size": 50,
+      "founders": [
+        {
+          "name": "Saurabh Nangia",
+          "title": "Founder",
+          "bio": "Founder & CEO of Mesh. Tech entrepreneur & mathematical mind reader.\\n\\nEx-Founder & CEO TargetingMantra (acquired by SnapDeal). Ex-Founder & CEO of DataMonk (AI/BigData startup). Headed Engineering for Customer Experience organization at SnapDeal. Worked at Personalization Team, Amazon, Seattle. Graduated with MS in ML from University of Illinois Urbana-Champaign (UIUC) & BTech from Indian Institute of Technology (IIT Guwahati).",
+          "linkedin": "https://www.linkedin.com/in/saurabhnangia/",
+          "twitter": "https://twitter.com/nangia5"
+        },
+        {
+          "name": "Gaurav Chaubey",
+          "title": "Founder",
+          "bio": "Former India HR Consulting Leader for Grant Thornton with 11 years of experience advising  Honda, Nestle, GE and 50+ other large enterprises on performance management, employee engagement and people analytics. ",
+          "linkedin": "https://www.linkedin.com/in/gaurav-chaubey/",
+          "twitter": "https://twitter.com/GauravChaubey27?s=20"
+        },
+        {
+          "name": "Rahul Singh",
+          "title": "Founder",
+          "bio": "12 years experience in tech & consulting in Europe, Middle East and India. 3x B2B SaaS entrepreneur currently working on building a unique social platform for today's workforce.",
+          "linkedin": "https://www.linkedin.com/in/rahul-singh-16870225/",
+          "twitter": "https://twitter.com/singrahul30"
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Misprint",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "Misprint is building Robinhood for Pokemon cards",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Eva Herget",
+          "title": "Founder",
+          "bio": "Eva is the Co-Founder and CEO of Misprint.\\n\\nShe left her role as an Equity Analyst at Goldman Sachs to follow her lifelong passion for trading cards, reaching over $500k ARR within three months just by selling Pokemon cards. An alum of the University of Chicago, she studied Economics and East Asian Languages & Civilizations. Eva has published articles in PSA Pop Culture Magazine and TCGplayer Infinite, and also hosts a trading card-focused YouTube channel, Eva’s Binder.",
+          "linkedin": "https://www.linkedin.com/in/eva-herget/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Miyagi Labs",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "Shopify for AI-generated courses",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Tyrone Davis III",
+          "title": "Founder",
+          "bio": "Passionate about education. Previously founded the nonprofit The Gift of Chess spreading chess education globally. I'm from NYC and studied computer science at MIT.",
+          "linkedin": "https://www.linkedin.com/in/tyroned3/",
+          "twitter": "https://x.com/tyronedavisiii"
+        },
+        {
+          "name": "Guang Cui",
+          "title": "Founder",
+          "bio": "Helping students learn better. Building Miyagi Labs, where we turn videos into complete and interactive courses. I'm originally from Maryland and studied computer science at MIT. I love music and ninja warrior.",
+          "linkedin": "https://www.linkedin.com/in/guang-cui-40140a89/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Mosaic",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "Create and run your own video editing AI agents",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Moses Im",
+          "title": "Founder",
+          "bio": "CEO of Fairway Health. Moses was previously an MD candidate at Thomas Jefferson Medical School where he also was a clinical researcher in patient outcomes of surgical vs transcatheter aortic valve replacement. Before medical school, he also did molecular biology research at Princeton University in HIF-1α as a possible therapeutic target for Parkinson's Disease and the role of HIF-1α in early-stage development of aviary lungs. Moses has a bachelor’s degree in molecular biology from Princeton. \\n",
+          "linkedin": "https://www.linkedin.com/in/moses-im/",
+          "twitter": ""
+        },
+        {
+          "name": "Joseph Chen",
+          "title": "Founder",
+          "bio": "CPO of Fairway Health. Joseph has dedicated several years building at the intersection of health, ML, and software. He has research experience at Deepmind, Columbia, and Synbio Technologies in areas such as fabricating a neurosurgical tracking sensor and predicting antibody heavy and light chain pairing within an NGS sequencing library. He was also a software engineer at Pillpack where he built a service that checks if users' prescriptions are safe to take in the context of their health profile.",
+          "linkedin": "https://www.linkedin.com/in/josephchen2022/",
+          "twitter": ""
+        },
+        {
+          "name": "Grace W",
+          "title": "Founder",
+          "bio": "CTO of Fairway Health. Grace previously worked at Asana and AWS on authentication/authorization and IoT device data monitoring respectively. Before that, she worked at MDClone, developing packages to enable the analysis of hundreds of thousands of datapoints for attributes such as patient remission. She also previously did research in ML in computer vision (detecting diseases from retinal OCT scans) and natural language processing (efficiently optimizing pre-trained language models like GPT).",
+          "linkedin": "",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Mundo AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "High Quality Multilingual Training Data for AI Models",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Jason Liao",
+          "title": "CEO and Founder",
+          "bio": "Hi! I'm Jason. Last year I worked on ML research abroad, where I discovered how impossibly challenging it is to build good multi-lingual AI models. Before that, I was the youngest quant researcher at a $60B hedge fund in Canada. jason@mundoai.world",
+          "linkedin": "https://www.linkedin.com/in/jasonliao02/",
+          "twitter": "https://x.com/naijide_a"
+        },
+        {
+          "name": "Naijide Anwaer",
+          "title": "Founder",
+          "bio": "Co-founder at Mundo AI building the largest and highest quality multilingual datasets. Product builder. Lover of languages and culture. Ex-Platform PM at Binance.US.",
+          "linkedin": "https://www.linkedin.com/in/naijide-anwaer",
+          "twitter": "https://x.com/garrxth"
+        },
+        {
+          "name": "Garreth Lee",
+          "title": "Founder",
+          "bio": "Co-Founder at Mundo AI. I previously worked on pretraining data at Cohere and tokenization at Hugging Face. I'm interested in all things related to ML/AI and loove playing music.",
+          "linkedin": "https://www.linkedin.com/in/garrethlee",
+          "twitter": ""
+        },
+        {
+          "name": "Kenneth Wu",
+          "title": "Founder",
+          "bio": " doing fun stuff",
+          "linkedin": "https://www.linkedin.com/in/wukenneth/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 4
+    },
+    {
+      "company_name": "NextByte",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI recruiter tuned to identify the best vibe coders",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Jason Madeano",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Nextbyte\\n\\nPrior to Nextbyte, Jason was a Machine Learning Engineer at Pinterest leading ML recommendations for modules on the Homefeed Relevance team. He holds a Master’s and Bachelor’s degree from MIT in Computer Science and Brain & Cognitive Science. His research on Cultural Transmission and Reinforcement Learning received a best paper award at NeurIPS.",
+          "linkedin": "https://www.linkedin.com/in/jason-madeano/",
+          "twitter": ""
+        },
+        {
+          "name": "Matt Stallone",
+          "title": "Founder",
+          "bio": "Co-founder of NextByte. \\n\\nBefore tackling agents, Matt was leading the post-training of Foundation Language Models at IBM Research, working on major releases including the Granite model series. During his career, he published multiple first author papers on his LLM research. He is classically trained in ML and Distributed Systems and holds Master's and Bachelor's degrees from MIT in Computer Science and Electrical Engineering.",
+          "linkedin": "https://www.linkedin.com/in/mattstallone/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Nitrode",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "AI game development engine & platform",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Ben Kim",
+          "title": "Co-Founder",
+          "bio": "Co-founder at Nitrode. Infosci @ Cornell. Previously Data and VC/Corporate @ Wilson Sonsini. ",
+          "linkedin": "https://www.linkedin.com/in/ben-yoonsung-kim/",
+          "twitter": "https://x.com/ysungkim_"
+        },
+        {
+          "name": "Sejoon Chang",
+          "title": "Co-Founder",
+          "bio": "Co-founder at Nitrode. CS & Product Design @ Stanford. Top 500 GeoGuessr globally in moving and builder of unnecessarily ambitious Minecraft cities.",
+          "linkedin": "https://linkedin.com/in/sejoonchang",
+          "twitter": "https://x.com/sejoonchang"
+        },
+        {
+          "name": "Brian La",
+          "title": "Co-Founder",
+          "bio": "Co-founder at Nitrode. CS @ Cornell. Previously Data Scientist @ Nexon",
+          "linkedin": "https://linkedin.com/in/brianyla",
+          "twitter": "https://x.com/BrianLa0616"
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Oki",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Personalized Updates on Company Progress",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Luofei Chen",
+          "title": "Founder",
+          "bio": "co founder and ceo at Oki\\nUC Berkeley M.E.T. - dual degree in Engineering and Business\\nHappy to chat! chenluofei@gmail.com\\n",
+          "linkedin": "https://www.linkedin.com/in/luofei-c/",
+          "twitter": ""
+        },
+        {
+          "name": "Aayush Tyagi",
+          "title": "Founder",
+          "bio": "Co founder for Oki\\n\\nPreviously worked as an Android dev on the options team for 5 years at Robinhood and a bit at a few other companies, and was EECS at Berkeley before that. Feel free to reach out to me about anything!",
+          "linkedin": "https://www.linkedin.com/in/aayushtyagi",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Olive",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Build internal tools for your data with natural language.",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Bardia Safari",
+          "title": "Founder",
+          "bio": "CEO of Olive. Previously built Fundsy—financial services (cards, payments, donations) platform for nonprofit fiscal sponsorship & operations. Former intern at Amazon (worked on internal HR tool) and JuiceMind (collaborative coding education product for schools). ex-Stanford.",
+          "linkedin": "https://linkedin.com/in/bardiasafari",
+          "twitter": "https://x.com/bardia_safari"
+        },
+        {
+          "name": "Shrey Gupta",
+          "title": "Founder",
+          "bio": "CTO of Olive. Previously built internal tools used to service over 400,000 cardholders/year at Capital One. Also was a SWE intern at Campsite (workplace communication startup acq'd by Notion) and NASA (satellite data infra org). Co-founded Fundsy in 2020, helping people start and fundraise for grassroots community projects. UC Davis CS dropout.",
+          "linkedin": "https://linkedin.com/in/shreyguptaoc",
+          "twitter": "https://x.com/shreygups"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Onlook",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Cursor for Designers",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Daniel Farrell",
+          "title": "Founder",
+          "bio": "Cofounder and CEO of Onlook. Designer, GTM strategist, and micromobility maniac now building in the design &lt;&gt; dev space.\\n\\nProfessional designer for over a decade, first 100 employee at Bird on the Global Expansion Strategy team, cofounder of Wanderlift (long-distance ridesharing) and former Head of Growth at DIMO. ",
+          "linkedin": "https://www.linkedin.com/in/danielrfarrell/",
+          "twitter": "https://twitter.com/D_R_Farrell"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Operand",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI to Replace Management Consulting",
+      "team_size": 8,
+      "founders": [
+        {
+          "name": "Ram Gorthi",
+          "title": "Founder",
+          "bio": "Dartmouth, Mathematics & Computer Science ",
+          "linkedin": "https://www.linkedin.com/in/ramgorthi",
+          "twitter": "https://x.com/RamGorthi2"
+        },
+        {
+          "name": "Akhil Iyengar",
+          "title": "Founder",
+          "bio": "Cornell dropout, formerly studying CS & Econ. Building Operand.",
+          "linkedin": "https://www.linkedin.com/in/akhiliyengar/",
+          "twitter": "https://x.com/ak_iyengar"
+        },
+        {
+          "name": "Arjun Sahney",
+          "title": "Founder",
+          "bio": "Building Operand.",
+          "linkedin": "https://www.linkedin.com/in/arjun-sahney-40b88624b/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Optifye.ai",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI performance monitoring for factory workers",
+      "team_size": 8,
+      "founders": [
+        {
+          "name": "Vivaan Baid",
+          "title": "Founder",
+          "bio": "I studied computer science & psychology at Duke. My family has been running a manufacturing company since before I was born. I've been around assembly lines for as long as I can remember.\\n\\nAt Optifye, I am using my expertise in computer vision to enable supervisors to solve shop-floor inefficiencies in real-time.\\n",
+          "linkedin": "https://www.linkedin.com/in/vivaan-baid-119415177/",
+          "twitter": ""
+        },
+        {
+          "name": "Kushal Mohta",
+          "title": "Founder",
+          "bio": "Building Optifye.ai. Previously built a system to boost efficiency by 105% of semi-automated lines at an automobile gears manufacturing company. My family also runs several manufacturing plants in various industries, which has given me unrestricted access to assembly lines since I was 15.\\n\\n Studied for a B.S.E in Electrical and Computer Engineering and B.S. in Computer Science at Duke University.",
+          "linkedin": "https://www.linkedin.com/in/kushal-mohta-6926931b4/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Orbital Operations",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "High Thrust Space Vehicles for Satellite Defense",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Ben Schleuniger",
+          "title": "Founder",
+          "bio": "Ben Schleungier is the Co-founder and CEO of Orbital Operations.\\n\\nHe started his career at NASA in propulsion before moving on to SpaceX and then as an early employee at Relativity Space. He owned the fluid systems for the TM1 rocket, the complex heat exchangers on the AeonR engine, and built the Components team and the Integrated Design and Analysis teams from the ground up.\\n\\nBen has an deep understanding of rocket engine design and analysis and building high performance engineering teams.",
+          "linkedin": "https://www.linkedin.com/in/bschleuniger/",
+          "twitter": ""
+        },
+        {
+          "name": "Ross Doherty",
+          "title": "Co-Founder & COO",
+          "bio": "Ross is the Co-founder and COO of Orbital Operations.\\n\\nHe has spent his entire career in the aerospace industry, from Aerojet Rocketdyne, to Blue Origin, and most recently Relativity Space, where he owned all turbomachinery manufacturing and assembly for the Aeon-R engine. He was also responsible for the Flight Termination System test and qualification program for the TM-1 rocket.\\n\\nRoss has deep expertise in complex manufacturing processes, assembly, test, and chemical propulsion development.",
+          "linkedin": "https://www.linkedin.com/in/ross-doherty-992a2790",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Orchids",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Website Builder",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Kevin Lu",
+          "title": "Founder",
+          "bio": "Building Bud. Prev CS/Math @ Penn, Gen AI @ AWS, Research @ Stanford HAI.",
+          "linkedin": "https://www.linkedin.com/in/kevin-lu-22724b1a5/",
+          "twitter": ""
+        },
+        {
+          "name": "Bach Tran",
+          "title": "Founder",
+          "bio": "Building Bud. Prev CS @ Penn, Engineering @ Addepar",
+          "linkedin": "https://www.linkedin.com/in/giabachtran",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Outlit",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Quoting and Proposals",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Josh Earle",
+          "title": "Founder",
+          "bio": "co-founder @ outlit ",
+          "linkedin": "https://www.linkedin.com/in/joshearle/",
+          "twitter": "https://x.com/RealEarle"
+        },
+        {
+          "name": "Leo Paz",
+          "title": "Co-Founder",
+          "bio": "Cofounder @ Outlit",
+          "linkedin": "https://linkedin.com/in/leo-paz",
+          "twitter": "https://x.com/LeosReal"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Overstand Labs",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "We help business leaders get back into Founder Mode",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Mihir Patil",
+          "title": "Founder",
+          "bio": "Co-founder of Overstand Labs. California Native. Ex-Palantir. Faculty @ NYU. Go Bears!",
+          "linkedin": "https://www.linkedin.com/in/mihirnpatil/",
+          "twitter": "http://twitter.com/dowithderrick"
+        },
+        {
+          "name": "Derrick Cheng",
+          "title": "Founder",
+          "bio": "Co-Founder of Overstand Labs | Ex-Meta | AI @ Berkeley",
+          "linkedin": "https://www.linkedin.com/in/chengderrick",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Ovlo",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI agents for supply chain workflow automation",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Andrew Malouf",
+          "title": "Founder",
+          "bio": "Co-founder of Serno.",
+          "linkedin": "https://www.linkedin.com/in/agmalouf/",
+          "twitter": "https://x.com/amereidxyz"
+        },
+        {
+          "name": "Amer Eid",
+          "title": "Founder",
+          "bio": "Co-founder of Ovlo, constantly building. Previously, Staff Software Engineer at Meta, contributing to WhatsApp for iOS, and Google, enhancing Fitbit’s health and wellness features. Led the development of MENA’s #1 music streaming app, serving millions. Passionate about building impactful, user-focused experiences.",
+          "linkedin": "https://www.linkedin.com/in/amer-eid92/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Paragon",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The AI Growth Engine for Industrials",
+      "team_size": 48,
+      "founders": [
+        {
+          "name": "Brandon Foo",
+          "title": "Founder",
+          "bio": "Founder and CEO of Paragon.",
+          "linkedin": "https://www.linkedin.com/in/brandonfoo",
+          "twitter": "https://twitter.com/foolywk"
+        },
+        {
+          "name": "Ishmael Samuel",
+          "title": "Founder",
+          "bio": "",
+          "linkedin": "https://www.linkedin.com/in/ishmaelsamuel",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Paratus Health",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI-powered intake nurse",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Pablo Bermudez-Canete",
+          "title": "Founder",
+          "bio": "Digital Healthcare | Stanford CS - AI | Spain",
+          "linkedin": "https://www.linkedin.com/in/pablobermudezcanete?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          "twitter": ""
+        },
+        {
+          "name": "Tannen Hall",
+          "title": "Founder",
+          "bio": "Digital Healthcare | Stanford CS - AI",
+          "linkedin": "https://www.linkedin.com/in/tannen-hall/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Pave Robotics",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Robots that repair roads",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Josh Kelly",
+          "title": "Founder/CEO",
+          "bio": "CEO at Pave Robotics. Former Mechatronics Engineer at Zipline and Head of Engineering for Mark Rober. Designed and built autonomous porch pirate traps called glitterbombs, and a robot that set up 100,000+ dominoes in 24 hours.\\nBachelor's in Mechanical Engineering from Stanford University.",
+          "linkedin": "https://linkedin.com/in/joshak18",
+          "twitter": "https://x.com/JoshAKelly"
+        },
+        {
+          "name": "Mason Landon Smith",
+          "title": "Founder/CPO",
+          "bio": "CPO at Pave Robotics. Former Head of Product at CrunchLabs where I hired and led a team of 12 product designers. BFA in Industrial Design from the Rhode Island School of Design.",
+          "linkedin": "https://linkedin.com/in/mason-landon-smith",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "PAX Markets",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Exchange and co-located trading facility, on a chip.",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Pete Stevenson",
+          "title": "Founder / CEO",
+          "bio": "CEO at PAX. High frequency crypto trader. Ultra low-latency FPGA trading at Citadel Securities. U.S. Navy officer, nuclear powered fast attack submarine. Participated in two exited startups: HICAMP acquired by Intel and Pixie acquired by New Relic.\\n\\nPh.D., Stanford, electrical engineering. B.S. U.S. Naval Academy.\\n\\n\\n",
+          "linkedin": "https://linkedin.com/in/etepnosnevets",
+          "twitter": "https://x.com/pax_pax_pax"
+        },
+        {
+          "name": "Benjamin Kilimnik",
+          "title": "Founder",
+          "bio": "CTO at PAX. High frequency crypto trader. Smart contract trader. Cryptography and systems researcher at Brown. Distributed systems software at New Relic. Privacy engineer at Pixie Labs, startup exited to New Relic.\\n\\nB.S. Brown University, computer science.",
+          "linkedin": "https://www.linkedin.com/in/benkilimnik",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Peppr AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Self-improving knowledge base synthesizing scattered company data",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Sachitt Arora",
+          "title": "Founder",
+          "bio": "Improving the data layer for agentic AI systems",
+          "linkedin": "https://www.linkedin.com/in/sachittarora/",
+          "twitter": ""
+        },
+        {
+          "name": "Nitya Arora",
+          "title": "Founder",
+          "bio": "Improving the data layer for agentic AI systems",
+          "linkedin": "https://linkedin.com/in/nityaarora108",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Permitify",
+      "batch": "Winter 2025",
+      "industry": "Real Estate and Construction",
+      "one_liner": "AI co-pilot for building plan review and building code compliance",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Adam Chandler",
+          "title": "Founder",
+          "bio": "Adam is the co-founder and CEO of Permitify. \\n\\nBefore founding Permitify, I built and scaled a permit-expediting company with my co-founder, Alexander. Within the first month, we scaled from $0 to $40k ARR, serving clients across six states. While working to scale the business, we encountered the problems that we now solve with Permitify.\\n",
+          "linkedin": "https://www.linkedin.com/in/adam-chandler99/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Pinch",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Real-time AI Voice Translation",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Christian Safka",
+          "title": "Founder",
+          "bio": "Co-Founder & CEO @ Pinch\\n\\nPreviously founding engineer -&gt; Head of ML @ Tavus (S21)\\nEx-PM @ Microsoft\\nZero to one software and ML products for 10 years",
+          "linkedin": "https://linkedin.com/in/christiansafka",
+          "twitter": "https://x.com/christiansafka"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Proception Inc",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Making humanoids dexterous enough to thread a needle",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Jay Li",
+          "title": "Founder",
+          "bio": "Working on humanoid. Stanford alumni",
+          "linkedin": "https://www.linkedin.com/in/jaylicareer/",
+          "twitter": "https://x.com/jaylistanford"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Promptless",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "An AI teammate that automatically updates your customer-facing docs",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Prithvi Ramakrishnan",
+          "title": "Founder",
+          "bio": "Prithvi co-founded Promptless.\\n\\nBefore Promptless, he served as VP of Product & Engineering at Bond, a fintech infrastructure startup acquired by NYSE:FIS in 2023. There he saw firsthand the effort required to maintain hundreds of tutorials and guides and the outsized business impact of world-class documentation.\\n\\nPrithvi graduated from Stanford in 2015 (B.S. CS, AI track). He was also a 4-time International Mathematical Olympiad (IMO) participant, including as the youngest participant in 2008.",
+          "linkedin": "https://www.linkedin.com/in/prithvi-r",
+          "twitter": "https://x.com/prithviramak"
+        },
+        {
+          "name": "Frances Liu",
+          "title": "Founder",
+          "bio": "Frances is building Promptless, helping companies keep customer-facing content up-to-date. Prior to Promptless, Frances led product, ML/AI engineering, and LLM ops on petabyte scale at Cloudflare, OneSignal, and Graft. Yale undergrad. Stanford PhD drop-out. Has published LLM research.\\n",
+          "linkedin": "https://linkedin.com/in/frances-liu-1a426057",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Quantstruct",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI documentation engineer – test & autoimprove stale product docs",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Sarthak Srinivas",
+          "title": "Founder",
+          "bio": "Cofounder of Quantstruct (YC W25). Built an agent developer platform from 0 to mid-$X million as product lead while onboarding multiple Fortune 100 companies at Moveworks. Published and reviewed 1000s of documentation guide updates to support customers and internal teams, before realizing agent-based workflows could do his job. Ex-Kleiner Perkins fellow. Published research with Google Glass inventor (who coined “wearable computing”) at Georgia Tech.",
+          "linkedin": "https://linkedin.com/in/sarthaksrinivas",
+          "twitter": "https://x.com/sarthaksrinivas"
+        },
+        {
+          "name": "Newman Hu",
+          "title": "Founder",
+          "bio": "Co-founder of Quantstruct. We're building AI agents to create the best documentation for your product. Newman previously built search infrastructure at Moveworks and Replit (YC W18), where he managed mission critical platforms powering Gen AI experiences for Fortune 500 companies. EECS @ Berkeley",
+          "linkedin": "https://www.linkedin.com/in/newmanhu/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Rally",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "Financial OS for Modern Fleets",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Ali Jiwani",
+          "title": "Founder",
+          "bio": "Started Rally with two close friends - a video conferencing platform which recreates social gatherings online. Used by OpenAI, Anthropic, Amazon & others. Pivoted to slayschool.com which continues to serve over half a million users. \\n\\nPreviously founded companies in the health and food/logistics spaces. Passionate about emerging markets, empowering entrepreneurs, and bringing people together.",
+          "linkedin": "https://ca.linkedin.com/in/ali-jiwani-8213a319",
+          "twitter": "https://twitter.com/sweaty__palms"
+        },
+        {
+          "name": "Anson Kao",
+          "title": "Founder",
+          "bio": "CTO of Rally. 10 years of web-development and entrepreneurship experience at various startups in Toronto. UWaterloo Mechatronics Class of 2010.",
+          "linkedin": "https://linkedin.com/in/ansonkao",
+          "twitter": "https://twitter.com/amyliu__"
+        },
+        {
+          "name": "Amy Liu",
+          "title": "Founder",
+          "bio": "Building Hotpot Studios where we create viral AI videos for brands 🎥\\n",
+          "linkedin": "https://linkedin.com/in/amy-lk-liu-10a6515a",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Rebolt",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Build apps and agents by speaking with AI",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Celia Manzano",
+          "title": "Founder",
+          "bio": "Cofounder at Rebolt. Former cloud architect at Salesforce - leading technical sales on key accounts from $150k - $3M. Also worked as solution engineer at Apryse (SDK for document processing) and developed the torque vectoring ECU at UPM Racing (Formula SAE). UPM Aerospace Engineer BS",
+          "linkedin": "https://www.linkedin.com/in/celiamanz",
+          "twitter": "https://x.com/celsmanz"
+        },
+        {
+          "name": "Javier Sanchez",
+          "title": "Founder",
+          "bio": "Cofounder at Rebolt. Prev Founding Engineer at Stack AI (YC W23) - Enterprise AI platform, where I steered and built core product features and brought key engineering hires from seed to series A ($2M ARR). Former Software Engineer at Ubuntu. Lead the software team and developed the LiDAR perception system for UPM Racing (Formula SAE). UPM BS CS and Telecom Engineering.",
+          "linkedin": "",
+          "twitter": "https://x.com/jvrsanch"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Red Barn Robotics",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "A Roomba for weeds on a farm.",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Adam Iseman",
+          "title": "Founder",
+          "bio": "I'm the CEO of Red Barn Robotics where we are building an autonomous weeding robot to help healthily feed the world. ",
+          "linkedin": "https://linkedin.com/in/adamiseman",
+          "twitter": ""
+        },
+        {
+          "name": "Ilya Kelner",
+          "title": "Founder",
+          "bio": "CTO/cofounder at Red Barn Robotics. Previously worked on:\\nFlight software and testing architecture @ Relativity Space - Flight software lead. Built: triple string fault tolerant flight computer architecture, Dockerized flight software deployments, CI/CD for HOOTL, HITL, VITL.\\nAutonomous cars @ Nvidia.\\nStarlink @ SpaceX.\\nXbox @ Microsoft.\\nEarly employee at 2 other startups in the past.",
+          "linkedin": "https://www.linkedin.com/in/ilyakelner/",
+          "twitter": ""
+        },
+        {
+          "name": "Alex Neff",
+          "title": "Founder",
+          "bio": "Co-founder and COO of Red Barn Robotics, building an autonomous weeding robot to help healthily feed the world.\\n\\nPreviously Senior Product Manager at Amazon where I led the development of new ML based search algorithms.",
+          "linkedin": "https://www.linkedin.com/in/alex-neff-2245732b/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Reditus Space",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Reusable Satellites for zero-g manufacturing",
+      "team_size": 12,
+      "founders": [
+        {
+          "name": "Stef Crum",
+          "title": "Founder",
+          "bio": "CEO Reditus Space - Space Systems Engineer\\nSpace Systems Engineering PhD, worked with NASA and Space Force on orbital operations and reentry. Founded Da Vinci Satellite, a satellite mission non-profit.",
+          "linkedin": "https://www.linkedin.com/in/spcrum/",
+          "twitter": "https://x.com/StefReditus"
+        },
+        {
+          "name": "Will Sherman",
+          "title": "CTO, Co-Founder",
+          "bio": "CTO Reditus Space - Georgia Tech PhD dropout",
+          "linkedin": "https://www.linkedin.com/in/willamasherman/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "ReJot",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Sync engine to share data across engineering teams in enterprises",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Wilco Kruijer",
+          "title": "Founder",
+          "bio": "CEO & Co-founder at ReJot, previously worked on a distributed financial platform at Adyen. Interested in the relation between distributed data and software maintainability.",
+          "linkedin": "https://linkedin.com/in/wilcokruijer/",
+          "twitter": "https://twitter.com/WilcoKr"
+        },
+        {
+          "name": "Jan Schutte",
+          "title": "CTO /  Co-Founder",
+          "bio": "CTO & Co-founder at ReJot, former Data Platform Engineer at Adyen, interested in distributed systems and database technologies. Current product is https://fragno.dev/",
+          "linkedin": "https://www.linkedin.com/in/jan-schutte-183145135/",
+          "twitter": "https://x.com/Jan_Schutte"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Retrofit",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "A vintage marketplace curated by AI",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Sandra Lifshits",
+          "title": "Founder, CEO",
+          "bio": "Founder of Retrofit. Previously, product @ ecommerce startups, Stanford MBA, and Brown. \\n",
+          "linkedin": "https://www.linkedin.com/in/sandra-lifshits-a7a60284/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Revise Robotics",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Automating refurbishment of $1T in consumer electronics",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Rupesh Jeyaram",
+          "title": "Founder",
+          "bio": "Building AI-enabled robotic systems to refurbish and resell used electronic devices, starting with laptops. Wharton '24, Caltech '20",
+          "linkedin": "https://www.linkedin.com/in/rupesh-jeyaram/",
+          "twitter": ""
+        },
+        {
+          "name": "Antonio Monreal",
+          "title": "Founder/CTO",
+          "bio": "Developing robots for electronics refurbishment",
+          "linkedin": "https://www.linkedin.com/in/antonio-monreal-71b0751b5/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Riviera",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Employees for Hotels",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Shaun Lane",
+          "title": "Founder",
+          "bio": "Co-Founder and CEO at Riviera | UC Berkeley CS | Amazon Software Engineering Intern, previously ran a Travel Consulting/Content Creation Business",
+          "linkedin": "https://www.linkedin.com/in/shaun--lane/",
+          "twitter": "https://x.com/Shaun_Lane_"
+        },
+        {
+          "name": "Daniel Tyshler",
+          "title": "Founder",
+          "bio": "Co-Founder and COO at Riviera | Stanford CS | SpaceX Software Engineering Intern, software and product intern at startups in aerospace and health-tech",
+          "linkedin": "https://www.linkedin.com/in/daniel-tyshler-b742b217a/",
+          "twitter": "https://x.com/danieltyshler"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Roark",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Test, monitor, and improve your voice agents",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "James Zammit",
+          "title": "Founder & CEO",
+          "bio": "James Zammit (CEO) is an infrastructure and AI engineer with 10+ years of experience. Previously a Senior Engineer at AngelList, he built core portfolio infrastructure as the company grew from $10B to $124B in assets under management, and led the development of Relay, an AI-powered portfolio manager processing thousands of financial documents each month. He also co-founded a startup showcased at Google I/O 2016 in partnership with Firebase, and received scholarships from Meta and Apple.\\n",
+          "linkedin": "https://linkedin.com/in/zammitjames",
+          "twitter": "https://x.com/zammitjames"
+        },
+        {
+          "name": "Daniel Gauci",
+          "title": "Founder",
+          "bio": "Daniel Gauci (CTO) is a software engineer with 10+ years of experience. Previously a Senior Engineer at Akiflow (YC S20), he helped scale the company to $1.5M ARR and over 10,000 customers. Daniel spent seven years at Casumo, leading the development of a mobile app used by millions of players, significantly contributing to the company’s growth to over $50M ARR.",
+          "linkedin": "https://www.linkedin.com/in/gaucidaniel/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Rocketable",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The AI Maximalist Software Holding Company",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Alan Wells",
+          "title": "Founder",
+          "bio": "Founder & CEO of Rocketable. Previously: 10+ years building products and leading teams that automated complex tasks with AI/ML: robotaxis at Cruise, self-driving trucks and ADAS systems at Uber, and an irrigation co-pilot product for farmers at Tule (YC S14). \\n\\nI write code, have a degree in design, and build hardware. Co-author on 5 patents related to systems & methods for automating complex tasks with AI.",
+          "linkedin": "https://www.linkedin.com/in/awells/",
+          "twitter": "https://x.com/alanwells"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "SalesPatriot",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "We help defense firms win more contracts with the Pentagon",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Nelson Ray",
+          "title": "Founder",
+          "bio": "Helping manufacturers win DoD RFQ solicitations. Full-stack & Sales",
+          "linkedin": "https://www.linkedin.com/in/nelson-ray/",
+          "twitter": "https://x.com/szymczyk06"
+        },
+        {
+          "name": "Ben Rhodes-Kropf",
+          "title": "Founder",
+          "bio": "Ben, Co-Founder & CTO, started programming at the age of nine. Before starting SalesPatriot, he researched quantization techniques of LLMs at MIT’s Han Lab, and started his first company Trace. He also applied his AI skills to synthetic data research he pursued in collaboration with DARPA. Ben's grandfather and great grandfather were both Air Force pilots. He hopes to uphold their legacy by helping today’s defense efforts through SalesPatriot.",
+          "linkedin": "https://www.linkedin.com/in/ben-rhodes-kropf-26b617217/",
+          "twitter": ""
+        },
+        {
+          "name": "Maciej Szymczyk",
+          "title": "Founder",
+          "bio": "Maciej grew up in Poland, graduating with a maximum score (45/45) in the International Baccalaureate Diploma Program. He then came to Berkeley on a full scholarship from Rafal Brzoska Foundation to study Electrical Engineering & Computer Science, Business Administration, and Mathematics through the Management, Entrepreneurship, & Technology program.\\n\\nBefore college, he did ML research at the Human Brain Project and worked on InPost's Data & AI algorithms.",
+          "linkedin": "https://www.linkedin.com/in/maciej-szymczyk-74392b1b8",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "SAMMY Labs",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Live, AI-powered graph of every possible click path in your software",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Joe Savidge",
+          "title": "Founder",
+          "bio": "Ex-Palantir pod lead , previous founder and IBanker (for my sins)\\n\\nNow working on augmenting everything post-sales with screen based agents ",
+          "linkedin": "https://www.linkedin.com/in/josephsavidge",
+          "twitter": "https://x.com/Shavtge"
+        },
+        {
+          "name": "Shav Vimalendiran",
+          "title": "Founder",
+          "bio": "ex-Quant Dev @ Algorithmic Hedge Fund, Founding Engineer @ Fintech. Now building SAMMY, Automating everything post-sales. ",
+          "linkedin": "https://www.linkedin.com/in/shavvimalendiran/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Scout",
+      "batch": "Winter 2025",
+      "industry": "Education",
+      "one_liner": "AI-powered student information system for K-12 schools",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Pranav Sekhar",
+          "title": "Founder",
+          "bio": "2x founder with a background in machine learning. I now work on growth at Replicate (W20).",
+          "linkedin": "https://linkedin.com/in/pranavsekhar",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Sennu AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Hands off Salesforce QA",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Sriman Gaddam",
+          "title": "Founder",
+          "bio": "Building Sennu AI | prev @ Confluent",
+          "linkedin": "https://www.linkedin.com/in/sriman-gaddam/",
+          "twitter": "https://x.com/SrimanGaddam"
+        },
+        {
+          "name": "Sukhjit Singh",
+          "title": "Founder",
+          "bio": "Building Sennu AI | prev @ Brex",
+          "linkedin": "https://www.linkedin.com/in/sukhjit-singh-ut/",
+          "twitter": "https://x.com/ssinghh14"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Solidroad",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI agents for CX teams, starting with training and QA.",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Mark Hughes",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Solidroad (W25). Before Solidroad, I founded Gradguide, a coaching and mentorship network for recent grads, where I raised €2M, grew the team to 20, and exited in late 2022.\\n\\nEarlier in my career, I led Sales, Support, and Customer Success for EMEA at Chargify (now Maxio) and worked as an early sales rep at Intercom. I studied Business at Trinity College Dublin and spent a year at HEC Paris.",
+          "linkedin": "https://www.linkedin.com/in/mark-hughes-a36915a7/",
+          "twitter": "https://x.com/markhuqhes"
+        },
+        {
+          "name": "Patrick Finlay",
+          "title": "Founder",
+          "bio": "Co-founder and CTO of Solidroad (W25) and a second-time founder. Previously co-founded Monaru (S2019), where we helped individual creators earn $100k+ each by selling live classes online.\\n\\nBefore that, I was as a product engineer at Intercom. I hold a BAI in Computer Engineering from Trinity College Dublin; my research focus was on dispute resolution mechanisms for Ethereum smart contracts.",
+          "linkedin": "https://www.linkedin.com/in/patjfin/",
+          "twitter": "https://twitter.com/patjfin"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Splash Inc.",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Autonomous patrol-boats for National Security",
+      "team_size": 9,
+      "founders": [
+        {
+          "name": "Ivan Avanesov",
+          "title": "Founder",
+          "bio": "Co-Founded Splash with the mission of building the Navy of the future after working on marine robotics research projects for the past 8 years. Previously founded Vosentech and grew it to become the largest supplier of mini smoke machines in the world. Designed, manufactured and sold 10,000+ generators to companies such as SpaceX and Apple as well as to many military customers and agencies such as NASA and Los Alamos to check airflow movements in complicated systems. \\n",
+          "linkedin": "https://www.linkedin.com/in/ivan-avanesov-2b511515a/",
+          "twitter": "https://x.com/i_vanesov"
+        },
+        {
+          "name": "Marcell Veszpremi",
+          "title": "Founder",
+          "bio": "Co-Founded Splash Inc. with the mission of building the Navy of the future, leveraging 6+ years in robotics, embedded systems, and IoT. At UCLA’s RoMeLa, I worked on Artemis—the award-winning humanoid champion of RoboCup 2024. Previously at Verkada, I engineered embedded software and battery management for enterprise security alarms. My work at the Ozcan Research Lab, highlighted in multiple publications, has driven breakthroughs in low-cost, point-of-care medical devices.",
+          "linkedin": "https://www.linkedin.com/in/veszpremimarcell/",
+          "twitter": "https://x.com/m_veszpremi"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Spott",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI-native ATS/CRM for recruiting firms",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Manu Vanderveeren",
+          "title": "Founder",
+          "bio": "Co-Founder & COO at Spott. Previously worked at McKinsey on Strategy, Tech DD and HR projects. Background in Finance with internships in IB & PE at Morgan Stanley and CVC. Master's degree in Financial Analysis at LBS",
+          "linkedin": "https://www.linkedin.com/in/manuvanderveeren/",
+          "twitter": ""
+        },
+        {
+          "name": "Lander Degreve",
+          "title": "Founder",
+          "bio": "Co-Founder & CEO at Spott. Previously worked at Bain building an AI job match tool and built a GenAI consulting-case interviewer as a side project. Background in Financial Statistics with internship in IB at JPMorgan and Master's degree at Bocconi.",
+          "linkedin": "https://www.linkedin.com/in/lander-degr%C3%A8ve/",
+          "twitter": ""
+        },
+        {
+          "name": "Samuel Smeys",
+          "title": "Founder",
+          "bio": "Co-Founder & CTO at Spott. Previously worked at BCG, building Data & ML pipelines for Recruitment Agencies in the UK, USA, EU with a wide range of industry, experience & staffing type specializations. Background in Mathematical Statistics, Machine Learning & AI. Backend, DevOps & Infra enthusiast. Master's degree in Statistics at LSE.",
+          "linkedin": "https://www.linkedin.com/in/samuelsmeys/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Stamp",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The AI Native Email Client",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Archit Mehta",
+          "title": "Founder",
+          "bio": "Stamp CEO. Previously graduated at 20, built products with 50k+ users, Software Engineer at Stripe.",
+          "linkedin": "https://linkedin.com/in/4architmehta",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Steinmetz",
+      "batch": "Winter 2025",
+      "industry": "Industrials",
+      "one_liner": "Hardware for Electric Vehicles.",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Owen Brake",
+          "title": "Founder",
+          "bio": "Multi-disciplinary engineer with a track record of building across industries—from high-performance brake systems to GHz FCC compliance and scaling production SQL databases with 10B+ records.\\n\\nPreviously developed motor controllers at Tesla. Held diverse engineering roles at Neuralink, Apple, Parallel Systems, and Ford.\\n\\nMechatronics Engineering graduate, University of Waterloo. Led the Formula Electric team, driving innovation in EV performance.",
+          "linkedin": "https://www.linkedin.com/in/owen-brake-39363a169/",
+          "twitter": "https://x.com/OwenBrakes"
+        },
+        {
+          "name": "Ethan Childerhose",
+          "title": "Founder",
+          "bio": "Co-founder and CTO at Steinmetz. Previously at Rocketlab, Nvidia, Tesla, and Neuralink. I've worked across the hardware stack from analog transistor level design to 100 lb mechanical fixtures for environmental testing. My work has reached the moon, been mass produced millions of times, and processed the faintest of signals from the human brain.",
+          "linkedin": "https://linkedin.com/in/ethan-childerhose",
+          "twitter": "https://x.com/BigCrete"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Strike",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "A new prediction market for businesses",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Ronit Jain",
+          "title": "Founder",
+          "bio": "CEO @ Pluto",
+          "linkedin": "https://www.linkedin.com/in/ronitjain5",
+          "twitter": ""
+        },
+        {
+          "name": "Aarav Patel",
+          "title": "Founder",
+          "bio": "Working on derivatives exchange",
+          "linkedin": "https://www.linkedin.com/in/aaravpatel04",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "SubImage",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Software that maps your infrastructure. Open core alternative to Wiz",
+      "team_size": 4,
+      "founders": [],
+      "founder_count": 0
+    },
+    {
+      "company_name": "Sublingual",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Daily productivity tracker",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Matthew Tang",
+          "title": "Co-Founder and CEO",
+          "bio": "recommendation systems, computer vision, deep learning theory",
+          "linkedin": "https://www.linkedin.com/in/mhtang2/",
+          "twitter": ""
+        },
+        {
+          "name": "Dylan Bowman",
+          "title": "Founder",
+          "bio": "Background: LLM research in defense contracting and deployment safety.",
+          "linkedin": "https://www.linkedin.com/in/dylan-bowman-68a56218b/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Subtrace",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Zero code network tracer",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Adhityaa Chandrasekar",
+          "title": "Founder",
+          "bio": "Founder and CEO at Subtrace. Previously worked at Google as a software engineer on Kubernetes internals and GKE infra monitoring. University of Waterloo and IIT Madras alum.",
+          "linkedin": "https://linkedin.com/in/adtac",
+          "twitter": "https://x.com/adtac_"
+        },
+        {
+          "name": "Sachin Sridhar",
+          "title": "Founder",
+          "bio": "Cofounder and CTO at Subtrace. Previously a software engineer at Microsoft, where I worked on Power BI/Microsoft Fabric. Studied computer science at IIT Madras.",
+          "linkedin": "https://linkedin.com/in/sachin-sridhar",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "superglue",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Workflow automation engine",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Adina Goerres",
+          "title": "Founder",
+          "bio": "Building superglue. Previously worked on GTM at Scalable Capital and commercial projects at Farfetch. \\nMaster's from TUM and CDTM",
+          "linkedin": "https://linkedin.com/in/adinagoerres",
+          "twitter": ""
+        },
+        {
+          "name": "Stefan Faistenauer",
+          "title": "Founder",
+          "bio": "Building superglue, an open source tool to automate data transformation. Former Software engineer and Google APM with a master’s from Stanford.",
+          "linkedin": "https://www.linkedin.com/in/stefan-faistenauer/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Swerve",
+      "batch": "Winter 2025",
+      "industry": "Consumer",
+      "one_liner": "Make & Watch Fun Videos",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Soroush Saryazdi",
+          "title": "Founder",
+          "bio": "Soroush is co-founder of Swerve (YC W25). Previously, he led AI at Matic, building perception systems for autonomous home robots that raised $30M from the founders of Stripe, Twitter, and Nest. He co-authored Gradslam (1.4K GitHub stars) and has published at RSS. Soroush holds an M.S. in CS from Concordia University.",
+          "linkedin": "https://linkedin.com/in/soroush-saryazdi-792365175",
+          "twitter": "https://twitter.com/S_Saryazdi"
+        },
+        {
+          "name": "Jason Zhou",
+          "title": "Founder",
+          "bio": "Jason is co-founder of Swerve (YC W25). Previously, he led autonomy and simulation at Matic, building autonomous home robots. He holds B.S. and M.S. degrees in EECS from UC Berkeley, where he conducted robotics and AI research and was named a Siebel Scholar.",
+          "linkedin": "https://www.linkedin.com/in/jasonxzhou/",
+          "twitter": "https://x.com/jsn_zh/"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "TamLabs",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Cursor for Microsoft Word",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Joshua Doolan",
+          "title": "CEO & Founder",
+          "bio": "Founder & CEO at TamLabs (W25). Previously, Blackstone Data Science, deployed AI solutions across PE portfolio and led data science diligence for PE. Harvard AB/SM in Computer Science, focus in AI.",
+          "linkedin": "https://www.linkedin.com/in/joshua-doolan",
+          "twitter": ""
+        },
+        {
+          "name": "Ben Doolan",
+          "title": "COO & Founder",
+          "bio": "Founder & COO at TamLabs. Worked as data scientist in private equity, consulting and law, integrating AI to conduct more rigorous, quantitative diligence. Studied physics and classics at Georgetown. ",
+          "linkedin": "https://www.linkedin.com/in/ben-doolan-66aa64204/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Tejas AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Risk Decisioning Platform for Banks",
+      "team_size": 4,
+      "founders": [
+        {
+          "name": "Gaurav Luhariwala",
+          "title": "Founder & CEO",
+          "bio": "Born and raised in India. Have previously built and scaled data-driven products for Indian banks and financial institutions -  founded Tejas AI with the mission of making financial services more inclusive worldwide.\\n\\n\\n\\n\\n\\n\\n\\n",
+          "linkedin": "https://www.linkedin.com/in/gauravluhariwala/",
+          "twitter": "https://x.com/Snorlaxxex"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "TensorPool",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Vercel For GPUs",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Tycho Svoboda",
+          "title": "Founder",
+          "bio": "Co-founder & CEO of Tensorpool. Ex-Blackstone, Stanford",
+          "linkedin": "https://www.linkedin.com/in/tycho-svoboda/",
+          "twitter": "https://x.com/TychoSvoboda"
+        },
+        {
+          "name": "Joshua Martinez",
+          "title": "Founder",
+          "bio": "Co-Founder & CTO of TensorPool (W25)\\nPreviously NVIDIA, Apple, Chan Zuckerberg Initiative\\nStanford BS & MS in Computer Science + Statistics",
+          "linkedin": "https://www.linkedin.com/in/joshkmartinez/",
+          "twitter": "https://x.com/joshkmartinez"
+        },
+        {
+          "name": "Hlumelo Notshe",
+          "title": "Founder",
+          "bio": "Co-Founder & CPO of TensorPool\\nEx-DeepMind & NextDoor\\nStanford BS & MS in Computer Science + Mathematics",
+          "linkedin": "https://www.linkedin.com/in/hlumelo-notshe",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Tergle",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI agents for Audit",
+      "team_size": null,
+      "founders": [
+        {
+          "name": "Adam Bowen",
+          "title": "Founder",
+          "bio": "CEO at Tergle. Ex-NASA engineer.\\n\\nOpted out of Ivy League at 17 to move solo to Tokyo. ",
+          "linkedin": "https://www.linkedin.com/in/adambowen03/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "ThirdLayer",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Building Dex, the AI Browser Copilot",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Regina Lin",
+          "title": "Founder",
+          "bio": "Regina is the co-founder & CEO of Dex. She studied Mathematics with a concurrent master's in Computational Science at Harvard (dropped out). She previously co-founded Contour AI, a devOps tool for LLM evaluation, helped build the MVP an ecommerce marketplace with 40K+ customers and worked in various tech investment roles.",
+          "linkedin": "https://linkedin.com/in/reginaclin",
+          "twitter": ""
+        },
+        {
+          "name": "Kevin Gu",
+          "title": "Founder",
+          "bio": "Co-founder of Dex. Prev Math & Stat at Harvard, quant/ML researcher at Jump Trading, IBM Research, QuantCo, Meta.",
+          "linkedin": "https://linkedin.com/in/kevinrgu",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Tire Swing",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI for Healthcare Compliance",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Paul Witten",
+          "title": "Founder",
+          "bio": "Cofounder/CEO Tire Swing (W25)\\n\\nPreviously Senior Consultant at Stroz Friedberg where I led cybersecurity investigations involving Advanced Persistent Threats, Nation States, and Ransomware. I led the memory forensics working group and was a member of the malware analysis working group.\\n\\nGraduated from Princeton with a Bachelors in Computer Science 2019\\n",
+          "linkedin": "https://linkedin.com/in/paul-witten-39579715a",
+          "twitter": "https://x.com/pdubz96"
+        },
+        {
+          "name": "Lucas Irvine",
+          "title": "Founder",
+          "bio": "Co-founder Tire Swing (W25)\\n\\nPreviously a Senior Software Engineer for Instacart, where I worked on everything on the front page of Instacart. Before that worked at Capital One on the open-source rules engine Cloud Custodian.\\n\\nGraduated from Princeton with a Bachelors in Computer Science in 2019.",
+          "linkedin": "https://www.linkedin.com/in/lucas-i-b20187128/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Toothy AI",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "AI for insurance verification & billing at dental clinics",
+      "team_size": 15,
+      "founders": [
+        {
+          "name": "Johnny Chen",
+          "title": "Founder",
+          "bio": "2nd time founder now automating back office functions for dental clinics. Built one of the first AI B2B cold email solutions (backed by SoftBank) to $1m in ARR using GPT-J. Background in full stack engineering, operations management, and B2B marketing. Previously worked at Ford Motor’s R&D lab as a software engineer.",
+          "linkedin": "https://www.linkedin.com/in/johnnychen54/",
+          "twitter": ""
+        },
+        {
+          "name": "Matt Kerrigan",
+          "title": "Founder",
+          "bio": "2nd time technical founder at Toothy AI, where I'm working on automating back office operations for dental clinics. First journey ended in Salezilla, a LLM-based cold email campaign tool that launched before ChatGPT, it is still operating today. Before that I was in a ML role at a startup that was acquired by Nordstrom.",
+          "linkedin": "https://www.linkedin.com/in/mkerrig/",
+          "twitter": ""
+        },
+        {
+          "name": "Tejas Konduru",
+          "title": "Founder",
+          "bio": "Helping build the largest healthcare AI company!",
+          "linkedin": "https://www.linkedin.com/in/tejas-konduru",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Trace",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Voice AI Customer Support for Financial Services",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Saner Cakir",
+          "title": "Founder & CEO",
+          "bio": "now: outship.ai – hire amazing engineers by seeing how they use AI\\nbefore: robot learning at Berkeley AI Research",
+          "linkedin": "https://www.linkedin.com/in/saner-cakir-697385300/",
+          "twitter": "https://x.com/sanerc110"
+        },
+        {
+          "name": "Kayla Lee",
+          "title": "Founder & COO",
+          "bio": "now: outship.ai – hire amazing engineers by seeing how they use AI \\nbefore: nlp at Berkeley AI Research ",
+          "linkedin": "https://www.linkedin.com/in/kayla-lee-715149160/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "TrainLoop",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Reasoning Fine-Tuning",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Jackson Stokes",
+          "title": "Founder",
+          "bio": "Cofounder at TrainLoop, previously Google Gemini & AlphaFold performance ",
+          "linkedin": "https://www.linkedin.com/in/jacksonstokes/",
+          "twitter": "https://x.com/mlpierce22"
+        },
+        {
+          "name": "Mason Pierce",
+          "title": "Cofounder / CTO",
+          "bio": "My background is in applying AI models to business use-cases and have always found fine-tuning to be way harder than it should be - My mission is to unlock fine-tuning for all builders :)",
+          "linkedin": "https://www.linkedin.com/in/malapier",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Trata",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI-powered research desk for hedge funds",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Eric Cho",
+          "title": "Founder",
+          "bio": "Co-Founder/CEO at Trata (W2025). Previously a technology investor at a L/S hedge fund. Cornell grad. ",
+          "linkedin": "https://linkedin.com/in/emc329",
+          "twitter": "https://x.com/_ericcho"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Trim",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "A foundation model for physics.",
+      "team_size": 3,
+      "founders": [
+        {
+          "name": "Emanuel Gordis",
+          "title": "Founder",
+          "bio": "Founder of Trim. NRC-licensed RO, published quantum physics with Princeton and astrophysics with LLNL. Cornell Alum.",
+          "linkedin": "https://www.linkedin.com/in/emanuelgordis/",
+          "twitter": "https://x.com/emanuelgordis"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "TripleZip",
+      "batch": "Winter 2025",
+      "industry": "Real Estate and Construction",
+      "one_liner": "Automating CRE accounting with AI",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Yash Sahota",
+          "title": "Founder",
+          "bio": "Co-founder of OpenIntake, the AI front door for law firms.\\n\\nBefore OpenIntake, I was a product security engineer at Slack and a consultant at McKinsey & Company.\\n\\nCornell CS '20",
+          "linkedin": "https://www.linkedin.com/in/yashsahota",
+          "twitter": ""
+        },
+        {
+          "name": "Grayson Pike",
+          "title": "Founder",
+          "bio": "Co-founder of OpenIntake, the AI front door for law firms..\\n\\nBefore OpenIntake, I was a consultant at McKinsey & Company and a back-end tech lead at a hedge fund.\\n\\nUniversity of Texas at Austin class of '21 🤘",
+          "linkedin": "https://www.linkedin.com/in/graysonpike/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Truffle AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AWS for AI Agents",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Shaunak Srivastava",
+          "title": "Founder",
+          "bio": "Co-founder - Truffle AI. \\nPrev. GenAI & 3D Research@CMU | Published at NeurIPS 2022, WACV '23 (in collaboration with Meta).\\nBuilt AI products for face recognition and health estimation at Hyperverge.  ",
+          "linkedin": "https://www.linkedin.com/in/shaunak-srivastava-244567163/",
+          "twitter": ""
+        },
+        {
+          "name": "Rahul Karajgikar",
+          "title": "Founder",
+          "bio": "Co-founder and CTO at Truffle AI - building developer tools for AI agents\\nFormer engineer at AWS OpenSearch. ",
+          "linkedin": "https://www.linkedin.com/in/rahul-karajgikar",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Uncommon Therapeutics",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "A Disease Focused Biotech, Building Multiple Billion Dollar Drugs",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Noah Auerhahn",
+          "title": "Founder",
+          "bio": "Serial Entrepreneur Building Therapies and New Biz Models for Rare Disease",
+          "linkedin": "https://www.linkedin.com/in/noahauerhahn/",
+          "twitter": ""
+        },
+        {
+          "name": "Ryan Lim",
+          "title": "Founder",
+          "bio": "Biotech entrepreneur and biomedical scientist specializing in modeling neurological disorders using stem cells, in vivo models, and computational biology to drive breakthroughs in neurological diseases",
+          "linkedin": "https://www.linkedin.com/in/ryanlimphd",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Vantel",
+      "batch": "Winter 2025",
+      "industry": "Fintech",
+      "one_liner": "AI Software for Commercial Insurance Brokers",
+      "team_size": 5,
+      "founders": [
+        {
+          "name": "Love Redin",
+          "title": "Founder",
+          "bio": "CEO of Vantel. Previously data scientist at venture-backed startups and McKinsey/QuantumBlack, venture capital investor, software engineer at Sweden’s largest independent fund manager, and claims analyst at Scandinavia's largest insurance company. Arctic Army Ranger with background in engineering physics and pure mathematics from KTH Royal Institute of Technology in Stockholm, Sweden.",
+          "linkedin": "https://www.linkedin.com/in/love-redin/",
+          "twitter": "https://x.com/redinvantel"
+        },
+        {
+          "name": "Ulme Wennberg",
+          "title": "Founder",
+          "bio": "CTO at Vantel. Ex-Microsoft software engineer, who has founded several startups, and 900+ research citations within NLP. Machine learning PhD dropout and first-principles thinker. Pursued parallel studies in Engineering Physics at Sweden's top Engineering School and Business School (KTH & SSE). Graduate studies at the University of Washington, including co-authoring one of the most cited information extraction papers of 2019. Also built conversational agents with Amazon Alexa.",
+          "linkedin": "https://www.linkedin.com/in/ulme-wennberg/",
+          "twitter": "https://x.com/UlmeW"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Verbiflow",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "People search that works",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Kashyab Ambarani",
+          "title": "Founder",
+          "bio": "Co-founder of Verbiflow",
+          "linkedin": "https://www.linkedin.com/in/kashyab-ambarani/",
+          "twitter": "https://x.com/kashyabja"
+        },
+        {
+          "name": "Rishi Mahadevan",
+          "title": "Founder",
+          "bio": "Co-founder Verbiflow",
+          "linkedin": "https://www.linkedin.com/in/rishi-mahadevan-625844109/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Vetnio",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI Copilot that automates admin work for veterinary professionals",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Arman Karégar",
+          "title": "Founder",
+          "bio": "Founded three companies and served as the youngest board member ever for two firms with a combined turnover of 100 million euros. Elected politician during university and have 20 years of expertise in audio processing; from optimizing voice recordings to designing custom instruments by shaping waveforms using oscillators, envelopes, and LFOs. Master's in Industrial Engineering and Management from KTH Royal Institute of Technology, with additional studies at Nanyang Technological Institute. ",
+          "linkedin": "https://linkedin.com/in/armankaregar",
+          "twitter": "https://x.com/maxhxie"
+        },
+        {
+          "name": "Max Henry Xie",
+          "title": "Founder",
+          "bio": "Second time founder. Self-taught developer with many chess and hackathon wins. Built machine learning models to combat fraud at big banks. Studied industrial engineering and management at KTH (Stockholm). Dropped out of school to work at Accenture (deployed engineer), then Paypal (AI / data scientist) before founding first his start-up, now working on his second. Accidental tiktok-influencer.",
+          "linkedin": "https://linkedin.com/in/max-henry-xie",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Vocality Health",
+      "batch": "Winter 2025",
+      "industry": "Healthcare",
+      "one_liner": "Voice AI for medical language translation",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Brogan McPartland",
+          "title": "Founder",
+          "bio": "Brogan is the co-founder and CEO of Vocality Health. Previously, he co-founded Fulltrack AI, a viral computer vision sports app, with Vivek. He was the CTO overseeing the app reaching 4 million downloads and becoming the #1 sports app in India, surpassing the Olympics app (during the Olympics). He scaled Fulltrack to mid-six-figure MAUs and holds three patents. He studied computer science at Harvard and speaks fluent Hindi. ",
+          "linkedin": "https://www.linkedin.com/in/brogan-mcpartland-05830031a/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Vora AI",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI recruiter for hiring managers",
+      "team_size": 1,
+      "founders": [
+        {
+          "name": "Pushkar Lanka",
+          "title": "Founder",
+          "bio": "Founder & CEO at Trava. I was previously an Engineering Manager at Plaid, where I ran the Privacy and Risk engineering org. Before that, I was an early engineer on Meta's blockchain team (Libra/Novi).",
+          "linkedin": "https://www.linkedin.com/in/pushkarlanka/",
+          "twitter": "https://x.com/LankaPushkar"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Waypoint Transit",
+      "batch": "Winter 2025",
+      "industry": "Government",
+      "one_liner": "We automate urban planning so cities can build cheaper and faster.",
+      "team_size": 2,
+      "founders": [
+        {
+          "name": "Varun Tandon",
+          "title": "Founder",
+          "bio": "Co-founder and CEO of Waypoint Transit. Previously, led applied ML initiatives at Microsoft. Worked on diffusion models and LLM/LMMs for flagship Office products, including Copilot, Designer, and PowerPoint.\\n\\nB.S. and M.S. in Computer Science from Stanford University. \\n",
+          "linkedin": "https://www.linkedin.com/in/vrntandon/",
+          "twitter": ""
+        },
+        {
+          "name": "Ryan Johnston",
+          "title": "Founder",
+          "bio": "Co-founder and CTO of Waypoint Transit. Previously, chip design synthesis CAD at Apple. Then developed novel real-time transit signage for his hometown; this project eventually became Waypoint. \\n\\nB.S. and M.S. in Electrical Engineering from Stanford University.\\n",
+          "linkedin": "https://www.linkedin.com/in/ryan-johnston-b919a7180/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "Weave",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI to measure engineering work",
+      "team_size": 600,
+      "founders": [
+        {
+          "name": "Brandon Rodman",
+          "title": "Founder/CEO",
+          "bio": "Love startups and love Utah. Happy to help any way I can so don't hesitate to reach out. ",
+          "linkedin": "https://www.linkedin.com/in/brandonrodman",
+          "twitter": ""
+        },
+        {
+          "name": "Jared Rodman",
+          "title": "Founder/CCO",
+          "bio": "",
+          "linkedin": "https://www.linkedin.com/in/jared-rodman-2188a23b/",
+          "twitter": ""
+        },
+        {
+          "name": "Clint Berry",
+          "title": "Founder/CTO",
+          "bio": "",
+          "linkedin": "https://www.linkedin.com/in/clintonberry",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "Wildcard",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "Coding Agents for Engineering Managers",
+      "team_size": 0,
+      "founders": [
+        {
+          "name": "Kaushik Mahorker",
+          "title": "Founder",
+          "bio": "CEO at Wildcard. Previously, Engineering Manager at Scale AI where I led the GenAI Allocation team. Built the ecommerce enrichment engine for the largest company pilot - enriching 2.4M attributes across 400K SKUs. Former Eng at AWS Elastic File System. UCLA Masters CS and UCSB CS undergrad.",
+          "linkedin": "https://www.linkedin.com/in/kaushikmahorker",
+          "twitter": "https://x.com/kaushikm_"
+        }
+      ],
+      "founder_count": 1
+    },
+    {
+      "company_name": "Woz",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "AI platform enabling anyone to build and scale software businesses",
+      "team_size": 8,
+      "founders": [
+        {
+          "name": "Ben Collins",
+          "title": "Founder",
+          "bio": "Cofounder and CEO at Woz. ",
+          "linkedin": "https://www.linkedin.com/in/bentcollins/",
+          "twitter": "https://x.com/BenjaminT007"
+        },
+        {
+          "name": "Brad Eckert",
+          "title": "Founder",
+          "bio": "Founder/CTO of Woz. Prev Founder & leader of &gt;30 person engineering team at Cairns Health (YC S17, formerly Totemic). Built deep learning radars in consumer electronics for the home environment and an LLM enabled cure for chronic insomnia. MIT EECS, AI Masters dropout, co-author on 25+ patents.",
+          "linkedin": "https://www.linkedin.com/in/bradleymeckert/",
+          "twitter": "https://x.com/ChefEckert"
+        }
+      ],
+      "founder_count": 2
+    },
+    {
+      "company_name": "YouShift",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "The OS for healthcare staffing, starting with scheduling AI agents.",
+      "team_size": 10,
+      "founders": [
+        {
+          "name": "Lucía Vives Martorell",
+          "title": "Founder",
+          "bio": "Originally from Barcelona, I studied Biomedical Science at University College London and Harvard. I am the co-founder of YouShift, a SaaS platform that automates shift scheduling for hospitals, helping healthcare professionals achieve better work-life balance and reduce burnout.",
+          "linkedin": "https://www.linkedin.com/in/luciavivesmartorell/",
+          "twitter": ""
+        },
+        {
+          "name": "Jota Chamorro",
+          "title": "Founder",
+          "bio": "Cofounder at YouShift. Building the AI-native workforce OS for healthcare. Previously at Harvard CS",
+          "linkedin": "https://linkedin.com/in/jotachamorro",
+          "twitter": ""
+        },
+        {
+          "name": "Adolfo Roquero Gimenez",
+          "title": "Founder",
+          "bio": "YouShift, automating shift-scheduling for hospitals\\nWorked as a Software Engineer in Google Ads Infrastructure building the largest, low-latency and reliable mechanism to load and serve key-value data across Google Ads.\\nStudied Computer Science at Harvard University graduating with honors.\\n\\n",
+          "linkedin": "https://linkedin.com/in/adolfo-roquero-gimenez-a8b853181",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 3
+    },
+    {
+      "company_name": "ZeroEntropy",
+      "batch": "Winter 2025",
+      "industry": "B2B",
+      "one_liner": "High accuracy search API over unstructured data.",
+      "team_size": 6,
+      "founders": [
+        {
+          "name": "Ghita Houir Alami",
+          "title": "Founder",
+          "bio": "cofounder & CEO @ ZeroEntropy (YC W25)\\n-\\nmoroccan founder with 2 masters in applied maths from École Polytechnique and UC Berkeley\\n",
+          "linkedin": "https://linkedin.com/in/ghita-houir-alami",
+          "twitter": "https://www.x.com/ghita__ha"
+        },
+        {
+          "name": "Nicholas Pipitone",
+          "title": "Founder",
+          "bio": "Cofounder & CTO @ ZeroEntropy (YC W25) -\\n\\nMy background is in theoretical mathematics and computer science.\\n\\nDropped out of CMU to pursue startups. Worked on low-level C/C++/Assembly/GPU Code. CTO and/or main dev for 5 different startups. Created stat-arb algorithms and audited blockchains for bug bounties and hedge fund due diligence.\\n\\nBuilt the AI @ myko.ai, manifestapp.xyz, magibook.co",
+          "linkedin": "https://www.linkedin.com/in/nicholas-pipitone-5736a2107/",
+          "twitter": ""
+        }
+      ],
+      "founder_count": 2
+    }
+  ],
+  "failed": [
+    "Pickle"
+  ]
+}
