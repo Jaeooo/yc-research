@@ -1,42 +1,73 @@
 ---
 import { ClientRouter } from "astro:transitions";
-import { reportMeta, groupOrder } from "../lib/reportMeta";
+import { reportMeta, groupOrder, reportMetaEn, groupOrderEn } from "../lib/reportMeta";
 
 interface Props {
   title: string;
   description?: string;
   activeSlug?: string;
+  lang?: "ko" | "en";
 }
 const {
   title,
-  description = "YC 배치 선정을 위한 데이터 분석 프로젝트.",
+  description,
   activeSlug,
+  lang = "ko",
 } = Astro.props;
+
+const isEn = lang === "en";
+const defaultDescription = isEn
+  ? "A data analysis project for YC batch selection."
+  : "YC 배치 선정을 위한 데이터 분석 프로젝트.";
+const finalDescription = description ?? defaultDescription;
 
 const pageTitle = `${title} · YC Research`;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? Astro.url.origin);
 
-const groups = groupOrder.map((group) => ({
+const meta = isEn ? reportMetaEn : reportMeta;
+const groups = (isEn ? groupOrderEn : groupOrder).map((group) => ({
   group,
-  items: Object.entries(reportMeta)
-    .filter(([, meta]) => meta.group === group)
-    .map(([slug, meta]) => ({ slug, title: meta.title })),
+  items: Object.entries(meta)
+    .filter(([, m]) => m.group === group)
+    .map(([slug, m]) => ({ slug, title: m.title })),
 }));
+
+const homeHref = isEn ? "/en/" : "/";
+const reportsBase = isEn ? "/en/reports" : "/reports";
+const otherLangHref = isEn ? Astro.url.pathname.replace(/^\/en/, "") || "/" : `/en${Astro.url.pathname}`;
+
+const t = isEn
+  ? {
+      themeLabel: "Theme selection",
+      light: "Light",
+      dark: "Dark",
+      system: "System",
+      langLabel: "Language selection",
+      githubLabel: "GitHub repository",
+    }
+  : {
+      themeLabel: "테마 선택",
+      light: "라이트",
+      dark: "다크",
+      system: "시스템",
+      langLabel: "언어 선택",
+      githubLabel: "GitHub 저장소",
+    };
 ---
 <!doctype html>
-<html lang="ko">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{pageTitle}</title>
-    <meta name="description" content={description} />
+    <meta name="description" content={finalDescription} />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="YC Research" />
     <meta property="og:title" content={pageTitle} />
-    <meta property="og:description" content={description} />
+    <meta property="og:description" content={finalDescription} />
     <meta property="og:url" content={canonicalUrl} />
     <meta property="og:image" content={new URL("/og-image.png", Astro.site ?? Astro.url.origin)} />
     <meta property="og:image:width" content="1200" />
@@ -44,7 +75,7 @@ const groups = groupOrder.map((group) => ({
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={pageTitle} />
-    <meta name="twitter:description" content={description} />
+    <meta name="twitter:description" content={finalDescription} />
     <meta name="twitter:image" content={new URL("/og-image.png", Astro.site ?? Astro.url.origin)} />
 
     <ClientRouter />
@@ -54,52 +85,35 @@ const groups = groupOrder.map((group) => ({
         if (saved === "light" || saved === "dark") {
           document.documentElement.setAttribute("data-theme", saved);
         }
-
-        var lang = localStorage.getItem("lang");
-        if (lang === "en" && document.cookie.indexOf("googtrans=") === -1) {
-          var value = "/ko/en";
-          document.cookie = "googtrans=" + value + ";path=/";
-          document.cookie = "googtrans=" + value + ";path=/;domain=" + window.location.hostname;
-        }
       })();
     </script>
-    <script is:inline>
-      function googleTranslateElementInit() {
-        new google.translate.TranslateElement(
-          { pageLanguage: "ko", includedLanguages: "en", autoDisplay: false },
-          "google_translate_element"
-        );
-      }
-    </script>
-    <script is:inline src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
   <body>
     <div class="shell">
-      <aside class="sidebar" transition:persist>
+      <aside class="sidebar" transition:persist={`sidebar-${lang}`}>
         <div class="brand-row">
-          <a class="brand" href="/">YC Research</a>
+          <a class="brand" href={homeHref}>YC Research</a>
           <a
             class="github-link"
             href="https://github.com/Jaeooo/yc-research"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="GitHub 저장소"
+            aria-label={t.githubLabel}
           >
             <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true">
               <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
             </svg>
           </a>
         </div>
-        <div class="theme-toggle" role="radiogroup" aria-label="테마 선택">
-          <button type="button" data-theme-choice="light" aria-pressed="false">라이트</button>
-          <button type="button" data-theme-choice="dark" aria-pressed="false">다크</button>
-          <button type="button" data-theme-choice="system" aria-pressed="false">시스템</button>
+        <div class="theme-toggle" role="radiogroup" aria-label={t.themeLabel}>
+          <button type="button" data-theme-choice="light" aria-pressed="false">{t.light}</button>
+          <button type="button" data-theme-choice="dark" aria-pressed="false">{t.dark}</button>
+          <button type="button" data-theme-choice="system" aria-pressed="false">{t.system}</button>
         </div>
-        <div class="lang-toggle" role="radiogroup" aria-label="언어 선택">
-          <button type="button" data-lang-choice="ko" aria-pressed="true">한국어</button>
-          <button type="button" data-lang-choice="en" aria-pressed="false">English</button>
+        <div class="lang-toggle" role="radiogroup" aria-label={t.langLabel}>
+          <a href={isEn ? otherLangHref : Astro.url.pathname} aria-pressed={!isEn}>한국어</a>
+          <a href={isEn ? Astro.url.pathname : otherLangHref} aria-pressed={isEn}>English</a>
         </div>
-        <div id="google_translate_element" class="translate-widget"></div>
         <nav>
           {groups.map(({ group, items }) => (
             <div class="nav-group">
@@ -108,7 +122,7 @@ const groups = groupOrder.map((group) => ({
                 {items.map((item) => (
                   <li>
                     <a
-                      href={`/reports/${item.slug}/`}
+                      href={`${reportsBase}/${item.slug}/`}
                       aria-current={activeSlug === item.slug ? "page" : undefined}
                     >
                       {item.title}
@@ -125,15 +139,6 @@ const groups = groupOrder.map((group) => ({
       </main>
     </div>
     <script>
-      // When translation is on, skip client-side routing so Google's
-      // widget can re-scan and re-translate the freshly loaded page.
-      document.addEventListener("astro:before-preparation", (event: any) => {
-        if (localStorage.getItem("lang") === "en") {
-          window.location.href = event.to.href;
-          event.preventDefault();
-        }
-      });
-
       function syncActiveLink() {
         const links = document.querySelectorAll<HTMLAnchorElement>(".nav-group a");
         links.forEach((link) => {
@@ -173,38 +178,8 @@ const groups = groupOrder.map((group) => ({
         syncThemeButtons();
       }
 
-      function setGoogleTranslateCookie(lang: string) {
-        const value = lang === "ko" ? "" : "/ko/" + lang;
-        document.cookie = "googtrans=" + value + ";path=/";
-        document.cookie = "googtrans=" + value + ";path=/;domain=" + window.location.hostname;
-      }
-
-      function syncLangButtons(lang: string) {
-        document.querySelectorAll<HTMLButtonElement>("[data-lang-choice]").forEach((btn) => {
-          btn.setAttribute("aria-pressed", String(btn.dataset.langChoice === lang));
-        });
-      }
-
-      function initLangToggle() {
-        const buttons = document.querySelectorAll<HTMLButtonElement>("[data-lang-choice]");
-        const current = localStorage.getItem("lang") ?? "ko";
-        syncLangButtons(current);
-        buttons.forEach((btn) => {
-          if (btn.dataset.bound) return;
-          btn.dataset.bound = "true";
-          btn.addEventListener("click", () => {
-            const lang = btn.dataset.langChoice!;
-            if (lang === (localStorage.getItem("lang") ?? "ko")) return;
-            localStorage.setItem("lang", lang);
-            setGoogleTranslateCookie(lang);
-            window.location.reload();
-          });
-        });
-      }
-
       document.addEventListener("astro:page-load", syncActiveLink);
       document.addEventListener("astro:page-load", initThemeToggle);
-      document.addEventListener("astro:page-load", initLangToggle);
     </script>
   </body>
 </html>
@@ -296,22 +271,6 @@ const groups = groupOrder.map((group) => ({
     border-left: 3px solid var(--border);
     color: var(--muted);
   }
-
-  /* Google Website Translator: hide its banner/highlighting, keep body position fixed */
-  body {
-    top: 0 !important;
-    position: static !important;
-  }
-  .goog-te-banner-frame.skiptranslate,
-  #goog-gt-tt,
-  .goog-tooltip,
-  .goog-tooltip:hover {
-    display: none !important;
-  }
-  .goog-text-highlight {
-    background: none !important;
-    box-shadow: none !important;
-  }
 </style>
 
 <style>
@@ -353,7 +312,7 @@ const groups = groupOrder.map((group) => ({
   .theme-toggle {
     display: flex;
     gap: 0.25rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
     background: var(--card-bg);
     border-radius: 8px;
     padding: 0.2rem;
@@ -380,23 +339,18 @@ const groups = groupOrder.map((group) => ({
     border-radius: 8px;
     padding: 0.2rem;
   }
-  .lang-toggle button {
+  .lang-toggle a {
     flex: 1;
-    border: none;
-    background: transparent;
+    text-align: center;
+    text-decoration: none;
     color: var(--muted);
     font-size: 0.75rem;
     padding: 0.35rem 0.4rem;
     border-radius: 6px;
-    cursor: pointer;
   }
-  .lang-toggle button[aria-pressed="true"] {
+  .lang-toggle a[aria-pressed="true"] {
     background: var(--accent);
     color: #fff;
-  }
-  .translate-widget {
-    height: 0;
-    overflow: hidden;
   }
   .nav-group {
     margin-bottom: 1.25rem;

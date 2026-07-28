@@ -1,10 +1,10 @@
 ---
-import Base from "../../layouts/Base.astro";
+import Base from "../../../layouts/Base.astro";
 import { getCollection, render } from "astro:content";
-import { reportMeta } from "../../lib/reportMeta";
+import { reportMetaEn } from "../../../lib/reportMeta";
 
 export async function getStaticPaths() {
-  const entries = await getCollection("reports");
+  const entries = await getCollection("reportsEn");
   return entries.map((entry) => ({
     params: { slug: entry.id },
     props: { entry },
@@ -13,13 +13,13 @@ export async function getStaticPaths() {
 
 const { entry } = Astro.props;
 const { Content } = await render(entry);
-const meta = reportMeta[entry.id];
+const meta = reportMetaEn[entry.id];
 ---
 <Base
   title={meta?.title ?? entry.id}
   description={meta?.description}
   activeSlug={entry.id}
-  lang="ko"
+  lang="en"
 >
   <article class="markdown">
     <Content />

@@ -6,4 +6,9 @@ const reports = defineCollection({
   schema: z.object({}),
 });
 
-export const collections = { reports };
+const reportsEn = defineCollection({
+  loader: glob({ pattern: "*.md", base: "./reports/en" }),
+  schema: z.object({}),
+});
+
+export const collections = { reports, reportsEn };

@@ -25,7 +25,7 @@ YC-Project/
 │       ├── yc_founders_w25_overview.md   — W25 창업자 데이터 필드/통계/샘플
 │       └── yc_founders_s24_w24_overview.md — S24+W24 창업자 데이터 구조/통계
 │
-├── reports/                              — 분석 리포트 (14개)
+├── reports/                              — 분석 리포트 (14개, 한국어 원문)
 │   ├── yc_companies_report.md            — 전체 기업 경향성 분석
 │   ├── yc_student_founders_report.md     — 학부생/중퇴 창업팀 분석
 │   ├── yc_recent_batches_raw.md          — 최근 3개 배치 raw 데이터 (MD 테이블)
@@ -39,19 +39,23 @@ YC-Project/
 │   ├── yc_competitive_landscape.md       — 경쟁사 매핑
 │   ├── yc_application_qa_analysis.md     — 지원서 Q&A
 │   ├── yc_ai_b2b_gaps_analysis.md        — AI B2B 빈틈
-│   └── yc_ai_b2b_complete_list.md        — AI B2B 전체 리스트
+│   ├── yc_ai_b2b_complete_list.md        — AI B2B 전체 리스트
+│   └── en/                               — 위 14개 리포트의 영어 번역본 (동일 파일명)
 │
 ├── src/                                   — Astro 사이트 소스 (Vercel 배포)
-│   ├── pages/                             — index, reports/[slug]
+│   ├── pages/                             — index, reports/[slug] (한국어)
+│   ├── pages/en/                          — index, reports/[slug] (영어)
 │   ├── layouts/Base.astro                 — 사이드바, 테마/언어 전환
-│   ├── lib/reportMeta.ts                  — 리포트 제목/그룹 매핑 (nav 표시용)
-│   └── content.config.ts                  — reports/ 폴더를 콘텐츠 컬렉션으로 로드
+│   ├── lib/reportMeta.ts                  — 리포트 제목/그룹 매핑 (한/영 각각, nav 표시용)
+│   └── content.config.ts                  — reports/, reports/en/ 을 콘텐츠 컬렉션으로 로드
 │
 ├── CLAUDE.md                             — Claude Code 작업 가이드
 └── README.md                             — 이 파일 (프로젝트 인덱스)
 ```
 
 사이트 실행: `npm run dev` (로컬), `npm run build` (Vercel 배포 시 자동 실행).
+
+**리포트 추가/수정 시:** `reports/*.md` 수정 후 `src/lib/reportMeta.ts`의 `reportMeta`에 등록. 영어 번역이 있다면 `reports/en/<동일 파일명>.md`로 추가하고 `reportMetaEn`에도 등록 — 두 파일명이 어긋나면 언어 전환 버튼이 깨진 링크를 가리키게 됨.
 
 ---
 
