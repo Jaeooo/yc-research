@@ -229,7 +229,7 @@ Unlike [기존 솔루션], we [차별점]."
 
 ---
 
-## 💡 김재우 & Aidan 팀 맞춤 전략
+## 💡 비전통적 배경 팀 맞춤 전략
 
 ### 강점 활용
 
@@ -239,25 +239,24 @@ Unlike [기존 솔루션], we [차별점]."
 | **한국인 + 미국 팀** | "크로스보더 시장 이해, 아시아 진출 교두보" |
 | **회계 + 공학** | "비즈니스 + 기술 완벽 조합, 양쪽 언어 가능" |
 | **창업 경험** | "이미 실행력 증명, 빠른 shipping" |
-| **서울대 + BC** | "비명문대지만 실력 증명, underdog 정신" |
+| **비명문대 출신** | "비명문대지만 실력 증명, underdog 정신" |
 
 ### 스토리 라인
 
 **"What are you working on?"**
 ```
 "We're building [구체적 제품] for [타겟].
-I'm from Korea, served in military, studied EE at Seoul National.
-My co-founder Aidan is from Boston College with accounting + CS.
 We noticed [시장 인사이트] and decided to build this.
+Our team combines [기술 배경] and [비즈니스 배경].
 Unlike [경쟁사], we [차별점]."
 ```
 
 **"Why you?"**
 ```
 "I've been building since [시기], shipped [프로젝트].
-Aidan's accounting background gives us unique business insight.
-We complement each other perfectly - I build, he sells.
-Military taught me to execute under pressure.
+My co-founder's [도메인] background gives us unique business insight.
+We complement each other perfectly - one builds, one sells.
+[비전통적 경험]이 pressure 하에서 실행하는 법을 가르쳐줬다.
 We're not the typical Stanford founders, but we've proven we can build."
 ```
 

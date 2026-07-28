@@ -146,5 +146,5 @@
 
 1. **AI Agent for Asian Enterprises** — 아시아 기업 특화 자동화
 2. **Cross-border AI Tools** — 한국-미국-아시아 간 비즈니스 자동화
-3. **Vertical AI (Fintech/Legal)** — Aidan의 회계 배경 활용
-4. **AI Developer Tools** — 재우의 기술력 활용
+3. **Vertical AI (Fintech/Legal)** — 회계 도메인 지식 활용
+4. **AI Developer Tools** — 기술 역량 활용

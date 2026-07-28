@@ -123,14 +123,14 @@ on paperwork. We cut it to 10 minutes."
 ```
 "I'm from Korea and served in military logistics. 
 I saw firsthand how painful cross-border paperwork 
-is. My co-founder Aidan studied accounting and 
+is. My co-founder studied accounting and 
 built fintech tools. We realized this is a $300B 
 problem with no good digital solution in Asia."
 ```
 
 **패턴:**
 - ✅ 개인적 경험 (군 물류)
-- ✅ 팀 연결고리 (Aidan 회계)
+- ✅ 팀 연결고리 (공동창업자 회계 배경)
 - ✅ 시장 크기 ($300B)
 - ✅ "왜 우리" (unfair advantage)
 
@@ -279,7 +279,7 @@ firsthand. I know the market because I lived it."
 
 ### 4. 팀 역할 불명확
 ❌ "We both do everything"
-✅ "I'm CTO building the AI. Aidan is CEO handling sales and partnerships"
+✅ "I'm CTO building the AI. My co-founder is CEO handling sales and partnerships"
 
 ### 5. traction 과장
 ❌ "We have tons of users"
@@ -287,7 +287,7 @@ firsthand. I know the market because I lived it."
 
 ---
 
-## 📝 김재우 & Aidan 팀 맞춤 답변
+## 📝 비전통적 배경 팀 맞춤 답변 예시
 
 ### Q: "What is your company going to make?"
 ```
@@ -302,12 +302,11 @@ regulations."
 ### Q: "Why did you pick this idea?"
 ```
 "I'm from Korea, served in military logistics, 
-and studied EE at Seoul National University. 
-I saw how painful cross-border paperwork is. 
-Aidan studied accounting at Boston College and 
-built fintech tools. We realized Asia's $7.9T 
-trade market has no good digital documentation 
-solution."
+and studied engineering. I saw how painful 
+cross-border paperwork is. My co-founder studied 
+accounting and built fintech tools. We realized 
+Asia's $7.9T trade market has no good digital 
+documentation solution."
 ```
 
 ### Q: "What will you do first?"
@@ -341,8 +340,8 @@ does this for Asia."
 "I built [side project] that gained [X users] 
 in [timeframe]. I also led a military logistics 
 team of 20 people, managing $2M in equipment. 
-Aidan built fintech tools processing $400K in 
-cards annually at Capital One."
+My co-founder built fintech tools processing $400K 
+in cards annually at a Fortune 500 bank."
 ```
 
 ---

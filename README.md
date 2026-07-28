@@ -29,7 +29,7 @@ YC-Project/
 │   ├── yc_companies_report.md            — 전체 기업 경향성 분석
 │   ├── yc_student_founders_report.md     — 학부생/중퇴 창업팀 분석
 │   ├── yc_recent_batches_raw.md          — 최근 3개 배치 raw 데이터 (MD 테이블)
-│   ├── yc_application_strategy.md        — 김재우 & Aidan 팀 YC 합격 전략
+│   ├── yc_application_strategy.md        — YC 합격 전략 분석
 │   ├── yc_report_ai_b2b.md               — AI+B2B 방향 분석
 │   ├── yc_report_asia.md                 — 한국/아시아 특화 방향 분석
 │   ├── yc_interview_patterns.md          — 인터뷰 패턴
@@ -133,7 +133,7 @@ YC-Project/
 - **중퇴자 증가:** 2.7%(W24) → 5.3%(W25)
 - **연속 창업자:** 5%(W24) → 10%(W25)
 
-### 김재우 & Aidan 팀 합격 전략
+### 합격 전략 시사점
 - ✅ 한국인 창업자 13명 (W24-W25) — 커뮤니티 존재
 - ✅ 비-Stanford/MIT 출신 48% — 충분히 경쟁 가능
 - ✅ 군 복무 경험 창업자 41명 — 긍정적 시그널

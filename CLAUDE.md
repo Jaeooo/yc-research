@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this repo is
 
-Data/research repo with a thin Astro front end for browsing it. It holds crawled YC (Y Combinator) company and founder data plus Korean-language analysis reports supporting a YC application ("김재우 & Aidan" team), presented through a static site deployed to Vercel.
+Data/research repo with a thin Astro front end for browsing it. It holds crawled YC (Y Combinator) company and founder data plus Korean-language analysis reports supporting a YC application, presented through a static site deployed to Vercel. Reports discuss the applying team only in generic terms (roles, backgrounds) — no personal names.
 
 ## Commands
 
@@ -22,7 +22,7 @@ No lint/test tooling configured.
 - `src/pages/index.astro`: home page.
 - `src/pages/reports/[slug].astro`: renders each report at `/reports/<filename-without-extension>/`, using the collection entry's `render()` output.
 - `src/lib/reportMeta.ts`: hand-maintained map of report slug → `{ title, group }`, used to build sidebar nav and page titles. **New reports must be added here** or they won't appear in navigation (the page itself would still build and be reachable by direct URL, just absent from the sidebar).
-- `src/layouts/Base.astro`: the whole shell — sidebar nav, light/dark/system theme toggle (persisted to `localStorage`, applied via `data-theme` on `<html>`), language picker (redirects to a Google Translate proxy URL — only works on a publicly reachable deployment, not `localhost`), and Astro View Transitions (`<ClientRouter />`) with the sidebar marked `transition:persist` so only `<main>` swaps on navigation.
+- `src/layouts/Base.astro`: the whole shell — sidebar nav, GitHub link, light/dark/system theme toggle (persisted to `localStorage`, applied via `data-theme` on `<html>`), Korean/English toggle (Google Website Translator inline widget, cookie-based), OG/Twitter meta tags (per-page `description` from `reportMeta`, shared `public/og-image.png`), and Astro View Transitions (`<ClientRouter />`) with the sidebar marked `transition:persist` so only `<main>` swaps on navigation — except when English is active, where navigation falls back to full page loads so Google's widget can re-scan each page.
 
 Editing a report only requires touching the one file in `reports/`; there is no docs-mirroring step (an earlier Docsify-based `docs/` copy was removed in favor of this Astro site).
 
