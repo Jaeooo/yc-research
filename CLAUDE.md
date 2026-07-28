@@ -30,12 +30,22 @@ No lint/test tooling configured.
 
 There is no docs-mirroring step beyond the ko/en split above (an earlier Docsify-based `docs/` copy was removed in favor of this Astro site).
 
+## Charts on the companies-report page
+
+`reports/yc_companies_report.md` (and its English translation) render six interactive charts below the markdown content, in addition to — not instead of — the tables already in the `.md` source. This is the one place in the site with data-driven visuals; other reports are plain rendered markdown.
+
+- `src/lib/companiesData.ts`: reads `data/raw/yc_companies_all.csv` (5,653 companies) and `data/raw/yc_ai_share_by_year.csv` at **build time** via `csv-parse`, using `process.cwd()`-relative paths (not `import.meta.url` — that breaks once Astro moves the compiled module under `dist/.prerender/`). Exports pre-aggregated arrays (`companiesByYear`, `industryDistribution`, `statusDistribution`, `aiShareByYear`, `recentBatches`, `teamSizeDistribution`) consumed directly by both `src/pages/reports/[slug].astro` and `src/pages/en/reports/[slug].astro`, gated behind `entry.id === "yc_companies_report"`.
+- `data/raw/yc_ai_share_by_year.csv`: a small hand-maintained companion dataset (year, total, AI-company count, AI share %). The main `yc_companies_all.csv` has no "is this company AI" flag, so this figure can't be derived from it — these 21 rows were transcribed from the already-published report table (the original source of that classification is not preserved elsewhere in the repo) rather than re-derived by keyword-matching, which would drift from the published numbers.
+- `src/components/LineChart.astro` / `src/components/BarChart.astro`: self-contained chart components (inline SVG, no chart library) with crosshair/hover tooltips, light/dark theming via the same CSS custom properties as the rest of the site, and `astro:page-load`-bound interactivity (idempotent init guarded by a `dataset.bound` flag, since View Transitions re-fire the event without a full reload).
+- If `companiesData.ts`'s aggregation logic changes, sanity-check the output against the corresponding table already in `reports/yc_companies_report.md` — they're independently sourced (one from the full CSV, one transcribed by hand) and were verified to match exactly (except industry/team-size counts, which are intentionally more accurate from the CSV than the older hand-written table — see git history for the discrepancy analysis) at the time this was built.
+
 ## Data files
 
 - `data/raw/yc_companies_all.csv` / `.json` — full YC company list (~5,653 companies, Summer 2009–Winter 2025, 43 batches). Fields: name, batch, year, industry, one_liner, website, team_size, status.
 - `data/raw/yc_founders_w25.csv` / `.json` — Winter 2025 founders (321 people, 165 companies). Fields: company_name, founder_name, founder_title, founder_bio, founder_linkedin, founder_twitter.
 - `data/raw/yc_founders_s24_w24.json` — Summer 2024 + Winter 2024 founders (566 companies, 1,075 founders), nested per-company with a `founders` array.
 - `data/raw/yc_idea_stage_analysis.json` — supporting data for the idea-stage tracking report.
+- `data/raw/yc_ai_share_by_year.csv` — year, total companies, AI companies, AI share % (2005–2025). Backs the AI-share chart on the companies-report page; see "Charts on the companies-report page" below for why it's separate from `yc_companies_all.csv`.
 
 Each raw dataset has a matching `data/overview/*_overview.md` describing its fields/stats/samples — check those before writing code that parses the raw files.
 

@@ -1,7 +1,17 @@
 ---
 import Base from "../../layouts/Base.astro";
+import LineChart from "../../components/LineChart.astro";
+import BarChart from "../../components/BarChart.astro";
 import { getCollection, render } from "astro:content";
 import { reportMeta } from "../../lib/reportMeta";
+import {
+  companiesByYear,
+  aiShareByYear,
+  industryDistribution,
+  statusDistribution,
+  recentBatches,
+  teamSizeDistribution,
+} from "../../lib/companiesData";
 
 export async function getStaticPaths() {
   const entries = await getCollection("reports");
@@ -14,6 +24,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const meta = reportMeta[entry.id];
+const showCompaniesCharts = entry.id === "yc_companies_report";
 ---
 <Base
   title={meta?.title ?? entry.id}
@@ -21,7 +32,28 @@ const meta = reportMeta[entry.id];
   activeSlug={entry.id}
   lang="ko"
 >
-  <article class="markdown">
+  <article class:list={["markdown", { "hide-tables": showCompaniesCharts }]}>
     <Content />
   </article>
+  {showCompaniesCharts && (
+    <section class="chart-section">
+      <LineChart id="companies-by-year" title="연도별 기업 수" points={companiesByYear} />
+      <BarChart id="industry-distribution" title="산업별 분포" points={industryDistribution} />
+      <BarChart id="status-distribution" title="기업 상태" points={statusDistribution} />
+      <LineChart
+        id="ai-share-by-year"
+        title="AI 기업 비율 추이"
+        points={aiShareByYear}
+        valueFormat={(v) => `${v}%`}
+      />
+      <BarChart id="recent-batches" title="최근 배치별 기업 수 (최근 12개)" points={recentBatches} />
+      <BarChart id="team-size" title="팀 사이즈 분포" points={teamSizeDistribution} />
+    </section>
+  )}
 </Base>
+
+<style>
+  .markdown.hide-tables :global(table) {
+    display: none;
+  }
+</style>

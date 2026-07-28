@@ -1,7 +1,17 @@
 ---
 import Base from "../../../layouts/Base.astro";
+import LineChart from "../../../components/LineChart.astro";
+import BarChart from "../../../components/BarChart.astro";
 import { getCollection, render } from "astro:content";
 import { reportMetaEn } from "../../../lib/reportMeta";
+import {
+  companiesByYear,
+  aiShareByYear,
+  industryDistribution,
+  statusDistribution,
+  recentBatches,
+  teamSizeDistribution,
+} from "../../../lib/companiesData";
 
 export async function getStaticPaths() {
   const entries = await getCollection("reportsEn");
@@ -14,6 +24,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content } = await render(entry);
 const meta = reportMetaEn[entry.id];
+const showCompaniesCharts = entry.id === "yc_companies_report";
 ---
 <Base
   title={meta?.title ?? entry.id}
@@ -21,7 +32,28 @@ const meta = reportMetaEn[entry.id];
   activeSlug={entry.id}
   lang="en"
 >
-  <article class="markdown">
+  <article class:list={["markdown", { "hide-tables": showCompaniesCharts }]}>
     <Content />
   </article>
+  {showCompaniesCharts && (
+    <section class="chart-section">
+      <LineChart id="companies-by-year" title="Companies by Year" points={companiesByYear} />
+      <BarChart id="industry-distribution" title="Distribution by Industry" points={industryDistribution} />
+      <BarChart id="status-distribution" title="Company Status" points={statusDistribution} />
+      <LineChart
+        id="ai-share-by-year"
+        title="AI Company Share Over Time"
+        points={aiShareByYear}
+        valueFormat={(v) => `${v}%`}
+      />
+      <BarChart id="recent-batches" title="Companies by Recent Batch (last 12)" points={recentBatches} />
+      <BarChart id="team-size" title="Team Size Distribution" points={teamSizeDistribution} />
+    </section>
+  )}
 </Base>
+
+<style>
+  .markdown.hide-tables :global(table) {
+    display: none;
+  }
+</style>

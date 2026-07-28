@@ -1,0 +1,267 @@
+---
+interface Point {
+  label: string;
+  value: number;
+}
+
+interface Props {
+  title: string;
+  points: Point[];
+  valueFormat?: (v: number) => string;
+  id: string;
+}
+
+const { title, points, valueFormat = (v) => String(v), id } = Astro.props;
+
+const width = 720;
+const height = 280;
+const padding = { top: 16, right: 16, bottom: 28, left: 48 };
+const plotW = width - padding.left - padding.right;
+const plotH = height - padding.top - padding.bottom;
+
+const values = points.map((p) => p.value);
+const maxV = Math.max(...values);
+const minV = Math.min(0, Math.min(...values));
+const niceMax = Math.ceil(maxV / (maxV > 100 ? 100 : 10)) * (maxV > 100 ? 100 : 10) || maxV;
+
+function xFor(i: number) {
+  return padding.left + (i / (points.length - 1)) * plotW;
+}
+function yFor(v: number) {
+  return padding.top + plotH - ((v - minV) / (niceMax - minV)) * plotH;
+}
+
+const linePath = points
+  .map((p, i) => `${i === 0 ? "M" : "L"}${xFor(i).toFixed(1)},${yFor(p.value).toFixed(1)}`)
+  .join(" ");
+
+const areaPath = `${linePath} L${xFor(points.length - 1).toFixed(1)},${(padding.top + plotH).toFixed(1)} L${xFor(0).toFixed(1)},${(padding.top + plotH).toFixed(1)} Z`;
+
+const yTicks = 4;
+const tickValues = Array.from({ length: yTicks + 1 }, (_, i) => minV + ((niceMax - minV) * i) / yTicks);
+
+const xLabelStep = Math.ceil(points.length / 10);
+---
+
+<div class="viz-root" data-chart-id={id}>
+  <p class="viz-title">{title}</p>
+  <svg viewBox={`0 0 ${width} ${height}`} class="viz-svg" role="img" aria-label={title}>
+    {tickValues.map((tv) => (
+      <g>
+        <line
+          x1={padding.left}
+          x2={width - padding.right}
+          y1={yFor(tv)}
+          y2={yFor(tv)}
+          class="viz-grid"
+        />
+        <text x={padding.left - 8} y={yFor(tv)} class="viz-axis-label" text-anchor="end" dominant-baseline="middle">
+          {valueFormat(Math.round(tv))}
+        </text>
+      </g>
+    ))}
+
+    {points.map((p, i) =>
+      i % xLabelStep === 0 || i === points.length - 1 ? (
+        <text x={xFor(i)} y={height - 6} class="viz-axis-label" text-anchor="middle">
+          {p.label}
+        </text>
+      ) : null
+    )}
+
+    <path d={areaPath} class="viz-area" />
+    <path d={linePath} class="viz-line" />
+
+    {points.map((p, i) => (
+      <circle cx={xFor(i)} cy={yFor(p.value)} r="4" class="viz-dot" />
+    ))}
+
+    <circle
+      class="viz-dot viz-hover-dot"
+      r="5"
+      cx={xFor(points.length - 1)}
+      cy={yFor(points[points.length - 1].value)}
+      opacity="0"
+    />
+
+    {points.map((p, i) => (
+      <rect
+        x={xFor(i) - plotW / points.length / 2}
+        y={padding.top}
+        width={plotW / points.length}
+        height={plotH}
+        fill="transparent"
+        class="viz-hit"
+        data-label={p.label}
+        data-value={valueFormat(p.value)}
+        data-cx={xFor(i)}
+        data-cy={yFor(p.value)}
+      />
+    ))}
+
+    <line class="viz-crosshair" x1="0" x2="0" y1={padding.top} y2={padding.top + plotH} opacity="0" />
+  </svg>
+  <div class="viz-tooltip" role="status" aria-live="polite"></div>
+</div>
+
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: var(--card-bg);
+    --text-primary: var(--fg);
+    --text-secondary: var(--muted);
+    --grid: var(--border);
+    --series-1: #2a78d6;
+    margin: 1.5rem 0;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1rem 0.5rem;
+    position: relative;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .viz-root {
+      --series-1: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    --series-1: #3987e5;
+  }
+  .viz-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .viz-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+  }
+  .viz-grid {
+    stroke: var(--grid);
+    stroke-width: 1;
+  }
+  .viz-axis-label {
+    fill: var(--text-secondary);
+    font-size: 10px;
+  }
+  .viz-line {
+    fill: none;
+    stroke: var(--series-1);
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+  }
+  .viz-area {
+    fill: var(--series-1);
+    opacity: 0.1;
+    stroke: none;
+  }
+  .viz-dot {
+    fill: var(--series-1);
+    stroke: var(--surface-1);
+    stroke-width: 2;
+  }
+  .viz-hover-dot {
+    pointer-events: none;
+    transition: opacity 0.08s ease;
+  }
+  .viz-crosshair {
+    stroke: var(--text-secondary);
+    stroke-width: 1;
+    pointer-events: none;
+  }
+  .viz-hit {
+    cursor: crosshair;
+  }
+  .viz-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--text-primary);
+    color: var(--surface-1);
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.08s ease;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .viz-tooltip .viz-tooltip-value {
+    font-weight: 700;
+  }
+  .viz-tooltip .viz-tooltip-label {
+    color: var(--muted);
+    margin-left: 0.35rem;
+  }
+</style>
+
+<script>
+  function initCharts() {
+    document.querySelectorAll<HTMLElement>(".viz-root").forEach((root) => {
+      if (root.dataset.bound) return;
+      root.dataset.bound = "true";
+
+      const svg = root.querySelector("svg")!;
+      const tooltip = root.querySelector<HTMLElement>(".viz-tooltip")!;
+      const crosshair = root.querySelector<SVGLineElement>(".viz-crosshair")!;
+      const hoverDot = root.querySelector<SVGCircleElement>(".viz-hover-dot")!;
+      const hits = root.querySelectorAll<SVGRectElement>(".viz-hit");
+
+      function show(hit: SVGRectElement) {
+        const label = hit.dataset.label!;
+        const value = hit.dataset.value!;
+        const cx = hit.dataset.cx!;
+        const cy = hit.dataset.cy!;
+
+        crosshair.setAttribute("x1", cx);
+        crosshair.setAttribute("x2", cx);
+        crosshair.setAttribute("opacity", "1");
+
+        hoverDot.setAttribute("cx", cx);
+        hoverDot.setAttribute("cy", cy);
+        hoverDot.setAttribute("opacity", "1");
+
+        const svgRect = svg.getBoundingClientRect();
+        const rootRect = root.getBoundingClientRect();
+        const scale = svgRect.width / svg.viewBox.baseVal.width;
+        const px = svgRect.left - rootRect.left + Number(cx) * scale;
+        const py = svgRect.top - rootRect.top + Number(cy) * scale;
+
+        tooltip.style.left = `${px}px`;
+        tooltip.style.top = `${py - 8}px`;
+        tooltip.style.opacity = "1";
+        tooltip.textContent = "";
+        const valueEl = document.createElement("span");
+        valueEl.className = "viz-tooltip-value";
+        valueEl.textContent = value;
+        const labelEl = document.createElement("span");
+        labelEl.className = "viz-tooltip-label";
+        labelEl.textContent = label;
+        tooltip.appendChild(valueEl);
+        tooltip.appendChild(labelEl);
+      }
+
+      function hide() {
+        crosshair.setAttribute("opacity", "0");
+        hoverDot.setAttribute("opacity", "0");
+        tooltip.style.opacity = "0";
+      }
+
+      hits.forEach((hit) => {
+        hit.addEventListener("pointerenter", () => show(hit));
+        hit.addEventListener("pointermove", () => show(hit));
+        hit.addEventListener("focus", () => show(hit));
+      });
+      svg.addEventListener("pointerleave", hide);
+      root.addEventListener("focusout", hide);
+    });
+  }
+
+  document.addEventListener("astro:page-load", initCharts);
+</script>

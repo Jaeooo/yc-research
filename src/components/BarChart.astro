@@ -1,0 +1,201 @@
+---
+interface Point {
+  label: string;
+  value: number;
+}
+
+interface Props {
+  title: string;
+  points: Point[];
+  valueFormat?: (v: number) => string;
+  id: string;
+}
+
+const { title, points, valueFormat = (v) => v.toLocaleString(), id } = Astro.props;
+
+const rowH = 28;
+const gap = 6;
+const width = 640;
+const labelW = 180;
+const barAreaW = width - labelW - 60;
+const height = points.length * (rowH + gap) - gap + 12;
+
+const maxV = Math.max(...points.map((p) => p.value));
+
+function barW(v: number) {
+  return (v / maxV) * barAreaW;
+}
+---
+
+<div class="viz-root viz-bar" data-chart-id={id}>
+  <p class="viz-title">{title}</p>
+  <svg viewBox={`0 0 ${width} ${height}`} class="viz-svg" role="img" aria-label={title}>
+    {points.map((p, i) => {
+      const y = i * (rowH + gap);
+      const w = Math.max(barW(p.value), 4);
+      return (
+        <g>
+          <text x={labelW - 10} y={y + rowH / 2} class="viz-bar-label" text-anchor="end" dominant-baseline="middle">
+            {p.label}
+          </text>
+          <rect x={labelW} y={y} width={barAreaW} height={rowH} class="viz-bar-track" rx="4" />
+          <rect x={labelW} y={y} width={w} height={rowH} class="viz-bar-fill" rx="4" data-full-width={w} />
+          <text
+            x={labelW + w + 8}
+            y={y + rowH / 2}
+            class="viz-bar-value"
+            dominant-baseline="middle"
+          >
+            {valueFormat(p.value)}
+          </text>
+          <rect
+            x="0"
+            y={y}
+            width={width}
+            height={rowH}
+            fill="transparent"
+            class="viz-hit"
+            data-label={p.label}
+            data-value={valueFormat(p.value)}
+          />
+        </g>
+      );
+    })}
+  </svg>
+  <div class="viz-tooltip" role="status" aria-live="polite"></div>
+</div>
+
+<style>
+  .viz-root {
+    color-scheme: light;
+    --surface-1: var(--card-bg);
+    --text-primary: var(--fg);
+    --text-secondary: var(--muted);
+    --track: var(--border);
+    --series-1: #2a78d6;
+    margin: 1.5rem 0;
+    background: var(--surface-1);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem 1rem 0.75rem;
+    position: relative;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .viz-root {
+      --series-1: #3987e5;
+    }
+  }
+  :root[data-theme="dark"] .viz-root {
+    --series-1: #3987e5;
+  }
+  .viz-title {
+    margin: 0 0 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--text-primary);
+  }
+  .viz-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .viz-bar-label {
+    fill: var(--text-secondary);
+    font-size: 11px;
+  }
+  .viz-bar-value {
+    fill: var(--text-primary);
+    font-size: 11px;
+    font-variant-numeric: tabular-nums;
+  }
+  .viz-bar-track {
+    fill: var(--track);
+    opacity: 0.5;
+  }
+  .viz-bar-fill {
+    fill: var(--series-1);
+    transition: opacity 0.08s ease;
+  }
+  .viz-hit {
+    cursor: pointer;
+  }
+  .viz-hit:hover ~ .viz-bar-fill,
+  .viz-bar-fill:hover {
+    opacity: 0.85;
+  }
+  .viz-tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: var(--text-primary);
+    color: var(--surface-1);
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 6px;
+    opacity: 0;
+    transition: opacity 0.08s ease;
+    white-space: nowrap;
+    transform: translate(-50%, -100%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .viz-tooltip .viz-tooltip-value {
+    font-weight: 700;
+  }
+  .viz-tooltip .viz-tooltip-label {
+    color: var(--muted);
+    margin-left: 0.35rem;
+  }
+</style>
+
+<script>
+  function initBarCharts() {
+    document.querySelectorAll<HTMLElement>(".viz-bar").forEach((root) => {
+      if (root.dataset.bound) return;
+      root.dataset.bound = "true";
+
+      const svg = root.querySelector("svg")!;
+      const tooltip = root.querySelector<HTMLElement>(".viz-tooltip")!;
+      const hits = root.querySelectorAll<SVGRectElement>(".viz-hit");
+
+      hits.forEach((hit) => {
+        const show = (evt: PointerEvent) => {
+          const label = hit.dataset.label!;
+          const value = hit.dataset.value!;
+
+          const svgRect = svg.getBoundingClientRect();
+          const rootRect = root.getBoundingClientRect();
+          const px = evt.clientX - rootRect.left;
+          const py = svgRect.top - rootRect.top + hit.y.baseVal.value * (svgRect.height / svg.viewBox.baseVal.height);
+
+          tooltip.style.left = `${px}px`;
+          tooltip.style.top = `${py - 4}px`;
+          tooltip.style.opacity = "1";
+          tooltip.textContent = "";
+          const valueEl = document.createElement("span");
+          valueEl.className = "viz-tooltip-value";
+          valueEl.textContent = value;
+          const labelEl = document.createElement("span");
+          labelEl.className = "viz-tooltip-label";
+          labelEl.textContent = label;
+          tooltip.appendChild(valueEl);
+          tooltip.appendChild(labelEl);
+        };
+        hit.addEventListener("pointerenter", show);
+        hit.addEventListener("pointermove", show);
+        hit.addEventListener("pointerleave", () => {
+          tooltip.style.opacity = "0";
+        });
+        hit.addEventListener("focus", () => {
+          tooltip.style.opacity = "1";
+          tooltip.textContent = `${hit.dataset.value} ${hit.dataset.label}`;
+        });
+        hit.addEventListener("blur", () => {
+          tooltip.style.opacity = "0";
+        });
+      });
+    });
+  }
+
+  document.addEventListener("astro:page-load", initBarCharts);
+</script>
