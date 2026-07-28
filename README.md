@@ -104,12 +104,13 @@ YC-Project/
 |------|------|------|
 | 3 | `reports/yc_student_founders_report.md` | 학부생/중퇴 창업팀 93개 기업 분석 |
 | 4 | `reports/yc_application_strategy.md` | 비전통적 배경으로 YC 합격한 패턴 분석 |
+| 5 | `reports/yc_founders_career_analysis.md` | 창업자 커리어/스펙 분석 (W25) |
 
 ### 3단계: 방향 설정
 | 순서 | 파일 | 내용 |
 |------|------|------|
-| 5 | `reports/yc_report_ai_b2b.md` | AI+B2B 방향 — 270개 기업 분석, 8개 세부 카테고리 |
-| 6 | `reports/yc_report_asia.md` | 한국/아시아 방향 — 139개 기업, 13명 한국인 창업자 |
+| 6 | `reports/yc_report_ai_b2b.md` | AI+B2B 방향 — 270개 기업 분석, 8개 세부 카테고리 |
+| 7 | `reports/yc_report_asia.md` | 한국/아시아 방향 — 139개 기업, 13명 한국인 창업자 |
 
 ### 4단계: 심화 리서치
 | 파일 | 내용 |
@@ -122,7 +123,6 @@ YC-Project/
 | `reports/yc_application_qa_analysis.md` | 지원서 Q&A |
 | `reports/yc_ai_b2b_gaps_analysis.md` | AI B2B 빈틈 |
 | `reports/yc_ai_b2b_complete_list.md` | AI B2B 전체 리스트 |
-| `reports/yc_founders_career_analysis.md` | 창업자 커리어/스펙 분석 (W25) |
 
 ---
 

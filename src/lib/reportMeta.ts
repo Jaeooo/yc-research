@@ -17,7 +17,7 @@ export const reportMeta: Record<string, ReportMeta> = {
   },
   yc_recent_batches_raw: {
     title: "최근 배치 Raw",
-    group: "기본 분석",
+    group: "데이터",
     description: "최근 3개 배치(W24, S24, W25) 기업 리스트 원본.",
   },
   yc_application_strategy: {
@@ -77,12 +77,12 @@ export const reportMeta: Record<string, ReportMeta> = {
   },
   yc_founders_career_analysis: {
     title: "창업자 커리어/스펙 분석",
-    group: "심화 리서치",
+    group: "기본 분석",
     description: "W25 창업자 323명 학교/전 직장/경력 패턴 분석.",
   },
 };
 
-export const groupOrder = ["기본 분석", "심화 리서치"];
+export const groupOrder = ["기본 분석", "심화 리서치", "데이터"];
 
 export const reportMetaEn: Record<string, ReportMeta> = {
   yc_companies_report: {
@@ -97,7 +97,7 @@ export const reportMetaEn: Record<string, ReportMeta> = {
   },
   yc_recent_batches_raw: {
     title: "Recent Batches Raw Data",
-    group: "Core Analysis",
+    group: "Data",
     description: "Raw company list for the 3 most recent batches (W24, S24, W25).",
   },
   yc_application_strategy: {
@@ -157,9 +157,9 @@ export const reportMetaEn: Record<string, ReportMeta> = {
   },
   yc_founders_career_analysis: {
     title: "Founder Career/Background Analysis",
-    group: "Deep Research",
+    group: "Core Analysis",
     description: "Analysis of school/prior-job/career patterns across 323 W25 founders.",
   },
 };
 
-export const groupOrderEn = ["Core Analysis", "Deep Research"];
+export const groupOrderEn = ["Core Analysis", "Deep Research", "Data"];
