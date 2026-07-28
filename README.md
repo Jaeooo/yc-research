@@ -25,7 +25,7 @@ YC-Project/
 │       ├── yc_founders_w25_overview.md   — W25 창업자 데이터 필드/통계/샘플
 │       └── yc_founders_s24_w24_overview.md — S24+W24 창업자 데이터 구조/통계
 │
-├── reports/                              — 분석 리포트 (15개, 한국어 원문)
+├── reports/                              — 분석 리포트 (16개, 한국어 원문)
 │   ├── yc_companies_report.md            — 전체 기업 경향성 분석
 │   ├── yc_student_founders_report.md     — 학부생/중퇴 창업팀 분석
 │   ├── yc_recent_batches_raw.md          — 최근 3개 배치 raw 데이터 (MD 테이블)
@@ -41,7 +41,8 @@ YC-Project/
 │   ├── yc_ai_b2b_gaps_analysis.md        — AI B2B 빈틈
 │   ├── yc_ai_b2b_complete_list.md        — AI B2B 전체 리스트
 │   ├── yc_founders_career_analysis.md    — 창업자 커리어/스펙 분석 (W25)
-│   └── en/                               — 위 15개 리포트의 영어 번역본 (동일 파일명)
+│   ├── yc_founders_career_raw.md         — 창업자 커리어/스펙 raw 데이터 (W25, MD 테이블)
+│   └── en/                               — 위 16개 리포트의 영어 버전 (동일 파일명; raw 데이터는 헤딩/라벨만 영어)
 │
 ├── src/                                   — Astro 사이트 소스 (Vercel 배포)
 │   ├── pages/                             — index, reports/[slug] (한국어)

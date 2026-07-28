@@ -54,7 +54,7 @@ Each raw dataset has a matching `data/overview/*_overview.md` describing its fie
 Reports live in `reports/`, in Korean, layered (matches the `group` field in `src/lib/reportMeta.ts`):
 - 기본 분석 (base analysis, data-driven — direct aggregation over the raw datasets, no subjective strategy/recommendation content): `yc_companies_report.md`, `yc_student_founders_report.md`, `yc_report_ai_b2b.md`, `yc_report_asia.md`, `yc_founders_career_analysis.md`.
 - 심화 리서치 (deeper research, includes interpretive/strategic content): `yc_application_strategy.md`, `yc_interview_patterns.md`, `yc_korean_founders_deep_dive.md`, `yc_idea_stage_companies_tracking.md`, `yc_demo_day_investment_analysis.md`, `yc_competitive_landscape.md`, `yc_application_qa_analysis.md`, `yc_ai_b2b_gaps_analysis.md`, `yc_ai_b2b_complete_list.md`.
-- 데이터 (data, raw listings rather than analysis): `yc_recent_batches_raw.md`.
+- 데이터 (data, raw listings rather than analysis): `yc_recent_batches_raw.md`, `yc_founders_career_raw.md`.
 
 `README.md` (root) is a human-facing index describing recommended reading order and key insights — update it when adding a new report. It is documentation only, not read by the site.
 

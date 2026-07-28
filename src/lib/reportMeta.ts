@@ -80,6 +80,11 @@ export const reportMeta: Record<string, ReportMeta> = {
     group: "기본 분석",
     description: "W25 창업자 323명 학교/전 직장/경력 패턴 분석.",
   },
+  yc_founders_career_raw: {
+    title: "창업자 커리어/스펙 Raw",
+    group: "데이터",
+    description: "W25 창업자 323명 기업/이름/직함/bio 원본 리스트.",
+  },
 };
 
 export const groupOrder = ["기본 분석", "심화 리서치", "데이터"];
@@ -159,6 +164,11 @@ export const reportMetaEn: Record<string, ReportMeta> = {
     title: "Founder Career/Background Analysis",
     group: "Core Analysis",
     description: "Analysis of school/prior-job/career patterns across 323 W25 founders.",
+  },
+  yc_founders_career_raw: {
+    title: "Founders Career/Background Raw",
+    group: "Data",
+    description: "Raw list of 323 W25 founders — company/name/title/bio.",
   },
 };
 
