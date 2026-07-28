@@ -24,6 +24,6 @@
   - [AI B2B 빈틈](yc_ai_b2b_gaps_analysis.md)
 
 - **📁 원본 데이터 (GitHub)**
-  - [기업 CSV ↗](https://github.com/Jaeooo/yc-research/blob/main/yc_companies_all.csv)
-  - [기업 JSON ↗](https://github.com/Jaeooo/yc-research/blob/main/yc_companies_all.json)
-  - [창업자 JSON ↗](https://github.com/Jaeooo/yc-research/blob/main/yc_founders_w25.json)
+  - [기업 CSV ↗](https://github.com/Jaeooo/yc-research/blob/main/data/raw/yc_companies_all.csv)
+  - [기업 JSON ↗](https://github.com/Jaeooo/yc-research/blob/main/data/raw/yc_companies_all.json)
+  - [창업자 JSON ↗](https://github.com/Jaeooo/yc-research/blob/main/data/raw/yc_founders_w25.json)
