@@ -32,23 +32,25 @@ const showCompaniesCharts = entry.id === "yc_companies_report";
   activeSlug={entry.id}
   lang="ko"
 >
-  <article class:list={["markdown", { "hide-tables": showCompaniesCharts }]}>
+  <article class:list={["markdown", { "hide-tables": showCompaniesCharts }]} id="report-body">
     <Content />
   </article>
   {showCompaniesCharts && (
-    <section class="chart-section">
-      <LineChart id="companies-by-year" title="연도별 기업 수" points={companiesByYear} />
-      <BarChart id="industry-distribution" title="산업별 분포" points={industryDistribution} />
-      <BarChart id="status-distribution" title="기업 상태" points={statusDistribution} />
-      <LineChart
-        id="ai-share-by-year"
-        title="AI 기업 비율 추이"
-        points={aiShareByYear}
-        valueFormat={(v) => `${v}%`}
-      />
-      <BarChart id="recent-batches" title="최근 배치별 기업 수 (최근 12개)" points={recentBatches} />
-      <BarChart id="team-size" title="팀 사이즈 분포" points={teamSizeDistribution} />
-    </section>
+    <div id="chart-pool" hidden>
+      <div data-after-table="1"><LineChart id="companies-by-year" title="연도별 기업 수" points={companiesByYear} /></div>
+      <div data-after-table="2"><BarChart id="industry-distribution" title="산업별 분포" points={industryDistribution} /></div>
+      <div data-after-table="3"><BarChart id="status-distribution" title="기업 상태" points={statusDistribution} /></div>
+      <div data-after-table="4">
+        <LineChart
+          id="ai-share-by-year"
+          title="AI 기업 비율 추이"
+          points={aiShareByYear}
+          valueFormat={(v) => `${v}%`}
+        />
+      </div>
+      <div data-after-table="5"><BarChart id="recent-batches" title="최근 배치별 기업 수 (최근 12개)" points={recentBatches} /></div>
+      <div data-after-table="6"><BarChart id="team-size" title="팀 사이즈 분포" points={teamSizeDistribution} /></div>
+    </div>
   )}
 </Base>
 
@@ -57,3 +59,24 @@ const showCompaniesCharts = entry.id === "yc_companies_report";
     display: none;
   }
 </style>
+
+{showCompaniesCharts && (
+  <script>
+    function placeCharts() {
+      const pool = document.getElementById("chart-pool");
+      const article = document.getElementById("report-body");
+      if (!pool || !article) return;
+
+      const tables = article.querySelectorAll("table");
+      pool.querySelectorAll<HTMLElement>("[data-after-table]").forEach((wrapper) => {
+        const index = Number(wrapper.dataset.afterTable) - 1;
+        const table = tables[index];
+        if (!table) return;
+        table.after(wrapper);
+        wrapper.hidden = false;
+      });
+      pool.remove();
+    }
+    document.addEventListener("astro:page-load", placeCharts);
+  </script>
+)}

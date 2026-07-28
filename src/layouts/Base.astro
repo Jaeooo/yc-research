@@ -178,6 +178,16 @@ const t = isEn
         syncThemeButtons();
       }
 
+      function reapplyStoredTheme() {
+        const saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+        }
+      }
+
+      document.addEventListener("astro:page-load", reapplyStoredTheme);
       document.addEventListener("astro:page-load", syncActiveLink);
       document.addEventListener("astro:page-load", initThemeToggle);
     </script>
@@ -196,7 +206,7 @@ const t = isEn
     --sidebar-bg: #fafafa;
   }
   @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme]) {
       --bg: #0f1115;
       --fg: #e8e8e8;
       --muted: #9a9a9a;

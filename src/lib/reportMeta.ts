@@ -75,6 +75,11 @@ export const reportMeta: Record<string, ReportMeta> = {
     group: "심화 리서치",
     description: "AI B2B 전체 기업 리스트.",
   },
+  yc_founders_career_analysis: {
+    title: "창업자 커리어/스펙 분석",
+    group: "심화 리서치",
+    description: "W25 창업자 323명 학교/전 직장/경력 패턴 분석.",
+  },
 };
 
 export const groupOrder = ["기본 분석", "심화 리서치"];
@@ -149,6 +154,11 @@ export const reportMetaEn: Record<string, ReportMeta> = {
     title: "AI B2B Complete List",
     group: "Deep Research",
     description: "Complete list of AI B2B companies.",
+  },
+  yc_founders_career_analysis: {
+    title: "Founder Career/Background Analysis",
+    group: "Deep Research",
+    description: "Analysis of school/prior-job/career patterns across 323 W25 founders.",
   },
 };
 
