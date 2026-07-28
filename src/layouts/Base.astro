@@ -1,0 +1,347 @@
+---
+import { ClientRouter } from "astro:transitions";
+import { reportMeta, groupOrder } from "../lib/reportMeta";
+
+interface Props {
+  title: string;
+  activeSlug?: string;
+}
+const { title, activeSlug } = Astro.props;
+
+const groups = groupOrder.map((group) => ({
+  group,
+  items: Object.entries(reportMeta)
+    .filter(([, meta]) => meta.group === group)
+    .map(([slug, meta]) => ({ slug, title: meta.title })),
+}));
+---
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} · YC Research</title>
+    <ClientRouter />
+    <script is:inline>
+      (function () {
+        var saved = localStorage.getItem("theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar" transition:persist>
+        <a class="brand" href="/">YC Research</a>
+        <div class="theme-toggle" role="radiogroup" aria-label="테마 선택">
+          <button type="button" data-theme-choice="light" aria-pressed="false">라이트</button>
+          <button type="button" data-theme-choice="dark" aria-pressed="false">다크</button>
+          <button type="button" data-theme-choice="system" aria-pressed="false">시스템</button>
+        </div>
+        <label class="lang-select">
+          <span>언어</span>
+          <select id="lang-picker">
+            <option value="ko">한국어 (원문)</option>
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+            <option value="zh-CN">中文</option>
+          </select>
+        </label>
+        <nav>
+          {groups.map(({ group, items }) => (
+            <div class="nav-group">
+              <p class="nav-group-title">{group}</p>
+              <ul>
+                {items.map((item) => (
+                  <li>
+                    <a
+                      href={`/reports/${item.slug}/`}
+                      aria-current={activeSlug === item.slug ? "page" : undefined}
+                    >
+                      {item.title}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </nav>
+      </aside>
+      <main transition:animate="slide">
+        <slot />
+      </main>
+    </div>
+    <script>
+      function syncActiveLink() {
+        const links = document.querySelectorAll<HTMLAnchorElement>(".nav-group a");
+        links.forEach((link) => {
+          const isActive = link.pathname === window.location.pathname;
+          if (isActive) {
+            link.setAttribute("aria-current", "page");
+          } else {
+            link.removeAttribute("aria-current");
+          }
+        });
+      }
+
+      function applyTheme(choice: string) {
+        if (choice === "light" || choice === "dark") {
+          document.documentElement.setAttribute("data-theme", choice);
+          localStorage.setItem("theme", choice);
+        } else {
+          document.documentElement.removeAttribute("data-theme");
+          localStorage.removeItem("theme");
+        }
+        syncThemeButtons();
+      }
+
+      function syncThemeButtons() {
+        const current = localStorage.getItem("theme") ?? "system";
+        document.querySelectorAll<HTMLButtonElement>("[data-theme-choice]").forEach((btn) => {
+          btn.setAttribute("aria-pressed", String(btn.dataset.themeChoice === current));
+        });
+      }
+
+      function initThemeToggle() {
+        document.querySelectorAll<HTMLButtonElement>("[data-theme-choice]").forEach((btn) => {
+          if (btn.dataset.bound) return;
+          btn.dataset.bound = "true";
+          btn.addEventListener("click", () => applyTheme(btn.dataset.themeChoice!));
+        });
+        syncThemeButtons();
+      }
+
+      function initLangPicker() {
+        const picker = document.getElementById("lang-picker") as HTMLSelectElement | null;
+        if (!picker || picker.dataset.bound) return;
+        picker.dataset.bound = "true";
+        picker.value = sessionStorage.getItem("langChoice") ?? "ko";
+        picker.addEventListener("change", () => {
+          const target = picker.value;
+          if (target === "ko") {
+            sessionStorage.removeItem("langChoice");
+            return;
+          }
+          sessionStorage.setItem("langChoice", target);
+          const current = window.location.href.split("#")[0];
+          window.location.href =
+            "https://translate.google.com/translate?sl=ko&tl=" +
+            encodeURIComponent(target) +
+            "&u=" +
+            encodeURIComponent(current);
+        });
+      }
+
+      document.addEventListener("astro:page-load", syncActiveLink);
+      document.addEventListener("astro:page-load", initThemeToggle);
+      document.addEventListener("astro:page-load", initLangPicker);
+    </script>
+  </body>
+</html>
+
+<style is:global>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e5e5e5;
+    --accent: #2563eb;
+    --card-bg: #f7f7f8;
+    --sidebar-bg: #fafafa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115;
+      --fg: #e8e8e8;
+      --muted: #9a9a9a;
+      --border: #262a33;
+      --accent: #5b8def;
+      --card-bg: #171a21;
+      --sidebar-bg: #14161b;
+    }
+  }
+  :root[data-theme="light"] {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #e5e5e5;
+    --accent: #2563eb;
+    --card-bg: #f7f7f8;
+    --sidebar-bg: #fafafa;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0f1115;
+    --fg: #e8e8e8;
+    --muted: #9a9a9a;
+    --border: #262a33;
+    --accent: #5b8def;
+    --card-bg: #171a21;
+    --sidebar-bg: #14161b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Pretendard, sans-serif;
+    line-height: 1.6;
+  }
+  table {
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 0.4rem 0.7rem;
+    text-align: left;
+    white-space: nowrap;
+  }
+  code {
+    background: var(--card-bg);
+    color: var(--fg);
+    padding: 0.1rem 0.35rem;
+    border-radius: 4px;
+    font-size: 0.9em;
+  }
+  pre {
+    background: var(--card-bg);
+    color: var(--fg);
+    padding: 1rem;
+    border-radius: 8px;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+  }
+  pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+  a { color: var(--accent); }
+  blockquote {
+    margin: 0;
+    padding: 0.25rem 1rem;
+    border-left: 3px solid var(--border);
+    color: var(--muted);
+  }
+</style>
+
+<style>
+  .shell {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+  }
+  .sidebar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    background: var(--sidebar-bg);
+    padding: 1.25rem 1rem;
+  }
+  .brand {
+    display: block;
+    color: var(--fg);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+  }
+  .theme-toggle {
+    display: flex;
+    gap: 0.25rem;
+    margin-bottom: 1.5rem;
+    background: var(--card-bg);
+    border-radius: 8px;
+    padding: 0.2rem;
+  }
+  .theme-toggle button {
+    flex: 1;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    font-size: 0.75rem;
+    padding: 0.35rem 0.4rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .theme-toggle button[aria-pressed="true"] {
+    background: var(--accent);
+    color: #fff;
+  }
+  .lang-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .lang-select select {
+    flex: 1;
+    background: var(--card-bg);
+    color: var(--fg);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 0.3rem 0.4rem;
+    font-size: 0.8rem;
+  }
+  .nav-group {
+    margin-bottom: 1.25rem;
+  }
+  .nav-group-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--muted);
+    margin: 0 0 0.5rem;
+  }
+  .nav-group ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 0.15rem;
+  }
+  .nav-group a {
+    display: block;
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    color: var(--fg);
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  .nav-group a:hover {
+    background: var(--card-bg);
+  }
+  .nav-group a[aria-current="page"] {
+    background: var(--accent);
+    color: #fff;
+  }
+  main {
+    padding: 2.5rem 3rem 5rem;
+    max-width: 1100px;
+    width: 100%;
+  }
+  @media (max-width: 860px) {
+    .shell {
+      grid-template-columns: 1fr;
+    }
+    .sidebar {
+      position: static;
+      height: auto;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    main {
+      padding: 1.5rem 1.25rem 3rem;
+    }
+  }
+</style>

@@ -1,2 +1,8 @@
 .DS_Store
 .qwen/
+
+# astro
+dist/
+.astro/
+node_modules/
+npm-debug.log*

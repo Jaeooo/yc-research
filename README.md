@@ -41,11 +41,17 @@ YC-Project/
 │   ├── yc_ai_b2b_gaps_analysis.md        — AI B2B 빈틈
 │   └── yc_ai_b2b_complete_list.md        — AI B2B 전체 리스트
 │
-├── docs/                                 — Docsify 문서 사이트 (Vercel 배포, 별도 사본)
+├── src/                                   — Astro 사이트 소스 (Vercel 배포)
+│   ├── pages/                             — index, reports/[slug]
+│   ├── layouts/Base.astro                 — 사이드바, 테마/언어 전환
+│   ├── lib/reportMeta.ts                  — 리포트 제목/그룹 매핑 (nav 표시용)
+│   └── content.config.ts                  — reports/ 폴더를 콘텐츠 컬렉션으로 로드
 │
 ├── CLAUDE.md                             — Claude Code 작업 가이드
 └── README.md                             — 이 파일 (프로젝트 인덱스)
 ```
+
+사이트 실행: `npm run dev` (로컬), `npm run build` (Vercel 배포 시 자동 실행).
 
 ---
 

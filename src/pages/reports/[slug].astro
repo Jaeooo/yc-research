@@ -1,0 +1,22 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection, render } from "astro:content";
+import { reportMeta } from "../../lib/reportMeta";
+
+export async function getStaticPaths() {
+  const entries = await getCollection("reports");
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const meta = reportMeta[entry.id];
+---
+<Base title={meta?.title ?? entry.id} activeSlug={entry.id}>
+  <article class="markdown">
+    <Content />
+  </article>
+</Base>
