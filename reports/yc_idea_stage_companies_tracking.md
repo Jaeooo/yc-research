@@ -88,45 +88,45 @@
 
 ## 2. Notable Idea-Stage Companies — Current Status Tracking
 
-### ✅ Active & Building (13 of 18 tracked)
+### Active & Building (13 of 18 tracked)
 
 | Company | Batch | Original Idea | Current Status | Product Now | Notable Change |
 |---------|-------|---------------|----------------|-------------|----------------|
-| **a0.dev** | W25 | AI mobile apps | ✅ Active | AI-native React Native platform | Building developer tools, hiring growth roles |
-| **Lucidic AI** | W25 | "W&B for AI Agents" | ✅ Active | AI agent analytics & testing platform | In private beta, workflow replay & debugging |
-| **Amby Health** | W25 | AI for EMS | ✅ Active | AI copilot for ambulance agencies | Automating billing + quality reviews for EMS |
-| **Mecha Health** | W25 | AI x-ray analysis | ✅ Active | Foundation models for radiology | **Raised $4.1M Seed** (Nov 2025) |
-| **Agentin AI** | W25 | Enterprise AI agents | ✅ Active | AI agents for Quote-to-Cash workflows | Integrating with Salesforce, NetSuite, SAP |
-| **Contrario** | W25 | AI recruiting | ✅ Active | AI hiring platform with expert recruiter network | **Raised funding** from Nexus VP, Goodwater Capital |
-| **ThirdLayer (Dex)** | W25 | AI browser copilot | ✅ Active | "AI Coworker in Chrome" — voice, text, action | In beta, actively hiring engineers |
-| **Mercura** | W25 | AI quote automation | ✅ Active | AI order automation for construction supply chain | Hiring multiple engineers |
-| **General Trajectory** | W25 | Reasoning for robotics | ✅ Active | Foundation model for humanoid manipulation | Open-source teleop stack |
-| **Lucid** | W25 | Interactive video models | ✅ Active | "Universe simulator" — neural Minecraft at 20+ FPS | 5x faster than competitors |
-| **Delineate** | W25 | Clinical trial AI | ✅ Active | AI agents for clinical trial design | Working with 2 largest pharma companies |
-| **Sensei** | S24 | Robotic training data marketplace | ✅ Active | "Scale AI for robotics" — <$300 exoskeleton + marketplace | Hardware + marketplace model |
-| **Autumn Labs** | S24 | Industrial robot monitoring | ✅ Active | "Datadog for industrial robots" | Monitoring 50+ factory stations across 4 lines |
+| **a0.dev** | W25 | AI mobile apps |  Active | AI-native React Native platform | Building developer tools, hiring growth roles |
+| **Lucidic AI** | W25 | "W&B for AI Agents" |  Active | AI agent analytics & testing platform | In private beta, workflow replay & debugging |
+| **Amby Health** | W25 | AI for EMS |  Active | AI copilot for ambulance agencies | Automating billing + quality reviews for EMS |
+| **Mecha Health** | W25 | AI x-ray analysis |  Active | Foundation models for radiology | **Raised $4.1M Seed** (Nov 2025) |
+| **Agentin AI** | W25 | Enterprise AI agents |  Active | AI agents for Quote-to-Cash workflows | Integrating with Salesforce, NetSuite, SAP |
+| **Contrario** | W25 | AI recruiting |  Active | AI hiring platform with expert recruiter network | **Raised funding** from Nexus VP, Goodwater Capital |
+| **ThirdLayer (Dex)** | W25 | AI browser copilot |  Active | "AI Coworker in Chrome" — voice, text, action | In beta, actively hiring engineers |
+| **Mercura** | W25 | AI quote automation |  Active | AI order automation for construction supply chain | Hiring multiple engineers |
+| **General Trajectory** | W25 | Reasoning for robotics |  Active | Foundation model for humanoid manipulation | Open-source teleop stack |
+| **Lucid** | W25 | Interactive video models |  Active | "Universe simulator" — neural Minecraft at 20+ FPS | 5x faster than competitors |
+| **Delineate** | W25 | Clinical trial AI |  Active | AI agents for clinical trial design | Working with 2 largest pharma companies |
+| **Sensei** | S24 | Robotic training data marketplace |  Active | "Scale AI for robotics" — <$300 exoskeleton + marketplace | Hardware + marketplace model |
+| **Autumn Labs** | S24 | Industrial robot monitoring |  Active | "Datadog for industrial robots" | Monitoring 50+ factory stations across 4 lines |
 
-### 🔄 Pivoted (3 of 18 tracked)
+### Pivoted (3 of 18 tracked)
 
 | Company | Batch | Original Idea | Current Status | Pivoted To |
 |---------|-------|---------------|----------------|------------|
-| **Admyral → Hey Telo** | W25 | AI commercial real estate brokerage | ✅ Active | **Voice AI for home services** (Germany) — completely different market |
-| **Augento → Stillwind** | W25 | RL for AI agents | ✅ Active | **AI tools for electrical engineers** — automated circuit design |
-| **Zenbase AI → The Synthesis Company** | S24 | Developer tools (prompt engineering) | ✅ Active | **Scientific evidence synthesis** — systematic reviews of 20K+ papers |
+| **Admyral → Hey Telo** | W25 | AI commercial real estate brokerage |  Active | **Voice AI for home services** (Germany) — completely different market |
+| **Augento → Stillwind** | W25 | RL for AI agents |  Active | **AI tools for electrical engineers** — automated circuit design |
+| **Zenbase AI → The Synthesis Company** | S24 | Developer tools (prompt engineering) |  Active | **Scientific evidence synthesis** — systematic reviews of 20K+ papers |
 
-### ❌ Inactive / Shut Down (1 of 18 tracked)
-
-| Company | Batch | Original Idea | Current Status | Notes |
-|---------|-------|---------------|----------------|-------|
-| **Lumona** | W24 | AI search engine (social media aggregation) | ❌ Inactive | MIT team, pivoted from skincare search → general search → shut down |
-
-### 📊 Additional Tracked (S24 batch)
+### Inactive / Shut Down (1 of 18 tracked)
 
 | Company | Batch | Original Idea | Current Status | Notes |
 |---------|-------|---------------|----------------|-------|
-| **Dodo** | S24 | AI agents for medical practices | ✅ Active | AI agents for specialty clinics (vet, dental, PT) — scheduling, refills, follow-ups |
-| **Silurian** | S24 | AI for science | ✅ Active | GFT model — 1.5B params, weather simulation 14 days at 11km resolution |
-| **RigManic → Piggy Robotics** | S24 | Humanoid robots | ✅ Active | Mass-producible humanoid robots at "iPhone prices" (~$2K), F25 batch |
+| **Lumona** | W24 | AI search engine (social media aggregation) |  Inactive | MIT team, pivoted from skincare search → general search → shut down |
+
+### Additional Tracked (S24 batch)
+
+| Company | Batch | Original Idea | Current Status | Notes |
+|---------|-------|---------------|----------------|-------|
+| **Dodo** | S24 | AI agents for medical practices |  Active | AI agents for specialty clinics (vet, dental, PT) — scheduling, refills, follow-ups |
+| **Silurian** | S24 | AI for science |  Active | GFT model — 1.5B params, weather simulation 14 days at 11km resolution |
+| **RigManic → Piggy Robotics** | S24 | Humanoid robots |  Active | Mass-producible humanoid robots at "iPhone prices" (~$2K), F25 batch |
 
 ---
 

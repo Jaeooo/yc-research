@@ -1,18 +1,18 @@
 # YC 지원서 Q&A 분석
 
-**작성일:** 2026-07-24  
+**작성일:** 2026-07-24
 **목적:** YC 지원서 질문 + 합격자 답변 패턴 분석
 
 ---
 
-## 📋 YC 지원서 주요 질문 (15개)
+## YC 지원서 주요 질문 (15개)
 
 ### Part 1: 기본 정보
 
 **Q1. What is your company going to make?**
 - 한 문장으로 제품 설명
 - 구체적일수록 좋음
-- "AI platform" ❌ → "AI that auto-fills customs forms for Korean exporters" ✅
+- "AI platform"  → "AI that auto-fills customs forms for Korean exporters"
 
 **Q2. Why did you pick this idea to work on?**
 - 개인적 연결고리
@@ -64,7 +64,7 @@
 **Q10. What are your competitors?**
 - 정직한 경쟁사 인정
 - 차별화 포인트
-- "경쟁사 없음" ❌
+- "경쟁사 없음"
 
 **Q11. How will you make money?**
 - 비즈니스 모델
@@ -97,23 +97,23 @@
 
 ---
 
-## 🎯 합격자 답변 패턴
+## 합격자 답변 패턴
 
 ### 1. "What is your company going to make?"
 
 **좋은 답변:**
 ```
-"We're building AI that auto-generates customs 
-documentation for cross-border traders in Asia. 
-Currently, exporters spend 8+ hours per shipment 
+"We're building AI that auto-generates customs
+documentation for cross-border traders in Asia.
+Currently, exporters spend 8+ hours per shipment
 on paperwork. We cut it to 10 minutes."
 ```
 
 **패턴:**
-- ✅ 구체적 문제 (customs documentation)
-- ✅ 타겟 명확 (cross-border traders in Asia)
-- ✅ 수치로 pain point (8 hours → 10 minutes)
-- ❌ 추상적 ("AI platform for trade")
+- 구체적 문제 (customs documentation)
+- 타겟 명확 (cross-border traders in Asia)
+- 수치로 pain point (8 hours → 10 minutes)
+- 추상적 ("AI platform for trade")
 
 ---
 
@@ -121,18 +121,18 @@ on paperwork. We cut it to 10 minutes."
 
 **좋은 답변:**
 ```
-"I'm from Korea and served in military logistics. 
-I saw firsthand how painful cross-border paperwork 
-is. My co-founder studied accounting and 
-built fintech tools. We realized this is a $300B 
+"I'm from Korea and served in military logistics.
+I saw firsthand how painful cross-border paperwork
+is. My co-founder studied accounting and
+built fintech tools. We realized this is a $300B
 problem with no good digital solution in Asia."
 ```
 
 **패턴:**
-- ✅ 개인적 경험 (군 물류)
-- ✅ 팀 연결고리 (공동창업자 회계 배경)
-- ✅ 시장 크기 ($300B)
-- ✅ "왜 우리" (unfair advantage)
+- 개인적 경험 (군 물류)
+- 팀 연결고리 (공동창업자 회계 배경)
+- 시장 크기 ($300B)
+- "왜 우리" (unfair advantage)
 
 ---
 
@@ -140,17 +140,17 @@ problem with no good digital solution in Asia."
 
 **좋은 답변:**
 ```
-"Month 1: Interview 50 Korean exporters, build 
-waitlist. Month 2: MVP for one document type 
-(commercial invoice). Month 3: Beta with 10 
+"Month 1: Interview 50 Korean exporters, build
+waitlist. Month 2: MVP for one document type
+(commercial invoice). Month 3: Beta with 10
 customers, iterate based on feedback."
 ```
 
 **패턴:**
-- ✅ 구체적 마일스톤 (50명 인터뷰, 10명 베타)
-- ✅ 단계적 접근 (한 문서부터)
-- ✅ 고객 중심 (피드백 기반 반복)
-- ❌ "build the platform" (너모 추상)
+- 구체적 마일스톤 (50명 인터뷰, 10명 베타)
+- 단계적 접근 (한 문서부터)
+- 고객 중심 (피드백 기반 반복)
+- "build the platform" (너모 추상)
 
 ---
 
@@ -158,19 +158,19 @@ customers, iterate based on feedback."
 
 **좋은 답변:**
 ```
-"Primary: Korean SME exporters shipping to 
-Southeast Asia (50,000+ companies). Secondary: 
-Freight forwarders who handle documentation for 
-multiple clients. We'll reach them through KOTRA 
-(Korea Trade-Investment Promotion Agency) 
+"Primary: Korean SME exporters shipping to
+Southeast Asia (50,000+ companies). Secondary:
+Freight forwarders who handle documentation for
+multiple clients. We'll reach them through KOTRA
+(Korea Trade-Investment Promotion Agency)
 partnerships and trade associations."
 ```
 
 **패턴:**
-- ✅ 구체적 세그먼트 (Korean SME exporters)
-- ✅ 시장 크기 (50,000+ companies)
-- ✅ go-to-market (KOTRA partnerships)
-- ✅ secondary market (freight forwarders)
+- 구체적 세그먼트 (Korean SME exporters)
+- 시장 크기 (50,000+ companies)
+- go-to-market (KOTRA partnerships)
+- secondary market (freight forwarders)
 
 ---
 
@@ -178,18 +178,18 @@ partnerships and trade associations."
 
 **좋은 답변:**
 ```
-"Existing solutions like Descartes and Flexport 
-focus on US-Europe routes and cost $500+/month. 
-We're building for Asia-specific regulations 
-(Korean customs, ASEAN import rules) at $50/month. 
+"Existing solutions like Descartes and Flexport
+focus on US-Europe routes and cost $500+/month.
+We're building for Asia-specific regulations
+(Korean customs, ASEAN import rules) at $50/month.
 Our AI is trained on 10,000+ Korean trade documents."
 ```
 
 **패턴:**
-- ✅ 구체적 경쟁사 (Descartes, Flexport)
-- ✅ 차별점 명확 (Asia-specific, 가격)
-- ✅ 기술적 우위 (10,000+ documents trained)
-- ✅ 가격 전략 ($50 vs $500)
+- 구체적 경쟁사 (Descartes, Flexport)
+- 차별점 명확 (Asia-specific, 가격)
+- 기술적 우위 (10,000+ documents trained)
+- 가격 전략 ($50 vs $500)
 
 ---
 
@@ -197,54 +197,54 @@ Our AI is trained on 10,000+ Korean trade documents."
 
 **좋은 답변:**
 ```
-"I built a side project that auto-translates 
-Korean web novels into English using LLMs. It 
-gained 5,000 users in 3 months with zero marketing. 
-I also led a military logistics team of 20 people, 
+"I built a side project that auto-translates
+Korean web novels into English using LLMs. It
+gained 5,000 users in 3 months with zero marketing.
+I also led a military logistics team of 20 people,
 managing $2M in equipment across 5 bases."
 ```
 
 **패턴:**
-- ✅ 구체적 성과 (5,000 users, 3 months)
-- ✅ 기술력 증명 (LLM side project)
-- ✅ 리더십 (군 물류 팀)
-- ✅ 수치로 임팩트 ($2M equipment)
+- 구체적 성과 (5,000 users, 3 months)
+- 기술력 증명 (LLM side project)
+- 리더십 (군 물류 팀)
+- 수치로 임팩트 ($2M equipment)
 
 ---
 
-## 💡 아이디어 단계 팀 특별 팁
+## 아이디어 단계 팀 특별 팁
 
 ### Traction 없을 때 강조할 것
 
 **1. 빠른 실행력**
 ```
-"I built an MVP in 2 weeks using [tech stack]. 
-It's not perfect, but it works. Here's the demo: 
+"I built an MVP in 2 weeks using [tech stack].
+It's not perfect, but it works. Here's the demo:
 [link]"
 ```
 
 **2. 시장 리서치**
 ```
-"I interviewed 30 potential customers. 25 said 
-they'd pay $X for this solution. Here are their 
+"I interviewed 30 potential customers. 25 said
+they'd pay $X for this solution. Here are their
 names and companies."
 ```
 
 **3. 기술적 성과**
 ```
-"I published a paper on [topic] at [conference]. 
+"I published a paper on [topic] at [conference].
 I also have 3 patents pending in [area]."
 ```
 
 **4. 관련 경험**
 ```
-"I worked at [company] where I saw this problem 
+"I worked at [company] where I saw this problem
 firsthand. I know the market because I lived it."
 ```
 
 ---
 
-## 🌏 국제 창업자 (한국) 팁
+## 국제 창업자 (한국) 팁
 
 ### 1. 영어로 명확하게
 - 복잡한 한국어 개념 피하기
@@ -259,94 +259,94 @@ firsthand. I know the market because I lived it."
 ### 3. 비자/이주 계획
 - SF relocation 계획 명확히
 - 비자 이슈 있으면 솔직히
-- "We'll figure it out" ❌ → 구체적 계획 ✅
+- "We'll figure it out"  → 구체적 계획
 
 ---
 
-## ⚠️ 흔한 실수
+## 흔한 실수
 
 ### 1. 너무 추상적
-❌ "We're building an AI platform for businesses"
-✅ "We're building AI that cuts customs paperwork from 8 hours to 10 minutes for Korean exporters"
+ "We're building an AI platform for businesses"
+ "We're building AI that cuts customs paperwork from 8 hours to 10 minutes for Korean exporters"
 
 ### 2. 시장 크기 과장
-❌ "This is a $1 trillion market"
-✅ "There are 50,000 Korean SME exporters spending $2B annually on documentation"
+ "This is a $1 trillion market"
+ "There are 50,000 Korean SME exporters spending $2B annually on documentation"
 
 ### 3. 경쟁사 무시
-❌ "We have no competitors"
-✅ "Flexport does this for US-Europe at $500/month. We're Asia-specific at $50/month"
+ "We have no competitors"
+ "Flexport does this for US-Europe at $500/month. We're Asia-specific at $50/month"
 
 ### 4. 팀 역할 불명확
-❌ "We both do everything"
-✅ "I'm CTO building the AI. My co-founder is CEO handling sales and partnerships"
+ "We both do everything"
+ "I'm CTO building the AI. My co-founder is CEO handling sales and partnerships"
 
 ### 5. traction 과장
-❌ "We have tons of users"
-✅ "We have 50 beta users, 10 paying $50/month"
+ "We have tons of users"
+ "We have 50 beta users, 10 paying $50/month"
 
 ---
 
-## 📝 비전통적 배경 팀 맞춤 답변 예시
+## 비전통적 배경 팀 맞춤 답변 예시
 
 ### Q: "What is your company going to make?"
 ```
-"We're building AI that automates cross-border 
-trade documentation for Asian exporters. Currently, 
-shipping from Korea to Southeast Asia requires 
-8+ hours of paperwork per shipment. We cut it 
-to 10 minutes with AI trained on Asian trade 
+"We're building AI that automates cross-border
+trade documentation for Asian exporters. Currently,
+shipping from Korea to Southeast Asia requires
+8+ hours of paperwork per shipment. We cut it
+to 10 minutes with AI trained on Asian trade
 regulations."
 ```
 
 ### Q: "Why did you pick this idea?"
 ```
-"I'm from Korea, served in military logistics, 
-and studied engineering. I saw how painful 
-cross-border paperwork is. My co-founder studied 
-accounting and built fintech tools. We realized 
-Asia's $7.9T trade market has no good digital 
+"I'm from Korea, served in military logistics,
+and studied engineering. I saw how painful
+cross-border paperwork is. My co-founder studied
+accounting and built fintech tools. We realized
+Asia's $7.9T trade market has no good digital
 documentation solution."
 ```
 
 ### Q: "What will you do first?"
 ```
-"Month 1: Interview 50 Korean exporters through 
-KOTRA partnerships. Month 2: Build MVP for one 
-document type (commercial invoice). Month 3: 
-Beta with 10 customers, iterate. Target: $5K MRR 
+"Month 1: Interview 50 Korean exporters through
+KOTRA partnerships. Month 2: Build MVP for one
+document type (commercial invoice). Month 3:
+Beta with 10 customers, iterate. Target: $5K MRR
 by month 4."
 ```
 
 ### Q: "Who are your users?"
 ```
-"Primary: Korean SME exporters to Southeast Asia 
-(50,000+ companies). Secondary: Freight forwarders. 
-We'll reach them through KOTRA, trade associations, 
+"Primary: Korean SME exporters to Southeast Asia
+(50,000+ companies). Secondary: Freight forwarders.
+We'll reach them through KOTRA, trade associations,
 and Korean exporter communities."
 ```
 
 ### Q: "What's new about what you're making?"
 ```
-"Flexport and Descartes focus on US-Europe at 
-$500+/month. We're Asia-specific (Korean customs, 
-ASEAN regulations) at $50/month. Our AI is trained 
-on 10,000+ Korean trade documents. No one else 
+"Flexport and Descartes focus on US-Europe at
+$500+/month. We're Asia-specific (Korean customs,
+ASEAN regulations) at $50/month. Our AI is trained
+on 10,000+ Korean trade documents. No one else
 does this for Asia."
 ```
 
 ### Q: "What's the most impressive thing you've done?"
 ```
-"I built [side project] that gained [X users] 
-in [timeframe]. I also led a military logistics 
-team of 20 people, managing $2M in equipment. 
-My co-founder built fintech tools processing $400K 
+"I built [side project] that gained [X users]
+in [timeframe]. I also led a military logistics
+team of 20 people, managing $2M in equipment.
+My co-founder built fintech tools processing $400K
 in cards annually at a Fortune 500 bank."
 ```
 
 ---
 
-## 📌 핵심 takeaway
+## 핵심 takeaway
 
 1. **구체성이 왕** — 숫자, 이름, 링크
 2. **개인적 연결고리** — 왜 이 문제인가

@@ -1,6 +1,6 @@
 # YC 최근 3개 배치 Raw 데이터
 
-**배치:** Winter 2025, Summer 2024, Winter 2024  
+**배치:** Winter 2025, Summer 2024, Winter 2024
 **총 기업 수:** 749개
 
 
