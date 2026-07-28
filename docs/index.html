@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YC Research</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #2563eb;
+      --sidebar-width: 280px;
+    }
+    .sidebar-nav > ul > li > p { font-weight: 700; margin-top: 16px; }
+    .markdown-section { max-width: 800px; }
+    .markdown-section table { display: block; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'YC Research',
+      repo: 'https://github.com/Jaeooo/yc-research',
+      loadSidebar: true,
+      subMaxLevel: 2,
+      search: { placeholder: '검색...', noData: '결과 없음' },
+      formatUpdated: '{YYYY-MM-DD}',
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+</body>
+</html>
