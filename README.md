@@ -103,18 +103,18 @@ YC-Project/
 | 순서 | 파일 | 내용 |
 |------|------|------|
 | 3 | `reports/yc_student_founders_report.md` | 학부생/중퇴 창업팀 93개 기업 분석 |
-| 4 | `reports/yc_application_strategy.md` | 비전통적 배경으로 YC 합격한 패턴 분석 |
-| 5 | `reports/yc_founders_career_analysis.md` | 창업자 커리어/스펙 분석 (W25) |
+| 4 | `reports/yc_founders_career_analysis.md` | 창업자 커리어/스펙 분석 (W25) |
 
 ### 3단계: 방향 설정
 | 순서 | 파일 | 내용 |
 |------|------|------|
-| 6 | `reports/yc_report_ai_b2b.md` | AI+B2B 방향 — 270개 기업 분석, 8개 세부 카테고리 |
-| 7 | `reports/yc_report_asia.md` | 한국/아시아 방향 — 139개 기업, 13명 한국인 창업자 |
+| 5 | `reports/yc_report_ai_b2b.md` | AI+B2B 방향 — 270개 기업 분석, 8개 세부 카테고리 |
+| 6 | `reports/yc_report_asia.md` | 한국/아시아 방향 — 139개 기업, 13명 한국인 창업자 |
 
 ### 4단계: 심화 리서치
 | 파일 | 내용 |
 |------|------|
+| `reports/yc_application_strategy.md` | 비전통적 배경으로 YC 합격한 패턴 분석 및 팀 지원 전략 |
 | `reports/yc_interview_patterns.md` | 인터뷰 패턴 |
 | `reports/yc_korean_founders_deep_dive.md` | 한국 창업자 심층 |
 | `reports/yc_idea_stage_companies_tracking.md` | 아이디어 단계 추적 |

@@ -22,7 +22,7 @@ export const reportMeta: Record<string, ReportMeta> = {
   },
   yc_application_strategy: {
     title: "합격 전략",
-    group: "기본 분석",
+    group: "심화 리서치",
     description: "비전통적 배경으로 YC 합격한 패턴 분석 및 팀 지원 전략.",
   },
   yc_report_ai_b2b: {
@@ -102,7 +102,7 @@ export const reportMetaEn: Record<string, ReportMeta> = {
   },
   yc_application_strategy: {
     title: "Application Strategy",
-    group: "Core Analysis",
+    group: "Deep Research",
     description: "Patterns behind YC acceptance from non-traditional backgrounds, and application strategy.",
   },
   yc_report_ai_b2b: {
