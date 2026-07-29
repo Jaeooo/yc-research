@@ -15,15 +15,10 @@ export const reportMeta: Record<string, ReportMeta> = {
     group: "기본 분석",
     description: "학부생·중퇴 창업팀 93개 기업 분석.",
   },
-  yc_recent_batches_raw: {
-    title: "최근 배치 Raw",
-    group: "데이터",
-    description: "최근 3개 배치(W24, S24, W25) 기업 리스트 원본.",
-  },
-  yc_application_strategy: {
-    title: "합격 전략",
-    group: "심화 리서치",
-    description: "비전통적 배경으로 YC 합격한 패턴 분석 및 팀 지원 전략.",
+  yc_founders_career_analysis: {
+    title: "창업자 커리어/스펙 분석",
+    group: "기본 분석",
+    description: "W25 창업자 323명 학교/전 직장/경력 패턴 분석.",
   },
   yc_report_ai_b2b: {
     title: "AI+B2B 분석",
@@ -34,6 +29,11 @@ export const reportMeta: Record<string, ReportMeta> = {
     title: "한국/아시아 분석",
     group: "기본 분석",
     description: "한국/아시아 방향 139개 기업, 13명 한국인 창업자 분석.",
+  },
+  yc_application_strategy: {
+    title: "합격 전략",
+    group: "심화 리서치",
+    description: "비전통적 배경으로 YC 합격한 패턴 분석 및 팀 지원 전략.",
   },
   yc_interview_patterns: {
     title: "인터뷰 패턴",
@@ -75,10 +75,10 @@ export const reportMeta: Record<string, ReportMeta> = {
     group: "심화 리서치",
     description: "AI B2B 전체 기업 리스트.",
   },
-  yc_founders_career_analysis: {
-    title: "창업자 커리어/스펙 분석",
-    group: "기본 분석",
-    description: "W25 창업자 323명 학교/전 직장/경력 패턴 분석.",
+  yc_recent_batches_raw: {
+    title: "최근 배치 Raw",
+    group: "데이터",
+    description: "최근 3개 배치(W24, S24, W25) 기업 리스트 원본.",
   },
   yc_founders_career_raw: {
     title: "창업자 커리어/스펙 Raw",
@@ -100,15 +100,10 @@ export const reportMetaEn: Record<string, ReportMeta> = {
     group: "Core Analysis",
     description: "Analysis of 93 companies founded by students or dropouts.",
   },
-  yc_recent_batches_raw: {
-    title: "Recent Batches Raw Data",
-    group: "Data",
-    description: "Raw company list for the 3 most recent batches (W24, S24, W25).",
-  },
-  yc_application_strategy: {
-    title: "Application Strategy",
-    group: "Deep Research",
-    description: "Patterns behind YC acceptance from non-traditional backgrounds, and application strategy.",
+  yc_founders_career_analysis: {
+    title: "Founder Career/Background Analysis",
+    group: "Core Analysis",
+    description: "Analysis of school/prior-job/career patterns across 323 W25 founders.",
   },
   yc_report_ai_b2b: {
     title: "AI + B2B Analysis",
@@ -119,6 +114,11 @@ export const reportMetaEn: Record<string, ReportMeta> = {
     title: "Korea / Asia Analysis",
     group: "Core Analysis",
     description: "Analysis of 139 Korea/Asia-focused companies and 13 Korean founders.",
+  },
+  yc_application_strategy: {
+    title: "Application Strategy",
+    group: "Deep Research",
+    description: "Patterns behind YC acceptance from non-traditional backgrounds, and application strategy.",
   },
   yc_interview_patterns: {
     title: "Interview Patterns",
@@ -160,10 +160,10 @@ export const reportMetaEn: Record<string, ReportMeta> = {
     group: "Deep Research",
     description: "Complete list of AI B2B companies.",
   },
-  yc_founders_career_analysis: {
-    title: "Founder Career/Background Analysis",
-    group: "Core Analysis",
-    description: "Analysis of school/prior-job/career patterns across 323 W25 founders.",
+  yc_recent_batches_raw: {
+    title: "Recent Batches Raw Data",
+    group: "Data",
+    description: "Raw company list for the 3 most recent batches (W24, S24, W25).",
   },
   yc_founders_career_raw: {
     title: "Founders Career/Background Raw",

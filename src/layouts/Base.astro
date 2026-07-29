@@ -85,6 +85,9 @@ const t = isEn
         if (saved === "light" || saved === "dark") {
           document.documentElement.setAttribute("data-theme", saved);
         }
+        if (localStorage.getItem("sidebarCollapsed") === "true") {
+          document.documentElement.setAttribute("data-sidebar", "collapsed");
+        }
       })();
     </script>
   </head>
@@ -93,17 +96,31 @@ const t = isEn
       <aside class="sidebar" transition:persist={`sidebar-${lang}`}>
         <div class="brand-row">
           <a class="brand" href={homeHref}>YC Research</a>
-          <a
-            class="github-link"
-            href="https://github.com/Jaeooo/yc-research"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={t.githubLabel}
-          >
-            <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true">
-              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
-            </svg>
-          </a>
+          <div class="brand-actions">
+            <a
+              class="github-link"
+              href="https://github.com/Jaeooo/yc-research"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={t.githubLabel}
+            >
+              <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true">
+                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+              </svg>
+            </a>
+            <button
+              type="button"
+              class="sidebar-collapse-btn"
+              id="sidebar-collapse-btn"
+              aria-label={isEn ? "Collapse sidebar" : "사이드바 접기"}
+            >
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="3" y1="6" x2="21" y2="6" />
+                <line x1="3" y1="12" x2="21" y2="12" />
+                <line x1="3" y1="18" x2="21" y2="18" />
+              </svg>
+            </button>
+          </div>
         </div>
         <div class="theme-toggle" role="radiogroup" aria-label={t.themeLabel}>
           <button type="button" data-theme-choice="light" aria-pressed="false">{t.light}</button>
@@ -135,6 +152,18 @@ const t = isEn
         </nav>
       </aside>
       <main transition:animate="slide">
+        <button
+          type="button"
+          class="sidebar-expand-btn"
+          id="sidebar-expand-btn"
+          aria-label={isEn ? "Expand sidebar" : "사이드바 펼치기"}
+        >
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <line x1="3" y1="12" x2="21" y2="12" />
+            <line x1="3" y1="18" x2="21" y2="18" />
+          </svg>
+        </button>
         <slot />
       </main>
     </div>
@@ -178,6 +207,29 @@ const t = isEn
         syncThemeButtons();
       }
 
+      function setSidebarCollapsed(collapsed: boolean) {
+        if (collapsed) {
+          document.documentElement.setAttribute("data-sidebar", "collapsed");
+          localStorage.setItem("sidebarCollapsed", "true");
+        } else {
+          document.documentElement.removeAttribute("data-sidebar");
+          localStorage.removeItem("sidebarCollapsed");
+        }
+      }
+
+      function initSidebarToggle() {
+        const collapseBtn = document.getElementById("sidebar-collapse-btn");
+        const expandBtn = document.getElementById("sidebar-expand-btn");
+        if (collapseBtn && !collapseBtn.dataset.bound) {
+          collapseBtn.dataset.bound = "true";
+          collapseBtn.addEventListener("click", () => setSidebarCollapsed(true));
+        }
+        if (expandBtn && !expandBtn.dataset.bound) {
+          expandBtn.dataset.bound = "true";
+          expandBtn.addEventListener("click", () => setSidebarCollapsed(false));
+        }
+      }
+
       function reapplyStoredTheme() {
         const saved = localStorage.getItem("theme");
         if (saved === "light" || saved === "dark") {
@@ -187,9 +239,19 @@ const t = isEn
         }
       }
 
+      function reapplyStoredSidebarState() {
+        if (localStorage.getItem("sidebarCollapsed") === "true") {
+          document.documentElement.setAttribute("data-sidebar", "collapsed");
+        } else {
+          document.documentElement.removeAttribute("data-sidebar");
+        }
+      }
+
       document.addEventListener("astro:page-load", reapplyStoredTheme);
+      document.addEventListener("astro:page-load", reapplyStoredSidebarState);
       document.addEventListener("astro:page-load", syncActiveLink);
       document.addEventListener("astro:page-load", initThemeToggle);
+      document.addEventListener("astro:page-load", initSidebarToggle);
     </script>
   </body>
 </html>
@@ -252,7 +314,9 @@ const t = isEn
     border: 1px solid var(--border);
     padding: 0.4rem 0.7rem;
     text-align: left;
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: break-word;
+    max-width: 32rem;
   }
   code {
     background: var(--card-bg);
@@ -312,12 +376,59 @@ const t = isEn
     font-weight: 700;
     font-size: 1.05rem;
   }
+  .brand-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
   .github-link {
     display: flex;
     color: var(--muted);
   }
   .github-link:hover {
     color: var(--fg);
+  }
+  .sidebar-collapse-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.15rem;
+    border-radius: 6px;
+  }
+  .sidebar-collapse-btn:hover {
+    background: var(--card-bg);
+    color: var(--fg);
+  }
+  .sidebar-expand-btn {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 1.25rem;
+    left: 1.25rem;
+    z-index: 5;
+    border: 1px solid var(--border);
+    background: var(--card-bg);
+    color: var(--muted);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 8px;
+  }
+  .sidebar-expand-btn:hover {
+    color: var(--fg);
+  }
+  :root[data-sidebar="collapsed"] .shell {
+    grid-template-columns: 1fr;
+  }
+  :root[data-sidebar="collapsed"] .sidebar {
+    display: none;
+  }
+  :root[data-sidebar="collapsed"] .sidebar-expand-btn {
+    display: flex;
   }
   .theme-toggle {
     display: flex;
@@ -411,6 +522,15 @@ const t = isEn
     }
     main {
       padding: 1.5rem 1.25rem 3rem;
+    }
+    .sidebar-collapse-btn {
+      display: none;
+    }
+    :root[data-sidebar="collapsed"] .sidebar {
+      display: block;
+    }
+    .sidebar-expand-btn {
+      display: none !important;
     }
   }
 </style>
