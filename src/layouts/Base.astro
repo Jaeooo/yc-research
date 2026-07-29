@@ -208,12 +208,22 @@ const t = isEn
       }
 
       function setSidebarCollapsed(collapsed: boolean) {
-        if (collapsed) {
-          document.documentElement.setAttribute("data-sidebar", "collapsed");
-          localStorage.setItem("sidebarCollapsed", "true");
+        const apply = () => {
+          if (collapsed) {
+            document.documentElement.setAttribute("data-sidebar", "collapsed");
+            localStorage.setItem("sidebarCollapsed", "true");
+          } else {
+            document.documentElement.removeAttribute("data-sidebar");
+            localStorage.removeItem("sidebarCollapsed");
+          }
+        };
+        const docWithVT = document as Document & {
+          startViewTransition?: (cb: () => void) => void;
+        };
+        if (docWithVT.startViewTransition) {
+          docWithVT.startViewTransition(apply);
         } else {
-          document.documentElement.removeAttribute("data-sidebar");
-          localStorage.removeItem("sidebarCollapsed");
+          apply();
         }
       }
 
