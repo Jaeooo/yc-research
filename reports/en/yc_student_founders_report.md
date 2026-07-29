@@ -142,7 +142,7 @@
 - `yc_founders_w25.json` — Full W25 founder data
 - `yc_founders_s24_w24.json` — Full S24+W24 founder data
 - `yc_founders_w25.csv` — W25 founder CSV
-- `yc_companies_all.csv` — Full YC company data (5,653 companies)
+- `yc_companies_all.csv` — Full YC company data (6,092 companies)
 
 ---
 

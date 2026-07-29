@@ -1,8 +1,8 @@
 # YC 프로젝트 — 파일 구조 & 리포트 인덱스
 
-**작성일:** 2026-07-22
+**작성일:** 2026-07-22 (기업 데이터 2026-07-29 갱신)
 **목적:** YC 배치 선정을 위한 데이터 분석 프로젝트
-**데이터 기준:** 2026-07-22 크롤링 (W24, S24, W25 포함)
+**데이터 기준:** `yc_companies_all.csv`/`.json`은 [yc-oss/api](https://github.com/yc-oss/api) 매일 갱신 데이터 기준 2026-07-29 스냅샷 (Summer 2005 ~ Winter 2027, 49개 배치). 창업자 데이터(`yc_founders_*`)는 2026-07-22 크롤링 기준 유지 (W24, S24, W25).
 
 ---
 
@@ -13,8 +13,8 @@ YC-Project/
 │
 ├── data/
 │   ├── raw/                              — Raw 데이터 (6개)
-│   │   ├── yc_companies_all.csv          — 전체 YC 기업 5,653개 (CSV)
-│   │   ├── yc_companies_all.json         — 전체 YC 기업 5,653개 (JSON)
+│   │   ├── yc_companies_all.csv          — 전체 YC 기업 6,092개 (CSV)
+│   │   ├── yc_companies_all.json         — 전체 YC 기업 6,092개 (JSON)
 │   │   ├── yc_founders_w25.csv           — W25 창업자 321명 (CSV)
 │   │   ├── yc_founders_w25.json          — W25 창업자 321명 (JSON)
 │   │   ├── yc_founders_s24_w24.json      — S24+W24 창업자 1,075명 (JSON)
@@ -66,7 +66,7 @@ YC-Project/
 ### yc_companies_all (CSV/JSON)
 | 항목 | 내용 |
 |------|------|
-| **레코드 수** | 5,653개 기업 |
+| **레코드 수** | 6,092개 기업 |
 | **기간** | Summer 2009 ~ Winter 2025 |
 | **배치 수** | 43개 |
 | **주요 필드** | name, batch, year, industry, one_liner, website, team_size, status |

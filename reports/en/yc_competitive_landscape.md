@@ -429,7 +429,7 @@
 - Precedence Research — RegTech Market Report (2025)
 
 ### YC company data
-- YC Company Directory (yc.companies) — analysis of 5,653 companies
+- YC Company Directory (yc.companies) — analysis of 6,092 companies
 - yc_report_ai_b2b.md — analysis of 270 AI+B2B companies
 - yc_report_asia.md — analysis of 139 Asia-related companies
 - yc_idea_stage_analysis.json — W24/S24/W25 idea-stage analysis

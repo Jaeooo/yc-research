@@ -140,7 +140,7 @@ Small teams (≤3 people) + early-stage founders:
 
 - `yc_founders_w25.json` — 321 W25 founders
 - `yc_founders_s24_w24.json` — 1,075 S24+W24 founders
-- `yc_companies_all.csv` — 5,653 YC companies total
+- `yc_companies_all.csv` — 6,092 YC companies total
 
 ---
 

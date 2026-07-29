@@ -362,7 +362,7 @@
 ## 8. 출처 및 참고 자료
 
 ### YC 데이터
-- yc_companies_all.json — 5,653개 YC 기업 전체 데이터
+- yc_companies_all.json — 6,092개 YC 기업 전체 데이터
 - yc_report_ai_b2b.md — AI+B2B 270개 기업 분석 리포트
 - yc_idea_stage_analysis.json — 아이디어 단계 기업 분석
 

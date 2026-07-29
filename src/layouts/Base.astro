@@ -85,7 +85,9 @@ const t = isEn
         if (saved === "light" || saved === "dark") {
           document.documentElement.setAttribute("data-theme", saved);
         }
-        if (localStorage.getItem("sidebarCollapsed") === "true") {
+        var isMobile = window.matchMedia("(max-width: 860px)").matches;
+        var mobileOpen = sessionStorage.getItem("sidebarMobileOpen") === "true";
+        if (isMobile ? !mobileOpen : localStorage.getItem("sidebarCollapsed") === "true") {
           document.documentElement.setAttribute("data-sidebar", "collapsed");
         }
       })();
@@ -180,6 +182,20 @@ const t = isEn
         });
       }
 
+      function initMobileNavAutoClose() {
+        const links = document.querySelectorAll<HTMLAnchorElement>(".nav-group a");
+        links.forEach((link) => {
+          if (link.dataset.mobileCloseBound) return;
+          link.dataset.mobileCloseBound = "true";
+          link.addEventListener("click", () => {
+            if (isMobileViewport()) {
+              document.documentElement.setAttribute("data-sidebar", "collapsed");
+              sessionStorage.removeItem("sidebarMobileOpen");
+            }
+          });
+        });
+      }
+
       function applyTheme(choice: string) {
         if (choice === "light" || choice === "dark") {
           document.documentElement.setAttribute("data-theme", choice);
@@ -207,13 +223,26 @@ const t = isEn
         syncThemeButtons();
       }
 
+      function isMobileViewport() {
+        return window.matchMedia("(max-width: 860px)").matches;
+      }
+
       function setSidebarCollapsed(collapsed: boolean) {
         const apply = () => {
           if (collapsed) {
             document.documentElement.setAttribute("data-sidebar", "collapsed");
-            localStorage.setItem("sidebarCollapsed", "true");
           } else {
             document.documentElement.removeAttribute("data-sidebar");
+          }
+          if (isMobileViewport()) {
+            if (collapsed) {
+              sessionStorage.removeItem("sidebarMobileOpen");
+            } else {
+              sessionStorage.setItem("sidebarMobileOpen", "true");
+            }
+          } else if (collapsed) {
+            localStorage.setItem("sidebarCollapsed", "true");
+          } else {
             localStorage.removeItem("sidebarCollapsed");
           }
         };
@@ -250,7 +279,10 @@ const t = isEn
       }
 
       function reapplyStoredSidebarState() {
-        if (localStorage.getItem("sidebarCollapsed") === "true") {
+        const collapsed = isMobileViewport()
+          ? sessionStorage.getItem("sidebarMobileOpen") !== "true"
+          : localStorage.getItem("sidebarCollapsed") === "true";
+        if (collapsed) {
           document.documentElement.setAttribute("data-sidebar", "collapsed");
         } else {
           document.documentElement.removeAttribute("data-sidebar");
@@ -262,6 +294,7 @@ const t = isEn
       document.addEventListener("astro:page-load", syncActiveLink);
       document.addEventListener("astro:page-load", initThemeToggle);
       document.addEventListener("astro:page-load", initSidebarToggle);
+      document.addEventListener("astro:page-load", initMobileNavAutoClose);
     </script>
   </body>
 </html>
@@ -307,12 +340,16 @@ const t = isEn
     --sidebar-bg: #14161b;
   }
   * { box-sizing: border-box; }
+  html {
+    overflow-x: hidden;
+  }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--fg);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Pretendard, sans-serif;
     line-height: 1.6;
+    overflow-x: hidden;
   }
   table {
     display: block;
@@ -528,22 +565,34 @@ const t = isEn
       grid-template-columns: 1fr;
     }
     .sidebar {
-      position: static;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 20;
+      width: auto;
       height: auto;
       border-right: none;
-      border-bottom: 1px solid var(--border);
+      box-sizing: border-box;
     }
     main {
       padding: 1.5rem 1.25rem 3rem;
-    }
-    .sidebar-collapse-btn {
-      display: none;
+      max-width: none;
     }
     :root[data-sidebar="collapsed"] .sidebar {
-      display: block;
+      display: none;
     }
     .sidebar-expand-btn {
-      display: none !important;
+      display: flex;
+      top: 1rem;
+      left: 1rem;
+    }
+    :root[data-sidebar="collapsed"] .sidebar-expand-btn {
+      display: flex;
+    }
+    :root:not([data-sidebar="collapsed"]) .sidebar-expand-btn {
+      display: none;
     }
   }
 </style>

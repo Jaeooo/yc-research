@@ -142,7 +142,7 @@
 - `yc_founders_w25.json` — W25 창업자 전체 데이터
 - `yc_founders_s24_w24.json` — S24+W24 창업자 전체 데이터
 - `yc_founders_w25.csv` — W25 창업자 CSV
-- `yc_companies_all.csv` — 전체 YC 기업 데이터 (5,653개)
+- `yc_companies_all.csv` — 전체 YC 기업 데이터 (6,092개)
 
 ---
 

@@ -365,7 +365,7 @@ Low opportunity   │ ③ Construction AI     │ Generic AI agents      │
 ## 8. Sources and References
 
 ### YC Data
-- yc_companies_all.json — full dataset of 5,653 YC companies
+- yc_companies_all.json — full dataset of 6,092 YC companies
 - yc_report_ai_b2b.md — analysis report of 270 AI+B2B companies
 - yc_idea_stage_analysis.json — idea-stage company analysis
 
