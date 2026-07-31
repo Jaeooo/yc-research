@@ -37,14 +37,14 @@ const showCompaniesCharts = entry.id === "yc_companies_report";
   </article>
   {showCompaniesCharts && (
     <div id="chart-pool" hidden>
-      <div data-after-table="1"><LineChart id="companies-by-year" title="Companies by Year" points={companiesByYear} /></div>
+      <div data-after-table="1"><LineChart id="companies-by-year" title="Companies by Year" points={[...companiesByYear].reverse()} /></div>
       <div data-after-table="2"><BarChart id="industry-distribution" title="Distribution by Industry" points={industryDistribution} /></div>
       <div data-after-table="3"><BarChart id="status-distribution" title="Company Status" points={statusDistribution} /></div>
       <div data-after-table="4">
         <LineChart
           id="ai-share-by-year"
           title="AI Company Share Over Time"
-          points={aiShareByYear}
+          points={[...aiShareByYear].reverse()}
           valueFormat={(v) => `${v}%`}
         />
       </div>

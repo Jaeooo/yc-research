@@ -37,14 +37,14 @@ const showCompaniesCharts = entry.id === "yc_companies_report";
   </article>
   {showCompaniesCharts && (
     <div id="chart-pool" hidden>
-      <div data-after-table="1"><LineChart id="companies-by-year" title="연도별 기업 수" points={companiesByYear} /></div>
+      <div data-after-table="1"><LineChart id="companies-by-year" title="연도별 기업 수" points={[...companiesByYear].reverse()} /></div>
       <div data-after-table="2"><BarChart id="industry-distribution" title="산업별 분포" points={industryDistribution} /></div>
       <div data-after-table="3"><BarChart id="status-distribution" title="기업 상태" points={statusDistribution} /></div>
       <div data-after-table="4">
         <LineChart
           id="ai-share-by-year"
           title="AI 기업 비율 추이"
-          points={aiShareByYear}
+          points={[...aiShareByYear].reverse()}
           valueFormat={(v) => `${v}%`}
         />
       </div>
